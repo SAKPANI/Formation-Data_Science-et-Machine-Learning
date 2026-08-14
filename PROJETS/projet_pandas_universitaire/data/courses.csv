@@ -1,0 +1,11 @@
+﻿course_id,matiere,credits,semestre
+MAT101,Mathématiques,4,S1
+PHY101,Physique,3,S1
+PROG101,Programmation,5,S1
+STAT101,Statistiques,4,S1
+ANG101,Anglais,2,S1
+DATA101,Data Science,5,S2
+ALG101,Algorithmique,4,S2
+ELEC101,Électricité,3,S2
+GEST101,Gestion,2,S2
+PROJ101,Projet,4,S2
