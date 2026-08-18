@@ -96,8 +96,8 @@ Répondre aux questions :
 3. Quelle filière possède le plus faible résultat ?
 4. Quelle filière possède le plus de notes supérieures ou égales à 10 ?
 5. Quel est le taux de réussite par filière ?
-
-## Partie 7 — Analyse de l'assiduité
+6. 
+# Partie 7 — Analyse de l'assiduité
 
 À partir de `attendance.csv` :
 
@@ -109,6 +109,7 @@ Répondre aux questions :
 
 ## Partie 8 — Analyse avancée
 
+#
 Créer un indicateur de performance pour chaque étudiant.
 
 Exemple de catégories :
