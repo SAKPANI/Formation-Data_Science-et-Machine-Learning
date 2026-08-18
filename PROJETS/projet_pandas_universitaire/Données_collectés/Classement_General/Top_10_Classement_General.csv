@@ -1,0 +1,11 @@
+index,student_id,nom,prenom,age,sexe,filiere,niveau,moyenne_Generale,Categorie
+648,ETU1648,Assogba,Mawuli,18,M,Génie Électrique,L1,18.64,Excellent
+416,ETU1416,Assogba,Afi,21,M,IA & Big Data,L1,18.48,Excellent
+60,ETU1060,Assogba,Dodzi,23,M,Logistique & Transport,L1,18.23,Excellent
+50,ETU1050,Agbeko,Dodzi,18,M,Logistique & Transport,L1,18.14,Excellent
+784,ETU1784,Amegan,Sena,21,F,IA & Big Data,L3,18.12,Excellent
+209,ETU1209,Agbeko,Afi,21,F,IA & Big Data,L2,18.11,Excellent
+66,ETU1066,Assogba,Eyram,24,M,Génie Électrique,L1,17.94,Excellent
+90,ETU1090,Amegan,Koffi,24,M,Informatique & Systèmes,L1,17.89,Excellent
+750,ETU1750,Assogba,Yao,22,F,IA & Big Data,L3,17.83,Excellent
+668,ETU1668,Assogba,Mawuli,18,M,Génie Électrique,L1,17.83,Excellent

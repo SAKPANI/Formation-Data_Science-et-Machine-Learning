@@ -1,0 +1,16 @@
+index,student_id,semestre,taux_presence,absences,retards,moyenne_Generale,Categorie,risque
+128,ETU1185,S2,65.08,17,6,11.79,moyen,élevé
+4,ETU1637,S1,49.68,25,6,10.29,moyen,élevé
+98,ETU1590,S1,63.46,18,8,9.85,Faible,élevé
+57,ETU1016,S2,60.26,20,6,8.59,Faible,élevé
+238,ETU1367,S1,69.67,15,3,7.62,Tres faible,élevé
+1490,ETU1367,S2,100.0,0,6,7.62,Tres faible,élevé
+175,ETU1063,S2,68.08,16,3,7.6,Tres faible,élevé
+276,ETU1104,S2,70.78,15,5,7.51,Tres faible,élevé
+425,ETU1240,S2,73.42,13,6,7.42,Tres faible,élevé
+720,ETU1000,S2,79.11,10,6,7.42,Tres faible,élevé
+214,ETU1512,S2,69.1,15,7,6.36,Tres faible,élevé
+330,ETU1735,S2,71.43,14,6,6.26,Tres faible,élevé
+53,ETU1560,S1,60.56,20,4,5.99,Tres faible,élevé
+11,ETU1571,S2,52.49,24,4,5.99,Tres faible,élevé
+195,ETU1379,S1,68.98,16,3,5.12,Tres faible,élevé

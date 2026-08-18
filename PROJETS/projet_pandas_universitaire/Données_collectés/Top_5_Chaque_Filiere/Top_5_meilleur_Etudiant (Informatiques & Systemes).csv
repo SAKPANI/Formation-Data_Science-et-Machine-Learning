@@ -1,0 +1,6 @@
+student_id,nom,prenom,age,sexe,filiere,niveau,moyenne_Generale,Categorie
+ETU1090,Amegan,Koffi,24,M,Informatique & Systèmes,L1,17.89,Excellent
+ETU1763,Assogba,Dodzi,18,M,Informatique & Systèmes,L1,17.72,Excellent
+ETU1312,Kossi,Ama,17,F,Informatique & Systèmes,L2,17.7,Excellent
+ETU1370,Lawson,Sena,25,M,Informatique & Systèmes,L3,17.68,Excellent
+ETU1046,Amegan,Ama,20,F,Informatique & Systèmes,L1,17.37,Excellent

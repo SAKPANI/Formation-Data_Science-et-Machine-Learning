@@ -1,0 +1,801 @@
+student_id,nom,prenom,age,sexe,filiere,niveau,moyenne_Generale,Categorie
+ETU1648,Assogba,Mawuli,18,M,Génie Électrique,L1,18.64,Excellent
+ETU1416,Assogba,Afi,21,M,IA & Big Data,L1,18.48,Excellent
+ETU1060,Assogba,Dodzi,23,M,Logistique & Transport,L1,18.23,Excellent
+ETU1050,Agbeko,Dodzi,18,M,Logistique & Transport,L1,18.14,Excellent
+ETU1784,Amegan,Sena,21,F,IA & Big Data,L3,18.12,Excellent
+ETU1209,Agbeko,Afi,21,F,IA & Big Data,L2,18.11,Excellent
+ETU1066,Assogba,Eyram,24,M,Génie Électrique,L1,17.94,Excellent
+ETU1090,Amegan,Koffi,24,M,Informatique & Systèmes,L1,17.89,Excellent
+ETU1750,Assogba,Yao,22,F,IA & Big Data,L3,17.83,Excellent
+ETU1668,Assogba,Mawuli,18,M,Génie Électrique,L1,17.83,Excellent
+ETU1763,Assogba,Dodzi,18,M,Informatique & Systèmes,L1,17.72,Excellent
+ETU1312,Kossi,Ama,17,F,Informatique & Systèmes,L2,17.7,Excellent
+ETU1370,Lawson,Sena,25,M,Informatique & Systèmes,L3,17.68,Excellent
+ETU1501,Doe,Kodjo,23,F,Génie Civil,L1,17.6,Excellent
+ETU1296,Kouassi,Eyram,22,F,Génie Civil,L1,17.53,Excellent
+ETU1376,Agbeko,Akossiwa,26,F,Logistique & Transport,L3,17.41,Excellent
+ETU1046,Amegan,Ama,20,F,Informatique & Systèmes,L1,17.37,Excellent
+ETU1772,Mensah,Mawuli,17,F,Logistique & Transport,L1,17.37,Excellent
+ETU1140,Assogba,Sena,21,M,Logistique & Transport,L3,17.27,Excellent
+ETU1698,Mensah,Kodjo,19,M,Informatique & Systèmes,L1,17.15,Excellent
+ETU1555,Tchalla,Kodjo,21,M,Génie Civil,L1,16.99,Excellent
+ETU1795,Adjei,Ama,23,F,Génie Électrique,L3,16.91,Excellent
+ETU1404,Amegan,Sena,24,M,Génie Civil,L3,16.91,Excellent
+ETU1687,Tchalla,Koffi,25,M,Génie Civil,L2,16.9,Excellent
+ETU1030,Amegan,Yao,22,M,IA & Big Data,L1,16.89,Excellent
+ETU1723,Kossi,Ama,23,M,Informatique & Systèmes,L1,16.87,Excellent
+ETU1202,Amegan,Afi,21,F,Logistique & Transport,L1,16.84,Excellent
+ETU1122,Doe,Kodjo,23,M,Informatique & Systèmes,L1,16.75,Excellent
+ETU1606,Lawson,Akossiwa,18,M,Génie Électrique,L2,16.75,Excellent
+ETU1102,Kouassi,Yao,21,F,Génie Civil,L1,16.69,Excellent
+ETU1654,Tchalla,Afi,19,F,Informatique & Systèmes,L3,16.64,Excellent
+ETU1738,Agbeko,Mawuli,17,M,Génie Civil,L1,16.59,Excellent
+ETU1609,Kouassi,Yao,18,M,Informatique & Systèmes,L1,16.46,Excellent
+ETU1683,Assogba,Ama,24,F,Génie Électrique,L2,16.45,Excellent
+ETU1692,Assogba,Koffi,19,M,Logistique & Transport,L3,16.41,Excellent
+ETU1064,Amegan,Eyram,22,M,Informatique & Systèmes,L1,16.37,Excellent
+ETU1248,Agbeko,Sena,22,F,Informatique & Systèmes,L3,16.24,Excellent
+ETU1308,Lawson,Dodzi,17,M,Génie Électrique,L1,16.19,Excellent
+ETU1197,Kossi,Akossiwa,18,F,Génie Électrique,L1,16.15,Excellent
+ETU1115,Tchalla,Kodjo,25,F,Logistique & Transport,L1,16.14,Excellent
+ETU1573,Mensah,Kodjo,24,F,Génie Civil,L1,16.12,Excellent
+ETU1481,Kouassi,Mawuli,17,inconnue,IA & Big Data,L1,16.09,Excellent
+ETU1011,Assogba,Eyram,18,F,Informatique & Systèmes,L3,16.08,Excellent
+ETU1612,Agbeko,Yao,23,F,Génie Électrique,L2,16.03,Excellent
+ETU1797,Amegan,Mawuli,19,M,Informatique & Systèmes,L3,16.03,Excellent
+ETU1230,Amegan,Kodjo,20,F,Informatique & Systèmes,L3,16.03,Excellent
+ETU1299,Mensah,Kodjo,20,F,Génie Civil,L1,15.98,Bon
+ETU1328,Kossi,Afi,18,M,Génie Électrique,L2,15.97,Bon
+ETU1253,Lawson,Dodzi,18,F,Génie Électrique,L3,15.96,Bon
+ETU1362,Adjei,Eyram,18,F,Informatique & Systèmes,L1,15.93,Bon
+ETU1601,Agbeko,Yao,17,F,Génie Électrique,L3,15.92,Bon
+ETU1461,Kossi,Dodzi,22,F,Génie Civil,L2,15.86,Bon
+ETU1111,Agbeko,Ama,21,F,Génie Électrique,L1,15.77,Bon
+ETU1469,Assogba,Koffi,21,F,Informatique & Systèmes,L1,15.76,Bon
+ETU1072,Amegan,Ama,19,M,Informatique & Systèmes,L1,15.74,Bon
+ETU1680,Agbeko,Ama,24,M,Génie Civil,L2,15.74,Bon
+ETU1409,Mensah,Dodzi,23,M,Logistique & Transport,L1,15.72,Bon
+ETU1526,Assogba,Sena,20,M,Logistique & Transport,L1,15.72,Bon
+ETU1153,Adjei,Kodjo,20,M,Génie Civil,L3,15.62,Bon
+ETU1249,Mensah,Ama,18,M,Informatique & Systèmes,L1,15.58,Bon
+ETU1425,Kossi,Dodzi,21,F,Génie Civil,L3,15.55,Bon
+ETU1332,Lawson,Mawuli,25,M,Génie Civil,L1,15.55,Bon
+ETU1190,Doe,Akossiwa,22,F,IA & Big Data,L3,15.53,Bon
+ETU1068,Mensah,Kodjo,22,M,Informatique & Systèmes,L3,15.49,Bon
+ETU1521,Kossi,Yao,26,M,Génie Électrique,L2,15.48,Bon
+ETU1056,Tchalla,Yao,25,F,Logistique & Transport,L2,15.41,Bon
+ETU1001,Agbeko,Akossiwa,24,M,Informatique & Systèmes,L2,15.34,Bon
+ETU1645,Lawson,Koffi,25,F,Logistique & Transport,L1,15.33,Bon
+ETU1283,Amegan,Afi,25,M,Génie Civil,L3,15.3,Bon
+ETU1673,Mensah,Yao,21,F,Informatique & Systèmes,L1,15.3,Bon
+ETU1478,Doe,Koffi,19,F,Informatique & Systèmes,L1,15.3,Bon
+ETU1696,Agbeko,Afi,18,F,Génie Civil,L2,15.19,Bon
+ETU1279,Mensah,Eyram,18,M,Génie Électrique,L1,15.19,Bon
+ETU1401,Agbeko,Kodjo,17,M,Génie Civil,L3,15.18,Bon
+ETU1233,Agbeko,Akossiwa,17,M,Logistique & Transport,L1,15.16,Bon
+ETU1088,Agbeko,Koffi,26,M,Génie Civil,L1,15.15,Bon
+ETU1685,Kouassi,Eyram,25,M,Génie Civil,L2,15.15,Bon
+ETU1375,Mensah,Akossiwa,17,M,IA & Big Data,L1,15.12,Bon
+ETU1758,Kossi,Dodzi,23,F,Génie Civil,L2,15.03,Bon
+ETU1212,Agbeko,Yao,23,F,Logistique & Transport,L3,15.03,Bon
+ETU1622,Kossi,Afi,17,M,IA & Big Data,L2,15.02,Bon
+ETU1411,Adjei,Mawuli,20,F,Logistique & Transport,L2,15.0,Bon
+ETU1714,Assogba,Yao,19,M,Logistique & Transport,L3,14.99,Bon
+ETU1562,Amegan,Akossiwa,21,M,Génie Civil,L2,14.98,Bon
+ETU1726,Agbeko,Akossiwa,20,M,Génie Civil,L1,14.97,Bon
+ETU1468,Kossi,Dodzi,20,M,Génie Électrique,L3,14.96,Bon
+ETU1438,Mensah,Yao,26,M,Informatique & Systèmes,L1,14.95,Bon
+ETU1346,Assogba,Afi,18,M,Logistique & Transport,L2,14.94,Bon
+ETU1659,Adjei,Afi,26,M,IA & Big Data,L3,14.93,Bon
+ETU1482,Adjei,Akossiwa,20,F,IA & Big Data,L1,14.9,Bon
+ETU1188,Adjei,Yao,21,F,Informatique & Systèmes,L1,14.89,Bon
+ETU1390,Agbeko,Kodjo,22,M,Génie Électrique,L1,14.88,Bon
+ETU1334,Amegan,Sena,18,M,Informatique & Systèmes,L2,14.86,Bon
+ETU1095,Adjei,Sena,23,M,Informatique & Systèmes,L1,14.86,Bon
+ETU1427,Kouassi,Dodzi,26,M,Génie Civil,L1,14.86,Bon
+ETU1572,Adjei,Kodjo,26,F,Génie Civil,L3,14.84,Bon
+ETU1672,Doe,Kodjo,19,F,Informatique & Systèmes,L2,14.84,Bon
+ETU1256,Doe,Kodjo,20,M,Logistique & Transport,L2,14.83,Bon
+ETU1348,Kossi,Sena,17,M,IA & Big Data,L3,14.82,Bon
+ETU1745,Lawson,Afi,19,F,Génie Civil,L2,14.82,Bon
+ETU1616,Adjei,Sena,21,F,IA & Big Data,L2,14.8,Bon
+ETU1239,Doe,Eyram,22,F,Génie Électrique,L2,14.8,Bon
+ETU1366,Amegan,Koffi,20,M,Informatique & Systèmes,L1,14.79,Bon
+ETU1655,Tchalla,Koffi,23,F,Logistique & Transport,L3,14.79,Bon
+ETU1065,Lawson,Sena,20,F,Logistique & Transport,L1,14.77,Bon
+ETU1695,Adjei,Kodjo,25,M,IA & Big Data,L3,14.76,Bon
+ETU1073,Kossi,Ama,24,F,Logistique & Transport,L1,14.7,Bon
+ETU1477,Mensah,Mawuli,21,M,IA & Big Data,L2,14.7,Bon
+ETU1791,Amegan,Akossiwa,18,F,IA & Big Data,L1,14.7,Bon
+ETU1017,Kossi,Ama,22,M,IA & Big Data,L2,14.67,Bon
+ETU1581,Kouassi,Yao,19,F,Génie Civil,L3,14.64,Bon
+ETU1582,Kossi,Akossiwa,23,M,IA & Big Data,L3,14.63,Bon
+ETU1313,Adjei,Yao,24,F,IA & Big Data,L2,14.62,Bon
+ETU1669,Kossi,Koffi,26,F,Informatique & Systèmes,L3,14.61,Bon
+ETU1031,Adjei,Yao,25,F,Génie Électrique,L2,14.6,Bon
+ETU1422,Agbeko,Dodzi,23,F,Génie Civil,L2,14.59,Bon
+ETU1792,Agbeko,Akossiwa,23,M,Génie Civil,L3,14.56,Bon
+ETU1093,Lawson,Dodzi,20,M,IA & Big Data,L2,14.55,Bon
+ETU1226,Kouassi,Koffi,21,M,Génie Civil,L1,14.54,Bon
+ETU1269,Tchalla,Koffi,24,M,Logistique & Transport,L2,14.52,Bon
+ETU1519,Tchalla,Akossiwa,24,F,IA & Big Data,L1,14.5,Bon
+ETU1798,Lawson,Eyram,19,F,Génie Civil,L3,14.44,Bon
+ETU1546,Amegan,Eyram,18,F,Logistique & Transport,L3,14.43,Bon
+ETU1474,Doe,Mawuli,23,F,Informatique & Systèmes,L2,14.42,Bon
+ETU1733,Agbeko,Ama,25,F,Informatique & Systèmes,L1,14.38,Bon
+ETU1142,Adjei,Dodzi,21,M,Génie Civil,L3,14.38,Bon
+ETU1106,Agbeko,Kodjo,26,F,Génie Civil,L3,14.37,Bon
+ETU1081,Amegan,Eyram,17,M,IA & Big Data,L1,14.35,Bon
+ETU1623,Amegan,Sena,21,F,Logistique & Transport,L1,14.3,Bon
+ETU1137,Mensah,Ama,17,F,Génie Civil,L1,14.29,Bon
+ETU1472,Amegan,Dodzi,21,F,Génie Civil,L2,14.25,Bon
+ETU1595,Kouassi,Afi,25,M,Logistique & Transport,L3,14.24,Bon
+ETU1728,Amegan,Koffi,17,M,Informatique & Systèmes,L3,14.24,Bon
+ETU1159,Agbeko,Kodjo,22,M,IA & Big Data,L3,14.2,Bon
+ETU1014,Agbeko,Mawuli,17,M,Informatique & Systèmes,L1,14.2,Bon
+ETU1012,Agbeko,Sena,23,inconnue,IA & Big Data,L2,14.19,Bon
+ETU1568,Doe,Dodzi,26,M,Génie Électrique,L1,14.19,Bon
+ETU1080,Assogba,Koffi,26,M,Informatique & Systèmes,L1,14.19,Bon
+ETU1444,Tchalla,Eyram,19,M,Informatique & Systèmes,L1,14.18,Bon
+ETU1799,Amegan,Mawuli,21,M,Génie Civil,L2,14.17,Bon
+ETU1154,Amegan,Mawuli,23,F,Génie Électrique,L2,14.17,Bon
+ETU1667,Kouassi,Akossiwa,24,M,IA & Big Data,L1,14.16,Bon
+ETU1391,Kossi,Yao,21,M,Génie Civil,L1,14.14,Bon
+ETU1113,Amegan,Dodzi,24,M,Génie Électrique,L2,14.13,Bon
+ETU1545,Mensah,Dodzi,21,F,Informatique & Systèmes,L2,14.06,Bon
+ETU1747,Lawson,Eyram,24,F,IA & Big Data,L3,14.03,Bon
+ETU1192,Doe,Ama,20,M,Génie Civil,L1,14.03,Bon
+ETU1466,Kossi,Koffi,24,F,Génie Civil,L1,14.03,Bon
+ETU1237,Amegan,Koffi,20,M,Informatique & Systèmes,L1,14.0,moyen
+ETU1522,Kossi,Afi,22,F,Informatique & Systèmes,L2,13.98,moyen
+ETU1057,Kossi,Koffi,25,F,Informatique & Systèmes,L2,13.92,moyen
+ETU1576,Assogba,Dodzi,18,F,Génie Civil,L1,13.92,moyen
+ETU1722,Kouassi,Ama,20,M,Informatique & Systèmes,L1,13.91,moyen
+ETU1578,Kouassi,Afi,23,M,IA & Big Data,L2,13.88,moyen
+ETU1094,Kouassi,Mawuli,18,M,Logistique & Transport,L3,13.88,moyen
+ETU1565,Adjei,Koffi,26,M,Informatique & Systèmes,L1,13.86,moyen
+ETU1070,Agbeko,Kodjo,24,F,Logistique & Transport,L2,13.85,moyen
+ETU1699,Mensah,Eyram,25,M,Logistique & Transport,L3,13.85,moyen
+ETU1187,Lawson,Akossiwa,17,M,Génie Électrique,L2,13.85,moyen
+ETU1591,Assogba,Afi,21,M,Logistique & Transport,L2,13.82,moyen
+ETU1034,Kouassi,Eyram,21,M,IA & Big Data,L2,13.78,moyen
+ETU1627,Lawson,Dodzi,26,M,Informatique & Systèmes,L3,13.78,moyen
+ETU1029,Amegan,Koffi,18,M,Génie Électrique,L2,13.76,moyen
+ETU1263,Assogba,Mawuli,20,M,IA & Big Data,L3,13.73,moyen
+ETU1475,Agbeko,Mawuli,21,F,IA & Big Data,L3,13.72,moyen
+ETU1003,Amegan,Dodzi,21,F,Génie Électrique,L2,13.71,moyen
+ETU1498,Assogba,Afi,24,F,Génie Civil,L2,13.7,moyen
+ETU1058,Agbeko,Sena,25,M,IA & Big Data,L2,13.7,moyen
+ETU1741,Agbeko,Yao,20,M,Logistique & Transport,L2,13.68,moyen
+ETU1234,Amegan,Koffi,21,M,Génie Civil,L3,13.67,moyen
+ETU1766,Doe,Dodzi,20,F,Informatique & Systèmes,L3,13.65,moyen
+ETU1155,Doe,Sena,20,M,Logistique & Transport,L1,13.64,moyen
+ETU1443,Amegan,Kodjo,24,M,Génie Électrique,L1,13.64,moyen
+ETU1331,Lawson,Sena,21,M,Informatique & Systèmes,L3,13.63,moyen
+ETU1690,Assogba,Yao,20,M,Logistique & Transport,L2,13.62,moyen
+ETU1181,Kossi,Mawuli,20,M,Logistique & Transport,L1,13.62,moyen
+ETU1096,Adjei,Afi,21,M,IA & Big Data,L3,13.62,moyen
+ETU1642,Kouassi,Dodzi,21,M,Génie Électrique,L1,13.6,moyen
+ETU1403,Assogba,Mawuli,21,F,Logistique & Transport,L2,13.59,moyen
+ETU1043,Lawson,Koffi,22,M,Logistique & Transport,L1,13.56,moyen
+ETU1677,Mensah,Akossiwa,17,M,Génie Civil,L3,13.51,moyen
+ETU1781,Doe,Yao,21,M,IA & Big Data,L3,13.49,moyen
+ETU1342,Doe,Dodzi,25,M,Génie Civil,L3,13.49,moyen
+ETU1052,Lawson,Dodzi,17,M,Informatique & Systèmes,L3,13.47,moyen
+ETU1636,Adjei,Kodjo,19,M,Informatique & Systèmes,L1,13.46,moyen
+ETU1720,Kossi,Eyram,17,M,Génie Électrique,L2,13.44,moyen
+ETU1364,Kossi,Afi,25,F,Génie Électrique,L2,13.43,moyen
+ETU1309,Kossi,Koffi,26,F,Logistique & Transport,L3,13.43,moyen
+ETU1300,Lawson,Kodjo,22,F,Logistique & Transport,L3,13.42,moyen
+ETU1760,Kossi,Yao,23,F,Génie Électrique,L2,13.42,moyen
+ETU1617,Adjei,Kodjo,21,M,Logistique & Transport,L3,13.41,moyen
+ETU1417,Kossi,Mawuli,24,M,Génie Électrique,L1,13.41,moyen
+ETU1408,Assogba,Yao,24,M,Informatique & Systèmes,L1,13.4,moyen
+ETU1570,Assogba,Eyram,17,F,IA & Big Data,L3,13.39,moyen
+ETU1365,Tchalla,Ama,24,M,Génie Civil,L2,13.38,moyen
+ETU1146,Mensah,Dodzi,26,M,IA & Big Data,L1,13.36,moyen
+ETU1712,Agbeko,Mawuli,22,F,Informatique & Systèmes,L3,13.36,moyen
+ETU1505,Amegan,Sena,19,F,IA & Big Data,L1,13.36,moyen
+ETU1075,Amegan,Afi,26,M,Génie Électrique,L1,13.33,moyen
+ETU1479,Kossi,Eyram,18,M,Logistique & Transport,L1,13.33,moyen
+ETU1006,Mensah,Afi,18,F,Informatique & Systèmes,L1,13.33,moyen
+ETU1396,Mensah,Mawuli,22,M,Informatique & Systèmes,L2,13.33,moyen
+ETU1128,Tchalla,Kodjo,21,M,IA & Big Data,L1,13.33,moyen
+ETU1453,Mensah,Mawuli,26,M,Génie Civil,L2,13.32,moyen
+ETU1245,Mensah,Ama,23,M,IA & Big Data,L3,13.31,moyen
+ETU1486,Lawson,Dodzi,24,M,Génie Civil,L2,13.31,moyen
+ETU1538,Tchalla,Mawuli,22,M,IA & Big Data,L1,13.28,moyen
+ETU1199,Assogba,Afi,22,M,Génie Électrique,L1,13.27,moyen
+ETU1293,Lawson,Akossiwa,24,F,Informatique & Systèmes,L3,13.26,moyen
+ETU1274,Amegan,Kodjo,21,M,Logistique & Transport,L3,13.26,moyen
+ETU1218,Amegan,Koffi,18,F,Logistique & Transport,L1,13.26,moyen
+ETU1776,Amegan,Afi,25,M,Génie Électrique,L3,13.26,moyen
+ETU1607,Tchalla,Eyram,25,M,IA & Big Data,L1,13.26,moyen
+ETU1196,Lawson,Afi,26,M,IA & Big Data,L2,13.24,moyen
+ETU1091,Kouassi,Mawuli,25,F,Logistique & Transport,L3,13.24,moyen
+ETU1402,Lawson,Dodzi,20,F,Génie Civil,L3,13.21,moyen
+ETU1301,Kouassi,Kodjo,22,F,Génie Civil,L1,13.18,moyen
+ETU1704,Kossi,Afi,26,F,Génie Civil,L2,13.17,moyen
+ETU1208,Adjei,Mawuli,17,F,IA & Big Data,L1,13.16,moyen
+ETU1238,Lawson,Kodjo,19,F,Informatique & Systèmes,L1,13.16,moyen
+ETU1045,Assogba,Koffi,19,M,IA & Big Data,L2,13.12,moyen
+ETU1682,Assogba,Yao,20,M,IA & Big Data,L3,13.12,moyen
+ETU1657,Doe,Kodjo,23,M,Génie Électrique,L3,13.12,moyen
+ETU1022,Kossi,Ama,26,F,IA & Big Data,L1,13.11,moyen
+ETU1676,Tchalla,Kodjo,19,M,Informatique & Systèmes,L3,13.09,moyen
+ETU1214,Agbeko,Afi,25,M,Logistique & Transport,L1,13.09,moyen
+ETU1118,Adjei,Yao,21,F,IA & Big Data,L1,13.09,moyen
+ETU1389,Kossi,Koffi,26,M,IA & Big Data,L1,13.07,moyen
+ETU1517,Mensah,Afi,22,F,IA & Big Data,L1,13.06,moyen
+ETU1344,Assogba,Akossiwa,20,M,Génie Civil,L3,13.06,moyen
+ETU1602,Agbeko,Yao,17,M,Informatique & Systèmes,L2,13.04,moyen
+ETU1778,Adjei,Ama,26,F,Informatique & Systèmes,L2,13.03,moyen
+ETU1286,Kossi,Eyram,23,F,Logistique & Transport,L1,13.03,moyen
+ETU1661,Agbeko,Akossiwa,26,F,Informatique & Systèmes,L3,13.0,moyen
+ETU1686,Amegan,Ama,26,M,IA & Big Data,L2,13.0,moyen
+ETU1347,Assogba,Mawuli,26,F,Génie Civil,L2,12.99,moyen
+ETU1651,Doe,Koffi,22,F,Informatique & Systèmes,L2,12.99,moyen
+ETU1589,Kouassi,Dodzi,22,M,Informatique & Systèmes,L1,12.98,moyen
+ETU1554,Assogba,Yao,24,M,Informatique & Systèmes,L2,12.96,moyen
+ETU1041,Agbeko,Sena,17,M,Génie Civil,L2,12.95,moyen
+ETU1563,Kossi,Yao,26,M,Génie Électrique,L2,12.94,moyen
+ETU1547,Tchalla,Mawuli,26,M,IA & Big Data,L2,12.93,moyen
+ETU1500,Kossi,Mawuli,26,F,IA & Big Data,L3,12.93,moyen
+ETU1426,Kouassi,Ama,23,M,IA & Big Data,L2,12.92,moyen
+ETU1119,Kossi,Sena,22,F,Informatique & Systèmes,L2,12.91,moyen
+ETU1258,Kossi,Kodjo,22,F,IA & Big Data,L1,12.9,moyen
+ETU1465,Assogba,Koffi,22,F,Génie Civil,L1,12.89,moyen
+ETU1694,Mensah,Kodjo,24,M,Logistique & Transport,L1,12.89,moyen
+ETU1242,Mensah,Kodjo,25,M,Informatique & Systèmes,L3,12.89,moyen
+ETU1604,Kouassi,Ama,21,F,IA & Big Data,L3,12.87,moyen
+ETU1737,Lawson,Ama,25,F,Génie Électrique,L2,12.87,moyen
+ETU1759,Agbeko,Eyram,19,F,Génie Électrique,L2,12.87,moyen
+ETU1400,Assogba,Eyram,25,F,Génie Électrique,L3,12.83,moyen
+ETU1385,Kossi,Akossiwa,24,F,Génie Civil,L1,12.83,moyen
+ETU1116,Mensah,Afi,23,M,Informatique & Systèmes,L1,12.83,moyen
+ETU1656,Agbeko,Dodzi,24,M,Informatique & Systèmes,L3,12.83,moyen
+ETU1788,Tchalla,Eyram,26,F,Logistique & Transport,L3,12.83,moyen
+ETU1231,Kouassi,Ama,26,F,Génie Électrique,L1,12.82,moyen
+ETU1492,Agbeko,Kodjo,25,M,IA & Big Data,L2,12.82,moyen
+ETU1019,Amegan,Dodzi,26,M,Informatique & Systèmes,L3,12.81,moyen
+ETU1228,Tchalla,Afi,23,F,IA & Big Data,L2,12.81,moyen
+ETU1117,Kossi,Mawuli,20,M,IA & Big Data,L3,12.8,moyen
+ETU1717,Amegan,Koffi,21,F,Logistique & Transport,L1,12.8,moyen
+ETU1232,Mensah,Mawuli,22,M,IA & Big Data,L1,12.79,moyen
+ETU1586,Doe,Afi,20,M,Informatique & Systèmes,L2,12.79,moyen
+ETU1635,Doe,Ama,24,M,Informatique & Systèmes,L2,12.78,moyen
+ETU1549,Doe,Afi,25,M,Informatique & Systèmes,L1,12.77,moyen
+ETU1152,Assogba,Sena,23,M,Génie Civil,L1,12.76,moyen
+ETU1513,Kouassi,Eyram,26,F,IA & Big Data,L2,12.75,moyen
+ETU1507,Adjei,Yao,18,M,Logistique & Transport,L1,12.75,moyen
+ETU1049,Agbeko,Sena,25,F,Informatique & Systèmes,L1,12.74,moyen
+ETU1588,Kouassi,Eyram,21,F,Informatique & Systèmes,L2,12.73,moyen
+ETU1227,Tchalla,Yao,26,M,IA & Big Data,L3,12.72,moyen
+ETU1398,Adjei,Eyram,19,F,IA & Big Data,L1,12.72,moyen
+ETU1103,Mensah,Eyram,18,M,Logistique & Transport,L3,12.72,moyen
+ETU1702,Kossi,Yao,22,F,Informatique & Systèmes,L1,12.72,moyen
+ETU1182,Amegan,Afi,17,M,Génie Civil,L1,12.71,moyen
+ETU1025,Doe,Koffi,26,F,Informatique & Systèmes,L2,12.69,moyen
+ETU1384,Mensah,Kodjo,23,F,IA & Big Data,L1,12.69,moyen
+ETU1036,Kouassi,Eyram,18,M,Logistique & Transport,L2,12.69,moyen
+ETU1681,Kossi,Koffi,20,F,Logistique & Transport,L2,12.66,moyen
+ETU1739,Kouassi,Sena,17,M,Génie Électrique,L1,12.66,moyen
+ETU1650,Amegan,Yao,22,M,Logistique & Transport,L2,12.65,moyen
+ETU1629,Lawson,Mawuli,26,M,Informatique & Systèmes,L3,12.65,moyen
+ETU1186,Kossi,Sena,18,F,Génie Civil,L1,12.65,moyen
+ETU1193,Lawson,Kodjo,19,M,IA & Big Data,L2,12.64,moyen
+ETU1183,Doe,Sena,26,F,IA & Big Data,L2,12.62,moyen
+ETU1340,Doe,Eyram,18,F,IA & Big Data,L1,12.61,moyen
+ETU1285,Assogba,Eyram,18,M,IA & Big Data,L1,12.6,moyen
+ETU1624,Doe,Yao,21,F,Génie Électrique,L1,12.6,moyen
+ETU1530,Tchalla,Kodjo,24,F,Génie Électrique,L3,12.6,moyen
+ETU1780,Kouassi,Yao,18,F,IA & Big Data,L3,12.59,moyen
+ETU1272,Kossi,Mawuli,23,M,Génie Civil,L3,12.58,moyen
+ETU1769,Lawson,Dodzi,18,M,Logistique & Transport,L1,12.58,moyen
+ETU1524,Lawson,Eyram,24,M,Logistique & Transport,L2,12.57,moyen
+ETU1275,Amegan,Ama,18,M,IA & Big Data,L3,12.56,moyen
+ETU1107,Doe,Ama,26,F,Logistique & Transport,L1,12.55,moyen
+ETU1008,Adjei,Akossiwa,19,M,IA & Big Data,L1,12.55,moyen
+ETU1333,Kouassi,Mawuli,26,F,IA & Big Data,L1,12.52,moyen
+ETU1388,Kouassi,Afi,19,M,Génie Civil,L1,12.52,moyen
+ETU1520,Lawson,Ama,24,M,IA & Big Data,L1,12.51,moyen
+ETU1311,Doe,Yao,25,M,IA & Big Data,L1,12.51,moyen
+ETU1771,Assogba,Akossiwa,25,F,Génie Civil,L1,12.51,moyen
+ETU1335,Kouassi,Koffi,18,M,Génie Civil,L3,12.51,moyen
+ETU1098,Doe,Koffi,20,F,IA & Big Data,L2,12.51,moyen
+ETU1773,Agbeko,Eyram,20,M,IA & Big Data,L2,12.5,moyen
+ETU1749,Kossi,Koffi,22,F,IA & Big Data,L3,12.5,moyen
+ETU1359,Agbeko,Akossiwa,18,F,IA & Big Data,L1,12.48,moyen
+ETU1646,Amegan,Dodzi,22,M,Génie Civil,L2,12.48,moyen
+ETU1184,Amegan,Afi,24,F,Génie Électrique,L1,12.48,moyen
+ETU1189,Lawson,Mawuli,24,M,Logistique & Transport,L2,12.47,moyen
+ETU1037,Kouassi,Ama,23,M,IA & Big Data,L1,12.47,moyen
+ETU1194,Assogba,Afi,21,F,Génie Électrique,L2,12.46,moyen
+ETU1315,Doe,Kodjo,22,M,Informatique & Systèmes,L2,12.45,moyen
+ETU1267,Lawson,Sena,24,M,Génie Électrique,L1,12.45,moyen
+ETU1516,Kouassi,Mawuli,26,M,IA & Big Data,L2,12.45,moyen
+ETU1281,Amegan,Dodzi,19,M,IA & Big Data,L1,12.44,moyen
+ETU1592,Adjei,Dodzi,19,M,Génie Électrique,L3,12.44,moyen
+ETU1514,Assogba,Dodzi,24,M,IA & Big Data,L1,12.44,moyen
+ETU1291,Adjei,Kodjo,19,F,Génie Civil,L3,12.42,moyen
+ETU1630,Agbeko,Kodjo,23,M,IA & Big Data,L2,12.41,moyen
+ETU1452,Amegan,Koffi,20,M,Génie Électrique,L1,12.37,moyen
+ETU1671,Doe,Sena,20,M,Informatique & Systèmes,L2,12.37,moyen
+ETU1089,Kouassi,Yao,17,M,Informatique & Systèmes,L1,12.36,moyen
+ETU1455,Tchalla,Koffi,20,M,Génie Électrique,L3,12.35,moyen
+ETU1144,Assogba,Ama,19,F,Informatique & Systèmes,L1,12.34,moyen
+ETU1675,Agbeko,Akossiwa,21,F,Génie Électrique,L2,12.34,moyen
+ETU1023,Assogba,Sena,17,F,Informatique & Systèmes,L3,12.34,moyen
+ETU1350,Tchalla,Akossiwa,21,M,IA & Big Data,L1,12.33,moyen
+ETU1191,Doe,Afi,25,F,Génie Électrique,L3,12.33,moyen
+ETU1324,Assogba,Eyram,20,F,Informatique & Systèmes,L1,12.33,moyen
+ETU1120,Amegan,Eyram,17,M,Informatique & Systèmes,L3,12.33,moyen
+ETU1114,Tchalla,Afi,23,M,IA & Big Data,L2,12.27,moyen
+ETU1459,Kossi,Eyram,21,inconnue,Génie Électrique,L1,12.26,moyen
+ETU1150,Kouassi,Koffi,26,F,Génie Électrique,L1,12.26,moyen
+ETU1485,Adjei,Koffi,23,M,Informatique & Systèmes,L2,12.26,moyen
+ETU1670,Assogba,Eyram,20,M,Génie Électrique,L2,12.25,moyen
+ETU1175,Amegan,Yao,21,M,Génie Électrique,L3,12.23,moyen
+ETU1711,Tchalla,Yao,17,M,Informatique & Systèmes,L2,12.23,moyen
+ETU1641,Assogba,Afi,23,M,Génie Civil,L1,12.23,moyen
+ETU1476,Kouassi,Sena,21,F,IA & Big Data,L2,12.22,moyen
+ETU1069,Amegan,Koffi,24,M,Génie Électrique,L1,12.22,moyen
+ETU1621,Amegan,Dodzi,18,M,Logistique & Transport,L1,12.22,moyen
+ETU1440,Assogba,Afi,19,F,Logistique & Transport,L3,12.22,moyen
+ETU1597,Agbeko,Sena,25,M,Informatique & Systèmes,L1,12.18,moyen
+ETU1529,Assogba,Akossiwa,20,M,Génie Électrique,L1,12.18,moyen
+ETU1176,Agbeko,Koffi,20,F,Informatique & Systèmes,L2,12.18,moyen
+ETU1326,Adjei,Eyram,20,M,IA & Big Data,L2,12.17,moyen
+ETU1535,Kossi,Dodzi,23,F,Génie Électrique,L1,12.16,moyen
+ETU1135,Lawson,Dodzi,24,F,Génie Électrique,L2,12.16,moyen
+ETU1532,Kossi,Kodjo,22,F,Génie Civil,L1,12.15,moyen
+ETU1292,Assogba,Eyram,25,F,Génie Électrique,L3,12.15,moyen
+ETU1033,Tchalla,Ama,25,F,Informatique & Systèmes,L3,12.14,moyen
+ETU1777,Kossi,Mawuli,18,F,Génie Électrique,L1,12.13,moyen
+ETU1633,Lawson,Afi,18,M,Génie Électrique,L1,12.12,moyen
+ETU1169,Mensah,Koffi,18,M,Génie Électrique,L1,12.11,moyen
+ETU1134,Agbeko,Kodjo,25,F,Génie Électrique,L2,12.08,moyen
+ETU1319,Agbeko,Kodjo,22,M,Logistique & Transport,L1,12.07,moyen
+ETU1566,Adjei,Akossiwa,20,F,IA & Big Data,L2,12.07,moyen
+ETU1243,Doe,Akossiwa,25,M,Informatique & Systèmes,L2,12.06,moyen
+ETU1786,Mensah,Eyram,26,M,Génie Civil,L1,12.05,moyen
+ETU1515,Kossi,Yao,19,F,Génie Civil,L1,12.05,moyen
+ETU1021,Lawson,Sena,17,M,IA & Big Data,L2,12.04,moyen
+ETU1734,Adjei,Eyram,22,F,Informatique & Systèmes,L2,12.04,moyen
+ETU1701,Doe,Yao,18,M,Génie Électrique,L2,12.04,moyen
+ETU1306,Lawson,Yao,19,F,Génie Électrique,L1,12.02,moyen
+ETU1467,Tchalla,Akossiwa,26,M,Génie Électrique,L3,11.95,moyen
+ETU1445,Doe,Dodzi,26,M,Génie Électrique,L2,11.94,moyen
+ETU1510,Assogba,Afi,19,F,Informatique & Systèmes,L3,11.92,moyen
+ETU1410,Kossi,Sena,21,inconnue,Génie Civil,L1,11.91,moyen
+ETU1462,Agbeko,Kodjo,18,F,IA & Big Data,L1,11.88,moyen
+ETU1664,Tchalla,Eyram,18,F,Génie Électrique,L2,11.87,moyen
+ETU1561,Mensah,Koffi,19,M,Génie Civil,L1,11.87,moyen
+ETU1441,Lawson,Mawuli,25,M,IA & Big Data,L2,11.84,moyen
+ETU1162,Amegan,Eyram,17,F,Informatique & Systèmes,L1,11.83,moyen
+ETU1035,Mensah,Mawuli,22,M,Génie Civil,L2,11.83,moyen
+ETU1219,Assogba,Ama,19,F,Informatique & Systèmes,L1,11.83,moyen
+ETU1383,Adjei,Kodjo,24,M,IA & Big Data,L1,11.82,moyen
+ETU1436,Tchalla,Koffi,22,M,Génie Électrique,L3,11.8,moyen
+ETU1185,Amegan,Sena,19,M,IA & Big Data,L1,11.79,moyen
+ETU1099,Kossi,Sena,26,M,IA & Big Data,L2,11.78,moyen
+ETU1611,Amegan,Afi,24,M,Génie Civil,L1,11.77,moyen
+ETU1229,Kossi,Akossiwa,26,M,Génie Électrique,L1,11.76,moyen
+ETU1136,Doe,Ama,22,M,Informatique & Systèmes,L1,11.75,moyen
+ETU1559,Kouassi,Akossiwa,20,F,IA & Big Data,L2,11.74,moyen
+ETU1397,Kossi,Dodzi,21,M,IA & Big Data,L1,11.74,moyen
+ETU1302,Mensah,Dodzi,24,M,Informatique & Systèmes,L3,11.73,moyen
+ETU1569,Tchalla,Sena,26,F,Logistique & Transport,L2,11.73,moyen
+ETU1026,Amegan,Sena,22,M,Génie Civil,L2,11.71,moyen
+ETU1497,Lawson,Sena,25,F,IA & Big Data,L2,11.71,moyen
+ETU1543,Kossi,Afi,23,F,Informatique & Systèmes,L1,11.7,moyen
+ETU1705,Tchalla,Yao,17,M,Informatique & Systèmes,L2,11.7,moyen
+ETU1307,Tchalla,Dodzi,18,M,Informatique & Systèmes,L2,11.7,moyen
+ETU1649,Kouassi,Ama,21,F,Logistique & Transport,L3,11.7,moyen
+ETU1506,Tchalla,Yao,24,M,Logistique & Transport,L1,11.68,moyen
+ETU1322,Doe,Yao,25,F,Informatique & Systèmes,L1,11.68,moyen
+ETU1779,Kouassi,Sena,23,M,IA & Big Data,L1,11.65,moyen
+ETU1691,Agbeko,Kodjo,20,F,Informatique & Systèmes,L1,11.63,moyen
+ETU1047,Kouassi,Koffi,23,M,Génie Électrique,L1,11.62,moyen
+ETU1413,Kossi,Eyram,26,M,Génie Électrique,L2,11.61,moyen
+ETU1074,Doe,Sena,24,M,Informatique & Systèmes,L1,11.6,moyen
+ETU1442,Kossi,Dodzi,24,M,IA & Big Data,L3,11.6,moyen
+ETU1282,Doe,Dodzi,18,F,Informatique & Systèmes,L2,11.59,moyen
+ETU1268,Doe,Akossiwa,17,F,Génie Civil,L2,11.59,moyen
+ETU1085,Agbeko,Mawuli,22,F,Informatique & Systèmes,L1,11.58,moyen
+ETU1287,Tchalla,Dodzi,21,M,Génie Civil,L2,11.57,moyen
+ETU1536,Amegan,Sena,22,F,Génie Civil,L2,11.56,moyen
+ETU1710,Doe,Akossiwa,19,M,Logistique & Transport,L3,11.56,moyen
+ETU1055,Mensah,Eyram,19,F,Informatique & Systèmes,L3,11.56,moyen
+ETU1172,Agbeko,Kodjo,20,M,Génie Électrique,L1,11.55,moyen
+ETU1061,Agbeko,Dodzi,23,M,Informatique & Systèmes,L2,11.53,moyen
+ETU1743,Adjei,Afi,24,M,Génie Civil,L1,11.53,moyen
+ETU1381,Assogba,Dodzi,23,M,IA & Big Data,L1,11.52,moyen
+ETU1732,Assogba,Dodzi,19,F,Génie Électrique,L2,11.52,moyen
+ETU1005,Kouassi,Mawuli,25,M,Logistique & Transport,L1,11.51,moyen
+ETU1494,Adjei,Dodzi,18,F,Logistique & Transport,L2,11.49,moyen
+ETU1020,Tchalla,Koffi,19,M,Génie Électrique,L1,11.47,moyen
+ETU1380,Mensah,Sena,23,F,Logistique & Transport,L3,11.47,moyen
+ETU1574,Mensah,Eyram,19,F,Génie Électrique,L2,11.46,moyen
+ETU1178,Assogba,Akossiwa,20,F,Informatique & Systèmes,L2,11.46,moyen
+ETU1399,Lawson,Sena,19,M,Génie Électrique,L3,11.46,moyen
+ETU1793,Kouassi,Koffi,19,M,Logistique & Transport,L1,11.45,moyen
+ETU1255,Kossi,Dodzi,25,M,Génie Électrique,L2,11.45,moyen
+ETU1598,Doe,Koffi,22,M,Logistique & Transport,L2,11.45,moyen
+ETU1406,Amegan,Afi,21,F,Génie Électrique,L1,11.43,moyen
+ETU1753,Assogba,Sena,21,F,IA & Big Data,L2,11.43,moyen
+ETU1715,Agbeko,Dodzi,17,M,IA & Big Data,L2,11.43,moyen
+ETU1533,Adjei,Eyram,20,M,IA & Big Data,L1,11.41,moyen
+ETU1062,Lawson,Ama,18,M,Génie Électrique,L1,11.4,moyen
+ETU1129,Doe,Afi,18,M,IA & Big Data,L2,11.39,moyen
+ETU1126,Mensah,Afi,26,M,Informatique & Systèmes,L2,11.39,moyen
+ETU1042,Agbeko,Dodzi,21,M,Génie Électrique,L2,11.36,moyen
+ETU1742,Doe,Koffi,22,M,IA & Big Data,L3,11.35,moyen
+ETU1271,Mensah,Yao,19,M,Génie Électrique,L3,11.34,moyen
+ETU1170,Kossi,Yao,20,M,Informatique & Systèmes,L2,11.34,moyen
+ETU1457,Doe,Afi,24,F,IA & Big Data,L1,11.33,moyen
+ETU1525,Lawson,Ama,19,M,IA & Big Data,L3,11.32,moyen
+ETU1764,Lawson,Afi,24,F,IA & Big Data,L3,11.3,moyen
+ETU1770,Doe,Koffi,17,M,IA & Big Data,L3,11.3,moyen
+ETU1775,Assogba,Akossiwa,26,M,Informatique & Systèmes,L1,11.29,moyen
+ETU1284,Amegan,Yao,23,F,IA & Big Data,L3,11.29,moyen
+ETU1131,Tchalla,Sena,26,M,Génie Civil,L1,11.29,moyen
+ETU1368,Mensah,Dodzi,25,M,Informatique & Systèmes,L1,11.28,moyen
+ETU1078,Tchalla,Afi,26,F,Informatique & Systèmes,L2,11.28,moyen
+ETU1288,Tchalla,Sena,17,F,IA & Big Data,L2,11.26,moyen
+ETU1761,Tchalla,Yao,24,M,Logistique & Transport,L2,11.25,moyen
+ETU1216,Mensah,Akossiwa,19,M,IA & Big Data,L3,11.23,moyen
+ETU1709,Amegan,Sena,22,inconnue,Génie Électrique,L1,11.23,moyen
+ETU1028,Tchalla,Eyram,20,F,Génie Électrique,L3,11.21,moyen
+ETU1603,Kossi,Akossiwa,20,F,Génie Civil,L3,11.2,moyen
+ETU1615,Doe,Mawuli,20,M,Génie Électrique,L1,11.19,moyen
+ETU1156,Kossi,Kodjo,20,M,IA & Big Data,L1,11.18,moyen
+ETU1039,Doe,Dodzi,19,M,Génie Civil,L1,11.18,moyen
+ETU1748,Lawson,Kodjo,19,M,Génie Électrique,L1,11.18,moyen
+ETU1353,Amegan,Dodzi,21,M,Génie Électrique,L1,11.15,moyen
+ETU1414,Mensah,Koffi,23,F,Informatique & Systèmes,L1,11.14,moyen
+ETU1460,Agbeko,Yao,25,M,Logistique & Transport,L1,11.14,moyen
+ETU1109,Agbeko,Koffi,19,F,IA & Big Data,L2,11.14,moyen
+ETU1215,Adjei,Eyram,18,F,IA & Big Data,L2,11.14,moyen
+ETU1125,Tchalla,Dodzi,24,F,Informatique & Systèmes,L2,11.14,moyen
+ETU1278,Mensah,Kodjo,24,M,Logistique & Transport,L2,11.14,moyen
+ETU1613,Lawson,Mawuli,18,M,Génie Civil,L1,11.13,moyen
+ETU1725,Kossi,Koffi,25,M,Génie Civil,L2,11.1,moyen
+ETU1009,Mensah,Dodzi,18,M,Génie Civil,L1,11.08,moyen
+ETU1447,Assogba,Kodjo,22,F,Informatique & Systèmes,L3,11.07,moyen
+ETU1303,Kouassi,Ama,19,M,Informatique & Systèmes,L3,11.07,moyen
+ETU1277,Agbeko,Ama,25,F,IA & Big Data,L2,11.05,moyen
+ETU1337,Lawson,Akossiwa,22,F,Informatique & Systèmes,L1,11.04,moyen
+ETU1523,Kouassi,Eyram,23,M,Génie Électrique,L3,11.04,moyen
+ETU1171,Mensah,Kodjo,20,F,Informatique & Systèmes,L2,11.04,moyen
+ETU1542,Kossi,Ama,26,M,Informatique & Systèmes,L1,11.03,moyen
+ETU1518,Amegan,Kodjo,22,F,Génie Électrique,L1,11.03,moyen
+ETU1496,Kossi,Yao,26,M,Génie Électrique,L2,11.03,moyen
+ETU1210,Adjei,Yao,19,F,Logistique & Transport,L1,11.02,moyen
+ETU1206,Agbeko,Eyram,17,F,Génie Civil,L2,11.01,moyen
+ETU1644,Agbeko,Ama,24,M,Informatique & Systèmes,L3,11.0,moyen
+ETU1754,Tchalla,Kodjo,20,F,Logistique & Transport,L1,11.0,moyen
+ETU1550,Kouassi,Koffi,20,F,Génie Électrique,L1,10.99,moyen
+ETU1446,Lawson,Eyram,21,M,IA & Big Data,L1,10.98,moyen
+ETU1148,Kouassi,Dodzi,25,M,Génie Civil,L3,10.95,moyen
+ETU1382,Assogba,Sena,17,M,IA & Big Data,L2,10.95,moyen
+ETU1165,Kouassi,Afi,26,M,Informatique & Systèmes,L2,10.95,moyen
+ETU1437,Assogba,Ama,17,F,Génie Électrique,L1,10.94,moyen
+ETU1548,Tchalla,Mawuli,25,M,Informatique & Systèmes,L3,10.93,moyen
+ETU1755,Amegan,Ama,20,F,Génie Civil,L3,10.92,moyen
+ETU1511,Agbeko,Akossiwa,23,M,Informatique & Systèmes,L3,10.92,moyen
+ETU1265,Tchalla,Akossiwa,21,F,IA & Big Data,L2,10.92,moyen
+ETU1173,Agbeko,Kodjo,20,F,IA & Big Data,L3,10.91,moyen
+ETU1174,Doe,Ama,24,F,Informatique & Systèmes,L2,10.9,moyen
+ETU1678,Tchalla,Yao,20,M,Génie Civil,L3,10.9,moyen
+ETU1593,Assogba,Mawuli,19,F,IA & Big Data,L1,10.89,moyen
+ETU1419,Tchalla,Kodjo,21,M,Logistique & Transport,L1,10.89,moyen
+ETU1689,Agbeko,Afi,21,M,Génie Électrique,L2,10.88,moyen
+ETU1220,Kossi,Koffi,20,F,Informatique & Systèmes,L1,10.87,moyen
+ETU1652,Adjei,Koffi,19,M,Génie Civil,L1,10.87,moyen
+ETU1013,Agbeko,Yao,23,M,Informatique & Systèmes,L1,10.86,moyen
+ETU1143,Amegan,Kodjo,17,M,Génie Civil,L1,10.85,moyen
+ETU1076,Lawson,Afi,18,M,Logistique & Transport,L1,10.85,moyen
+ETU1048,Doe,Eyram,26,F,IA & Big Data,L3,10.83,moyen
+ETU1038,Adjei,Koffi,18,M,Génie Électrique,L1,10.83,moyen
+ETU1217,Mensah,Kodjo,19,M,Logistique & Transport,L1,10.8,moyen
+ETU1177,Kossi,Afi,18,F,Génie Civil,L2,10.8,moyen
+ETU1266,Amegan,Dodzi,18,M,Génie Civil,L1,10.8,moyen
+ETU1386,Mensah,Ama,25,M,Logistique & Transport,L2,10.79,moyen
+ETU1007,Doe,Ama,22,M,IA & Big Data,L2,10.79,moyen
+ETU1740,Kouassi,Kodjo,21,M,IA & Big Data,L3,10.78,moyen
+ETU1484,Amegan,Akossiwa,18,M,Génie Civil,L1,10.77,moyen
+ETU1697,Tchalla,Mawuli,21,M,IA & Big Data,L2,10.76,moyen
+ETU1660,Kossi,Mawuli,17,F,Logistique & Transport,L2,10.75,moyen
+ETU1257,Kossi,Mawuli,22,M,Génie Civil,L1,10.75,moyen
+ETU1783,Kossi,Kodjo,20,M,Informatique & Systèmes,L2,10.74,moyen
+ETU1587,Mensah,Akossiwa,19,F,IA & Big Data,L3,10.72,moyen
+ETU1605,Tchalla,Ama,24,F,IA & Big Data,L3,10.72,moyen
+ETU1405,Tchalla,Dodzi,18,M,Informatique & Systèmes,L1,10.71,moyen
+ETU1724,Agbeko,Sena,24,M,IA & Big Data,L2,10.71,moyen
+ETU1252,Kossi,Afi,21,F,Informatique & Systèmes,L2,10.7,moyen
+ETU1765,Agbeko,Kodjo,17,M,Logistique & Transport,L3,10.68,moyen
+ETU1620,Amegan,Dodzi,26,F,Logistique & Transport,L3,10.68,moyen
+ETU1024,Agbeko,Sena,22,M,Informatique & Systèmes,L3,10.67,moyen
+ETU1703,Kossi,Akossiwa,25,M,Génie Civil,L2,10.66,moyen
+ETU1504,Adjei,Sena,25,M,Informatique & Systèmes,L2,10.65,moyen
+ETU1297,Amegan,Mawuli,25,F,IA & Big Data,L1,10.64,moyen
+ETU1556,Agbeko,Akossiwa,21,M,IA & Big Data,L2,10.64,moyen
+ETU1290,Kouassi,Afi,18,M,Logistique & Transport,L3,10.63,moyen
+ETU1480,Adjei,Mawuli,25,F,Génie Électrique,L2,10.61,moyen
+ETU1752,Mensah,Afi,24,F,Génie Civil,L1,10.6,moyen
+ETU1463,Amegan,Eyram,24,M,Génie Électrique,L2,10.58,moyen
+ETU1693,Assogba,Akossiwa,24,M,Logistique & Transport,L2,10.58,moyen
+ETU1213,Amegan,Akossiwa,21,F,Informatique & Systèmes,L2,10.57,moyen
+ETU1450,Assogba,Yao,18,M,Génie Électrique,L3,10.57,moyen
+ETU1544,Kouassi,Ama,20,F,Génie Électrique,L2,10.57,moyen
+ETU1429,Agbeko,Yao,20,M,Génie Civil,L2,10.55,moyen
+ETU1077,Adjei,Mawuli,21,M,IA & Big Data,L1,10.54,moyen
+ETU1147,Adjei,Ama,20,M,Logistique & Transport,L3,10.53,moyen
+ETU1540,Agbeko,Afi,24,M,Génie Électrique,L1,10.53,moyen
+ETU1596,Tchalla,Sena,19,M,IA & Big Data,L1,10.53,moyen
+ETU1235,Agbeko,Mawuli,18,F,Logistique & Transport,L2,10.53,moyen
+ETU1124,Kouassi,Yao,22,M,Informatique & Systèmes,L1,10.53,moyen
+ETU1564,Kouassi,Afi,26,M,Génie Électrique,L1,10.53,moyen
+ETU1108,Amegan,Akossiwa,19,M,Informatique & Systèmes,L3,10.52,moyen
+ETU1679,Assogba,Kodjo,23,M,Informatique & Systèmes,L2,10.51,moyen
+ETU1363,Kouassi,Afi,25,F,Logistique & Transport,L2,10.51,moyen
+ETU1264,Assogba,Mawuli,25,F,Génie Électrique,L1,10.49,moyen
+ETU1198,Lawson,Dodzi,21,M,Informatique & Systèmes,L3,10.49,moyen
+ETU1424,Amegan,Kodjo,17,M,Logistique & Transport,L1,10.47,moyen
+ETU1161,Doe,Kodjo,21,M,Informatique & Systèmes,L3,10.45,moyen
+ETU1684,Kossi,Kodjo,23,M,Informatique & Systèmes,L2,10.44,moyen
+ETU1583,Mensah,Eyram,23,M,IA & Big Data,L2,10.44,moyen
+ETU1318,Assogba,Mawuli,21,M,Génie Électrique,L1,10.44,moyen
+ETU1499,Amegan,Koffi,19,F,Génie Électrique,L1,10.44,moyen
+ETU1700,Tchalla,Afi,19,F,Génie Civil,L1,10.43,moyen
+ETU1575,Lawson,Dodzi,24,M,Génie Électrique,L2,10.42,moyen
+ETU1674,Doe,Dodzi,18,F,Génie Électrique,L2,10.42,moyen
+ETU1195,Mensah,Sena,19,M,Génie Civil,L2,10.4,moyen
+ETU1225,Lawson,Koffi,26,M,Informatique & Systèmes,L1,10.39,moyen
+ETU1454,Tchalla,Sena,24,F,Génie Électrique,L1,10.39,moyen
+ETU1428,Mensah,Ama,22,M,Génie Électrique,L2,10.36,moyen
+ETU1304,Tchalla,Akossiwa,20,F,Informatique & Systèmes,L2,10.35,moyen
+ETU1086,Mensah,Koffi,21,M,Informatique & Systèmes,L1,10.34,moyen
+ETU1727,Mensah,Ama,18,F,IA & Big Data,L1,10.33,moyen
+ETU1352,Adjei,Kodjo,17,M,IA & Big Data,L1,10.33,moyen
+ETU1608,Assogba,Koffi,19,M,Génie Électrique,L2,10.32,moyen
+ETU1201,Assogba,Mawuli,21,M,Logistique & Transport,L2,10.31,moyen
+ETU1254,Doe,Koffi,18,M,Logistique & Transport,L2,10.31,moyen
+ETU1502,Assogba,Sena,18,M,Logistique & Transport,L1,10.3,moyen
+ETU1790,Mensah,Mawuli,21,M,Génie Civil,L3,10.29,moyen
+ETU1637,Adjei,Sena,19,M,IA & Big Data,L1,10.29,moyen
+ETU1002,Doe,Afi,25,F,Logistique & Transport,L1,10.29,moyen
+ETU1418,Adjei,Eyram,24,F,IA & Big Data,L1,10.28,moyen
+ETU1713,Agbeko,Akossiwa,17,M,IA & Big Data,L3,10.28,moyen
+ETU1634,Kossi,Akossiwa,22,M,Génie Électrique,L1,10.26,moyen
+ETU1471,Kouassi,Ama,23,F,Logistique & Transport,L2,10.26,moyen
+ETU1083,Kouassi,Ama,24,F,IA & Big Data,L1,10.24,moyen
+ETU1377,Agbeko,Ama,20,F,Génie Électrique,L1,10.23,moyen
+ETU1785,Tchalla,Akossiwa,25,F,Génie Civil,L3,10.22,moyen
+ETU1251,Amegan,Akossiwa,19,F,Génie Civil,L1,10.21,moyen
+ETU1101,Kossi,Koffi,18,M,IA & Big Data,L3,10.21,moyen
+ETU1338,Adjei,Mawuli,26,F,Génie Électrique,L3,10.2,moyen
+ETU1638,Agbeko,Akossiwa,21,F,Génie Civil,L1,10.19,moyen
+ETU1449,Adjei,Dodzi,23,F,Génie Électrique,L2,10.17,moyen
+ETU1084,Doe,Eyram,20,F,Génie Civil,L2,10.16,moyen
+ETU1059,Doe,Eyram,19,F,IA & Big Data,L2,10.15,moyen
+ETU1584,Amegan,Akossiwa,23,M,IA & Big Data,L1,10.15,moyen
+ETU1493,Doe,Koffi,18,F,Logistique & Transport,L2,10.14,moyen
+ETU1273,Assogba,Afi,26,M,Logistique & Transport,L2,10.13,moyen
+ETU1223,Adjei,Eyram,25,M,IA & Big Data,L2,10.11,moyen
+ETU1585,Assogba,Yao,19,F,Informatique & Systèmes,L2,10.11,moyen
+ETU1123,Amegan,Ama,24,F,IA & Big Data,L2,10.11,moyen
+ETU1121,Doe,Afi,24,M,IA & Big Data,L1,10.11,moyen
+ETU1145,Kouassi,Ama,26,F,Logistique & Transport,L1,10.09,moyen
+ETU1112,Tchalla,Akossiwa,25,M,IA & Big Data,L2,10.07,moyen
+ETU1528,Assogba,Sena,17,M,Génie Civil,L2,10.07,moyen
+ETU1200,Lawson,Eyram,17,M,IA & Big Data,L3,10.05,moyen
+ETU1489,Doe,Sena,17,M,Génie Électrique,L2,10.04,moyen
+ETU1298,Adjei,Koffi,24,M,IA & Big Data,L1,10.03,moyen
+ETU1473,Amegan,Sena,20,M,Génie Électrique,L2,10.03,moyen
+ETU1323,Assogba,Yao,21,F,IA & Big Data,L2,10.02,moyen
+ETU1553,Lawson,Dodzi,22,F,Logistique & Transport,L1,10.01,moyen
+ETU1577,Tchalla,Mawuli,21,M,Logistique & Transport,L3,9.99,Faible
+ETU1241,Tchalla,Eyram,17,M,IA & Big Data,L3,9.98,Faible
+ETU1423,Tchalla,Sena,22,M,IA & Big Data,L2,9.98,Faible
+ETU1289,Amegan,Ama,21,M,Informatique & Systèmes,L3,9.96,Faible
+ETU1789,Mensah,Koffi,25,M,Informatique & Systèmes,L1,9.95,Faible
+ETU1640,Doe,Mawuli,19,M,Génie Civil,L1,9.94,Faible
+ETU1421,Doe,Afi,23,M,IA & Big Data,L3,9.93,Faible
+ETU1557,Kouassi,Ama,23,F,Informatique & Systèmes,L2,9.93,Faible
+ETU1458,Kouassi,Afi,20,M,Informatique & Systèmes,L2,9.91,Faible
+ETU1470,Agbeko,Akossiwa,18,M,Informatique & Systèmes,L3,9.9,Faible
+ETU1729,Doe,Dodzi,18,M,Logistique & Transport,L2,9.89,Faible
+ETU1168,Lawson,Dodzi,17,M,Informatique & Systèmes,L2,9.89,Faible
+ETU1618,Mensah,Eyram,19,M,Génie Civil,L1,9.87,Faible
+ETU1149,Mensah,Yao,24,M,IA & Big Data,L3,9.87,Faible
+ETU1053,Amegan,Yao,22,F,Logistique & Transport,L1,9.85,Faible
+ETU1590,Kouassi,Akossiwa,20,F,Génie Civil,L1,9.85,Faible
+ETU1316,Agbeko,Dodzi,19,M,IA & Big Data,L1,9.85,Faible
+ETU1782,Kossi,Afi,26,F,Génie Électrique,L1,9.84,Faible
+ETU1439,Lawson,Koffi,21,F,Génie Civil,L1,9.83,Faible
+ETU1082,Kossi,Kodjo,17,M,Génie Civil,L2,9.8,Faible
+ETU1730,Agbeko,Koffi,17,F,IA & Big Data,L1,9.79,Faible
+ETU1490,Assogba,Yao,25,F,Logistique & Transport,L1,9.76,Faible
+ETU1707,Tchalla,Kodjo,18,M,IA & Big Data,L3,9.76,Faible
+ETU1345,Adjei,Kodjo,18,M,IA & Big Data,L2,9.76,Faible
+ETU1132,Mensah,Yao,23,M,Logistique & Transport,L2,9.76,Faible
+ETU1653,Kouassi,Yao,22,F,Génie Civil,L1,9.75,Faible
+ETU1639,Assogba,Dodzi,25,F,IA & Big Data,L2,9.74,Faible
+ETU1097,Doe,Koffi,18,M,Génie Électrique,L1,9.73,Faible
+ETU1222,Agbeko,Eyram,20,M,Informatique & Systèmes,L2,9.73,Faible
+ETU1716,Tchalla,Kodjo,17,F,Génie Électrique,L2,9.73,Faible
+ETU1537,Kossi,Yao,21,M,Informatique & Systèmes,L3,9.7,Faible
+ETU1151,Adjei,Akossiwa,25,F,IA & Big Data,L3,9.69,Faible
+ETU1127,Agbeko,Akossiwa,22,M,Informatique & Systèmes,L2,9.67,Faible
+ETU1483,Agbeko,Eyram,23,M,Informatique & Systèmes,L1,9.67,Faible
+ETU1626,Lawson,Sena,25,M,Génie Électrique,L1,9.64,Faible
+ETU1594,Lawson,Yao,23,F,Informatique & Systèmes,L2,9.61,Faible
+ETU1004,Amegan,Mawuli,18,M,IA & Big Data,L1,9.6,Faible
+ETU1167,Kossi,Akossiwa,21,M,Informatique & Systèmes,L1,9.57,Faible
+ETU1204,Amegan,Ama,18,M,Informatique & Systèmes,L1,9.56,Faible
+ETU1087,Lawson,Ama,21,M,Informatique & Systèmes,L3,9.53,Faible
+ETU1372,Amegan,Akossiwa,23,M,Informatique & Systèmes,L2,9.51,Faible
+ETU1531,Kossi,Mawuli,26,M,Génie Électrique,L1,9.5,Faible
+ETU1665,Doe,Ama,17,F,Génie Civil,L3,9.48,Faible
+ETU1163,Amegan,Yao,23,M,Informatique & Systèmes,L2,9.46,Faible
+ETU1260,Agbeko,Mawuli,24,F,Génie Civil,L2,9.44,Faible
+ETU1431,Agbeko,Mawuli,18,F,Génie Civil,L1,9.44,Faible
+ETU1625,Adjei,Eyram,23,M,Informatique & Systèmes,L2,9.43,Faible
+ETU1336,Assogba,Mawuli,20,F,Logistique & Transport,L3,9.41,Faible
+ETU1354,Assogba,Akossiwa,26,M,Informatique & Systèmes,L1,9.41,Faible
+ETU1632,Amegan,Ama,26,M,Logistique & Transport,L3,9.4,Faible
+ETU1433,Kossi,Mawuli,23,F,Informatique & Systèmes,L1,9.4,Faible
+ETU1407,Kossi,Mawuli,18,M,Informatique & Systèmes,L1,9.39,Faible
+ETU1010,Tchalla,Koffi,24,F,IA & Big Data,L1,9.36,Faible
+ETU1432,Kouassi,Dodzi,17,F,Génie Électrique,L2,9.35,Faible
+ETU1580,Mensah,Dodzi,23,M,IA & Big Data,L1,9.34,Faible
+ETU1294,Tchalla,Akossiwa,18,M,Informatique & Systèmes,L2,9.33,Faible
+ETU1688,Amegan,Ama,26,F,Informatique & Systèmes,L1,9.33,Faible
+ETU1351,Mensah,Afi,23,M,Logistique & Transport,L2,9.32,Faible
+ETU1658,Mensah,Yao,17,M,IA & Big Data,L1,9.31,Faible
+ETU1203,Doe,Eyram,19,M,IA & Big Data,L2,9.31,Faible
+ETU1166,Lawson,Sena,22,M,Logistique & Transport,L1,9.23,Faible
+ETU1744,Agbeko,Yao,22,F,Informatique & Systèmes,L1,9.22,Faible
+ETU1314,Adjei,Ama,20,F,Informatique & Systèmes,L2,9.16,Faible
+ETU1451,Assogba,Kodjo,20,M,Génie Civil,L2,9.16,Faible
+ETU1180,Assogba,Afi,17,M,Génie Civil,L2,9.1,Faible
+ETU1280,Adjei,Dodzi,20,M,Informatique & Systèmes,L1,9.09,Faible
+ETU1768,Kossi,Dodzi,18,M,Logistique & Transport,L3,9.03,Faible
+ETU1141,Adjei,Kodjo,24,F,Informatique & Systèmes,L1,9.01,Faible
+ETU1317,Agbeko,Afi,21,F,Génie Civil,L2,9.01,Faible
+ETU1355,Assogba,Afi,21,F,Génie Civil,L1,9.01,Faible
+ETU1503,Kouassi,Eyram,18,F,Génie Civil,L3,9.0,Faible
+ETU1236,Doe,Dodzi,26,M,IA & Big Data,L2,8.99,Faible
+ETU1706,Mensah,Dodzi,20,M,Logistique & Transport,L2,8.98,Faible
+ETU1164,Amegan,Dodzi,22,M,Logistique & Transport,L1,8.95,Faible
+ETU1767,Amegan,Sena,18,F,Génie Civil,L2,8.91,Faible
+ETU1509,Adjei,Eyram,19,M,Génie Électrique,L1,8.9,Faible
+ETU1321,Kossi,Koffi,22,M,IA & Big Data,L1,8.9,Faible
+ETU1708,Amegan,Eyram,20,F,IA & Big Data,L2,8.9,Faible
+ETU1600,Doe,Eyram,20,F,Informatique & Systèmes,L1,8.88,Faible
+ETU1762,Assogba,Yao,26,M,IA & Big Data,L3,8.85,Faible
+ETU1415,Doe,Ama,20,M,IA & Big Data,L2,8.85,Faible
+ETU1092,Kouassi,Afi,23,M,Génie Électrique,L2,8.84,Faible
+ETU1221,Amegan,Koffi,24,M,Informatique & Systèmes,L2,8.83,Faible
+ETU1495,Amegan,Afi,24,M,Génie Électrique,L3,8.81,Faible
+ETU1373,Lawson,Ama,20,F,Informatique & Systèmes,L3,8.77,Faible
+ETU1179,Tchalla,Afi,23,M,Logistique & Transport,L3,8.77,Faible
+ETU1341,Adjei,Akossiwa,19,M,IA & Big Data,L1,8.75,Faible
+ETU1456,Kossi,Yao,24,M,Génie Électrique,L1,8.75,Faible
+ETU1349,Kossi,Eyram,20,M,IA & Big Data,L1,8.72,Faible
+ETU1491,Kouassi,Eyram,20,F,Informatique & Systèmes,L2,8.7,Faible
+ETU1558,Agbeko,Ama,25,F,Informatique & Systèmes,L2,8.69,Faible
+ETU1305,Kossi,Ama,19,M,Informatique & Systèmes,L2,8.65,Faible
+ETU1387,Kouassi,Afi,19,M,IA & Big Data,L3,8.64,Faible
+ETU1731,Amegan,Koffi,25,inconnue,Informatique & Systèmes,L1,8.64,Faible
+ETU1371,Doe,Sena,26,M,Informatique & Systèmes,L2,8.63,Faible
+ETU1628,Tchalla,Yao,19,F,Informatique & Systèmes,L3,8.63,Faible
+ETU1262,Adjei,Ama,25,M,Informatique & Systèmes,L1,8.62,Faible
+ETU1079,Doe,Sena,22,F,IA & Big Data,L1,8.6,Faible
+ETU1016,Tchalla,Koffi,24,M,Informatique & Systèmes,L1,8.59,Faible
+ETU1395,Kouassi,Sena,17,F,Logistique & Transport,L1,8.58,Faible
+ETU1579,Kossi,Afi,21,M,Logistique & Transport,L3,8.57,Faible
+ETU1378,Lawson,Yao,17,F,IA & Big Data,L1,8.57,Faible
+ETU1054,Amegan,Yao,18,M,Informatique & Systèmes,L2,8.54,Faible
+ETU1100,Kouassi,Koffi,19,M,Génie Civil,L1,8.52,Faible
+ETU1736,Agbeko,Ama,21,M,IA & Big Data,L1,8.52,Faible
+ETU1139,Amegan,Afi,19,M,Logistique & Transport,L1,8.52,Faible
+ETU1160,Assogba,Ama,20,F,Informatique & Systèmes,L3,8.52,Faible
+ETU1205,Adjei,Dodzi,17,M,Génie Électrique,L3,8.46,Faible
+ETU1051,Kossi,Eyram,17,M,IA & Big Data,L2,8.46,Faible
+ETU1247,Amegan,Sena,22,M,Génie Électrique,L2,8.41,Faible
+ETU1325,Adjei,Eyram,18,M,Logistique & Transport,L1,8.39,Faible
+ETU1487,Tchalla,Yao,23,M,Génie Civil,L2,8.37,Faible
+ETU1327,Mensah,Sena,18,M,IA & Big Data,L1,8.36,Faible
+ETU1619,Kossi,Kodjo,18,F,Logistique & Transport,L3,8.3,Faible
+ETU1015,Agbeko,Eyram,18,M,Génie Électrique,L2,8.3,Faible
+ETU1757,Lawson,Mawuli,19,M,Génie Civil,L3,8.29,Faible
+ETU1787,Doe,Koffi,26,F,Génie Électrique,L2,8.29,Faible
+ETU1032,Mensah,Kodjo,17,M,Informatique & Systèmes,L2,8.28,Faible
+ETU1527,Kossi,Koffi,23,F,Logistique & Transport,L3,8.25,Faible
+ETU1430,Mensah,Eyram,22,M,Génie Civil,L2,8.22,Faible
+ETU1567,Adjei,Kodjo,25,M,IA & Big Data,L2,8.21,Faible
+ETU1647,Tchalla,Dodzi,18,F,Génie Civil,L2,8.19,Faible
+ETU1358,Mensah,Akossiwa,23,F,Logistique & Transport,L3,8.18,Faible
+ETU1751,Kossi,Eyram,24,M,Génie Civil,L2,8.18,Faible
+ETU1756,Agbeko,Eyram,21,M,Logistique & Transport,L2,8.15,Faible
+ETU1361,Kouassi,Kodjo,26,F,IA & Big Data,L3,8.15,Faible
+ETU1393,Tchalla,Mawuli,23,M,IA & Big Data,L2,8.14,Faible
+ETU1207,Assogba,Afi,21,M,Informatique & Systèmes,L1,8.12,Faible
+ETU1434,Amegan,Sena,26,F,Génie Civil,L1,8.12,Faible
+ETU1110,Adjei,Mawuli,20,M,Génie Électrique,L2,8.07,Faible
+ETU1631,Lawson,Ama,17,F,Génie Électrique,L2,8.07,Faible
+ETU1133,Tchalla,Sena,25,F,Logistique & Transport,L3,8.05,Faible
+ETU1464,Mensah,Yao,22,F,IA & Big Data,L1,8.03,Faible
+ETU1067,Lawson,Eyram,23,F,Logistique & Transport,L2,8.02,Faible
+ETU1018,Kouassi,Sena,18,F,Génie Électrique,L2,8.01,Faible
+ETU1796,Assogba,Sena,26,M,Génie Électrique,L3,8.01,Faible
+ETU1719,Tchalla,Kodjo,24,F,Génie Électrique,L3,8.0,moyen
+ETU1599,Doe,Yao,18,F,Logistique & Transport,L2,7.96,Tres faible
+ETU1343,Tchalla,Eyram,17,M,Informatique & Systèmes,L1,7.9,Tres faible
+ETU1276,Amegan,Mawuli,19,M,Génie Électrique,L1,7.87,Tres faible
+ETU1244,Doe,Mawuli,24,M,Informatique & Systèmes,L2,7.87,Tres faible
+ETU1044,Mensah,Koffi,18,M,Logistique & Transport,L1,7.86,Tres faible
+ETU1250,Kossi,Afi,17,F,Génie Électrique,L3,7.86,Tres faible
+ETU1330,Tchalla,Kodjo,17,M,Génie Électrique,L2,7.82,Tres faible
+ETU1394,Agbeko,Afi,24,F,Génie Électrique,L2,7.82,Tres faible
+ETU1356,Kossi,Ama,22,F,Informatique & Systèmes,L1,7.79,Tres faible
+ETU1721,Assogba,Mawuli,17,M,Génie Civil,L3,7.76,Tres faible
+ETU1392,Lawson,Ama,19,F,Informatique & Systèmes,L2,7.76,Tres faible
+ETU1552,Kouassi,Kodjo,25,F,Génie Électrique,L1,7.75,Tres faible
+ETU1794,Amegan,Mawuli,21,M,Logistique & Transport,L1,7.74,Tres faible
+ETU1246,Agbeko,Yao,21,F,Informatique & Systèmes,L2,7.68,Tres faible
+ETU1329,Tchalla,Sena,26,M,Génie Électrique,L3,7.67,Tres faible
+ETU1551,Lawson,Akossiwa,20,M,Génie Électrique,L1,7.66,Tres faible
+ETU1374,Kouassi,Koffi,22,M,Informatique & Systèmes,L2,7.63,Tres faible
+ETU1367,Lawson,Akossiwa,21,M,Informatique & Systèmes,L1,7.62,Tres faible
+ETU1539,Mensah,Kodjo,21,F,Génie Électrique,L2,7.62,Tres faible
+ETU1063,Assogba,Mawuli,22,F,IA & Big Data,L1,7.6,Tres faible
+ETU1508,Adjei,Kodjo,19,F,Génie Électrique,L2,7.54,Tres faible
+ETU1104,Agbeko,Kodjo,26,F,Génie Électrique,L1,7.51,Tres faible
+ETU1339,Assogba,Afi,19,M,IA & Big Data,L1,7.46,Tres faible
+ETU1261,Kossi,Sena,19,M,Logistique & Transport,L2,7.42,Tres faible
+ETU1448,Tchalla,Akossiwa,24,F,Génie Électrique,L3,7.42,Tres faible
+ETU1240,Kossi,Mawuli,21,M,Informatique & Systèmes,L1,7.42,Tres faible
+ETU1000,Mensah,Koffi,20,M,Logistique & Transport,L3,7.42,Tres faible
+ETU1360,Kouassi,Afi,25,F,Génie Civil,L3,7.4,Tres faible
+ETU1158,Tchalla,Dodzi,22,F,Informatique & Systèmes,L1,7.3,Tres faible
+ETU1435,Kossi,Akossiwa,25,M,Logistique & Transport,L1,7.3,Tres faible
+ETU1105,Agbeko,Mawuli,25,F,Génie Civil,L2,7.29,Tres faible
+ETU1071,Kossi,Yao,22,M,Informatique & Systèmes,L2,7.2,Tres faible
+ETU1610,Kouassi,Koffi,23,M,Logistique & Transport,L2,7.14,Tres faible
+ETU1614,Doe,Afi,18,F,Informatique & Systèmes,L1,7.08,Tres faible
+ETU1259,Tchalla,Akossiwa,24,inconnue,Informatique & Systèmes,L1,7.01,Tres faible
+ETU1663,Adjei,Koffi,22,M,Informatique & Systèmes,L1,6.97,Tres faible
+ETU1295,Tchalla,Koffi,25,F,IA & Big Data,L1,6.87,Tres faible
+ETU1420,Assogba,Sena,20,M,IA & Big Data,L1,6.84,Tres faible
+ETU1130,Tchalla,Afi,24,F,IA & Big Data,L2,6.82,Tres faible
+ETU1157,Tchalla,Sena,23,M,Informatique & Systèmes,L1,6.75,Tres faible
+ETU1224,Agbeko,Eyram,24,M,Logistique & Transport,L1,6.73,Tres faible
+ETU1666,Tchalla,Sena,23,F,Logistique & Transport,L2,6.72,Tres faible
+ETU1040,Kossi,Yao,24,F,Informatique & Systèmes,L3,6.68,Tres faible
+ETU1211,Agbeko,Mawuli,23,F,Informatique & Systèmes,L3,6.64,Tres faible
+ETU1718,Adjei,Kodjo,25,F,IA & Big Data,L2,6.47,Tres faible
+ETU1662,Mensah,Koffi,17,F,Informatique & Systèmes,L1,6.44,Tres faible
+ETU1320,Lawson,Koffi,20,M,IA & Big Data,L1,6.43,Tres faible
+ETU1027,Kouassi,Eyram,22,M,Informatique & Systèmes,L1,6.37,Tres faible
+ETU1512,Kouassi,Mawuli,26,F,IA & Big Data,L2,6.36,Tres faible
+ETU1735,Doe,Koffi,22,M,Informatique & Systèmes,L3,6.26,Tres faible
+ETU1488,Agbeko,Ama,20,inconnue,IA & Big Data,L1,6.25,Tres faible
+ETU1774,Kouassi,Ama,23,M,Génie Civil,L1,6.17,Tres faible
+ETU1369,Agbeko,Dodzi,18,M,Génie Électrique,L2,6.15,Tres faible
+ETU1270,Adjei,Sena,17,F,Génie Électrique,L1,6.09,Tres faible
+ETU1560,Tchalla,Koffi,25,M,Génie Électrique,L1,5.99,Tres faible
+ETU1571,Amegan,Akossiwa,24,F,Génie Électrique,L1,5.99,Tres faible
+ETU1412,Adjei,Kodjo,18,F,Informatique & Systèmes,L3,5.91,Tres faible
+ETU1643,Amegan,Kodjo,18,F,Logistique & Transport,L1,5.69,Tres faible
+ETU1310,Doe,Sena,17,M,Logistique & Transport,L1,5.68,Tres faible
+ETU1534,Tchalla,Afi,21,F,Logistique & Transport,L1,5.66,Tres faible
+ETU1138,Lawson,Kodjo,17,F,Génie Civil,L1,5.59,Tres faible
+ETU1357,Kouassi,Eyram,22,M,Génie Électrique,L1,5.21,Tres faible
+ETU1746,Tchalla,Sena,21,M,IA & Big Data,L2,5.16,Tres faible
+ETU1379,Adjei,Koffi,24,F,Génie Civil,L2,5.12,Tres faible
+ETU1541,Mensah,Ama,25,M,Informatique & Systèmes,L3,4.33,Tres faible

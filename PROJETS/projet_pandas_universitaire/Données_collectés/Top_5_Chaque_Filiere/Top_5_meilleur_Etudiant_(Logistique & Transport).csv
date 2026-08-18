@@ -1,0 +1,6 @@
+student_id,nom,prenom,age,sexe,filiere,niveau,moyenne_Generale,Categorie
+ETU1060,Assogba,Dodzi,23,M,Logistique & Transport,L1,18.23,Excellent
+ETU1050,Agbeko,Dodzi,18,M,Logistique & Transport,L1,18.14,Excellent
+ETU1376,Agbeko,Akossiwa,26,F,Logistique & Transport,L3,17.41,Excellent
+ETU1772,Mensah,Mawuli,17,F,Logistique & Transport,L1,17.37,Excellent
+ETU1140,Assogba,Sena,21,M,Logistique & Transport,L3,17.27,Excellent
