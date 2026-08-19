@@ -1,0 +1,6 @@
+student_id,nom,prenom,age,sexe,filiere,niveau,moyenne_Generale,Categorie
+ETU1416,Assogba,Afi,21,M,IA & Big Data,L1,18.48,Excellent
+ETU1784,Amegan,Sena,21,F,IA & Big Data,L3,18.12,Excellent
+ETU1209,Agbeko,Afi,21,F,IA & Big Data,L2,18.11,Excellent
+ETU1750,Assogba,Yao,22,F,IA & Big Data,L3,17.83,Excellent
+ETU1030,Amegan,Yao,22,M,IA & Big Data,L1,16.89,Excellent

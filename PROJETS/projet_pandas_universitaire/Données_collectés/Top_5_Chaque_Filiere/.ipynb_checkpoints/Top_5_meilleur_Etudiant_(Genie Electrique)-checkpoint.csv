@@ -1,0 +1,6 @@
+student_id,nom,prenom,age,sexe,filiere,niveau,moyenne_Generale,Categorie
+ETU1648,Assogba,Mawuli,18,M,Génie Électrique,L1,18.64,Excellent
+ETU1066,Assogba,Eyram,24,M,Génie Électrique,L1,17.94,Excellent
+ETU1668,Assogba,Mawuli,18,M,Génie Électrique,L1,17.83,Excellent
+ETU1795,Adjei,Ama,23,F,Génie Électrique,L3,16.91,Excellent
+ETU1606,Lawson,Akossiwa,18,M,Génie Électrique,L2,16.75,Excellent

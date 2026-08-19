@@ -1,0 +1,6 @@
+student_id,nom,prenom,age,sexe,filiere,niveau,moyenne_Generale,Categorie
+ETU1501,Doe,Kodjo,23,F,Génie Civil,L1,17.6,Excellent
+ETU1296,Kouassi,Eyram,22,F,Génie Civil,L1,17.53,Excellent
+ETU1555,Tchalla,Kodjo,21,M,Génie Civil,L1,16.99,Excellent
+ETU1404,Amegan,Sena,24,M,Génie Civil,L3,16.91,Excellent
+ETU1687,Tchalla,Koffi,25,M,Génie Civil,L2,16.9,Excellent
