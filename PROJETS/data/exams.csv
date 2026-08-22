@@ -1,0 +1,11 @@
+﻿course_id,date_examen,session,salle,nombre_candidats
+MAT101,2025-06-02,Matin,Salle D,44
+PHY101,2025-06-05,Matin,Salle A,86
+PROG101,2025-06-08,Matin,Salle C,61
+STAT101,2025-06-11,Après-midi,Salle A,47
+ANG101,2025-06-14,Matin,Salle C,79
+DATA101,2025-06-17,Après-midi,Salle D,85
+ALG101,2025-06-20,Matin,Salle C,83
+ELEC101,2025-06-23,Après-midi,Salle C,81
+GEST101,2025-06-26,Après-midi,Salle C,82
+PROJ101,2025-06-29,Matin,Salle C,47
