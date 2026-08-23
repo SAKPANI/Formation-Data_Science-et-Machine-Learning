@@ -1,0 +1,1238 @@
+order_id,date,client_id,product_id,quantity,discount_pct,payment_method,region,delivery_time_days,status
+1,02/01/2025,70,31,2,0,Paiement à la livraison,Kpalimé,3.2,Livrée
+2,2025-01-02,218,85,1,15,carte,Kara,4.3,Livrée
+3,2025-01-02,158,62,1,0,Mobile Money,Lomé,2.2,Livrée
+4,2025-01-03,205,76,1,0,Mobile_Money,Kara,6.1,Livrée
+5,2025-01-03,250,47,2,15,Mobile Money,Sokodé,3.8,Livrée
+6,2025-01-03,25,24,2,10,MOMO,Kara,3.9,Livrée
+7,03/01/2025,258,5,1,5,Paiement à la livraison,Kpalimé,2.4,Livrée
+8,2025-01-03,103,79,1,0,carte,Atakpamé,4.0,Livrée
+9,2025-01-04,64,16,1,10,Mobile_Money,Lomé,3.0,Livrée
+10,2025-01-05,16,87,2,5,Mobile Money,Lomé,2.6,Livrée
+11,2025-01-05,213,19,3,5,Carte bancaire,Kara,,En cours
+12,2025-01-05,200,67,2,0,Mobile_Money,Sokodé,5.0,Livrée
+13,2025-01-05,159,74,2,15,cash,Sokodé,,En cours
+14,2025-01-05,255,50,2,0,Mobile_Money,Lomé,1.4,Livrée
+15,2025-01-06,71,62,1,5,mobile money,Sokodé,5.0,Livrée
+16,2025-01-06,223,69,2,0,Mobile_Money,Lomé,3.0,Annulée
+17,2025-01-07,247,87,2,15,MOMO,Dapaong,5.2,Livrée
+18,2025-01-07,210,47,2,15,mobile money,Atakpamé,3.8,Livrée
+19,2025-01-08,12,19,1,20,Mobile_Money,Dapaong,6.6,Livrée
+20,2025-01-08,188,20,2,0,mobile money,Atakpamé,2.0,Livrée
+21,2025-01-08,143,52,3,0,CB,Sokodé,3.3,Livrée
+22,2025-01-09,209,4,1,0,Mobile_Money,Atakpamé,4.6,Livrée
+23,09/01/2025,156,56,1,0,MOMO,Dapaong,4.1,Livrée
+24,09/01/2025,229,89,1,0,Mobile_Money,Sokodé,,En cours
+25,2025-01-10,137,54,2,0,Mobile_Money,Lomé,1.0,Livrée
+26,2025-01-10,96,7,1,5,Carte bancaire,Atakpamé,5.5,Livrée
+27,2025-01-10,185,13,2,0,Mobile_Money,Atakpamé,4.1,Livrée
+28,11/01/2025,21,73,1,0,cash,Sokodé,6.9,Livrée
+29,2025-01-11,181,3,2,5,Cash a la livraison,Lomé,2.6,Livrée
+30,2025-01-11,158,72,1,15,MOMO,Dapaong,6.4,Livrée
+31,2025-01-11,122,20,1,0,Mobile Money,Kara,3.3,Livrée
+32,2025-01-12,48,1,1,0,CB,Atakpamé,1.9,Livrée
+33,2025-01-12,79,14,1,10,Mobile Money,Kara,3.1,Livrée
+34,2025-01-13,219,82,1,10,carte,Dapaong,7.6,Livrée
+35,13/01/2025,147,88,2,0,Mobile Money,Dapaong,,En cours
+36,2025-01-14,159,60,2,10,mobile money,Dapaong,5.0,Livrée
+37,2025-01-14,15,33,2,0,mobile money,Kpalimé,2.4,Livrée
+38,2025-01-15,10,14,2,15,MOMO,Kpalimé,3.4,Livrée
+39,2025-01-15,134,36,1,0,mobile money,Kpalimé,2.0,Livrée
+40,2025-01-15,146,86,3,15,mobile money,Kara,4.5,Livrée
+41,2025-01-16,172,22,1,0,Carte bancaire,Dapaong,7.7,Livrée
+42,2025-01-16,163,47,2,0,carte,Lomé,1.2,Livrée
+43,2025-01-17,185,3,2,0,CB,Lomé,3.2,Livrée
+44,2025-01-17,233,39,-1,10,Mobile Money,Atakpamé,4.6,Livrée
+45,2025-01-17,99,19,1,5,MOMO,Kara,2.4,Livrée
+46,2025-01-17,86,51,1,0,MOMO,Lomé,1.9,Livrée
+47,2025-01-17,81,1,1,5,Paiement à la livraison,Lomé,1.0,Livrée
+48,2025-01-17,193,83,3,10,mobile money,Kpalimé,,En cours
+49,2025-01-18,119,6,1,0,Paiement à la livraison,Atakpamé,4.3,Livrée
+50,2025-01-19,10,64,2,0,mobile money,Sokodé,4.9,Livrée
+51,2025-01-19,14,9,1,0,Paiement à la livraison,Atakpamé,3.4,Livrée
+52,2025-01-19,48,53,1,0,MOMO,Kpalimé,2.1,Livrée
+53,2025-01-20,63,49,3,5,mobile money,Sokodé,4.0,Livrée
+54,2025-01-20,137,47,2,0,mobile money,Sokodé,2.6,Livrée
+55,20/01/2025,12,33,2,0,carte,Atakpamé,6.4,Livrée
+56,2025-01-21,155,33,1,0,Mobile_Money,Sokodé,3.3,Livrée
+57,2025-01-21,186,16,3,15,Mobile_Money,Sokodé,5.8,Livrée
+58,2025-01-22,241,20,-1,0,Mobile_Money,Dapaong,4.9,Livrée
+59,2025-01-22,85,8888,2,5,carte,Sokodé,4.8,Livrée
+60,22/01/2025,31,57,1,15,mobile money,Kara,,En cours
+61,2025-01-22,212,15,1,15,Mobile_Money,Atakpamé,1.3,Livrée
+62,2025-01-23,198,22,1,0,cash,Sokodé,2.9,Livrée
+63,2025-01-24,166,15,1,0,Mobile Money,Sokodé,3.1,Livrée
+64,2025-01-24,125,15,3,0,mobile money,Dapaong,5.8,Livrée
+65,2025-01-24,129,64,2,0,Paiement à la livraison,Atakpamé,3.8,Livrée
+66,2025-01-25,90,1,1,0,Paiement à la livraison,Atakpamé,2.3,Retournée
+67,25/01/2025,158,52,1,0,Mobile_Money,Lomé,1.1,Livrée
+68,2025-01-25,239,13,2,10,Mobile_Money,Dapaong,5.6,Livrée
+69,2025-01-25,125,55,3,0,Mobile Money,Sokodé,4.4,Livrée
+70,2025-01-25,34,88,1,5,mobile money,Dapaong,,En cours
+71,25/01/2025,197,65,1,5,Cash a la livraison,Kara,4.2,Livrée
+72,2025-01-27,55,81,2,5,carte,Atakpamé,2.0,Livrée
+73,2025-01-28,113,3,2,0,mobile money,Dapaong,7.7,Livrée
+74,2025-01-29,126,32,1,0,cash,Dapaong,5.6,Annulée
+75,2025-01-30,208,59,2,5,CB,Lomé,2.4,Livrée
+76,2025-01-30,22,8,3,0,MOMO,Kara,,En cours
+77,2025-01-30,228,64,2,0,Carte bancaire,Kara,,En cours
+78,2025-01-31,227,82,1,0,Paiement à la livraison,Dapaong,,En cours
+79,2025-01-31,72,5,3,10,cash,Kara,5.2,Livrée
+80,2025-01-31,162,21,1,0,Mobile Money,Sokodé,4.5,Livrée
+81,01/02/2025,110,88,1,0,cash,Sokodé,4.2,Livrée
+82,2025-02-02,60,73,1,0,Cash a la livraison,Lomé,3.0,Livrée
+83,2025-02-02,170,62,1,15,cash,Dapaong,6.6,Livrée
+84,2025-02-02,80,69,1,5,Mobile Money,Sokodé,4.6,Livrée
+85,2025-02-02,252,44,2,0,Mobile Money,Sokodé,,En cours
+86,2025-02-03,228,12,2,0,mobile money,Kara,6.2,Livrée
+87,2025-02-03,176,83,2,5,carte,Lomé,3.8,Livrée
+88,2025-02-03,51,46,1,10,MOMO,Dapaong,,En cours
+89,2025-02-04,246,87,2,0,Mobile_Money,Kara,4.5,Livrée
+90,2025-02-05,149,53,1,10,cash,Atakpamé,3.9,Livrée
+91,05/02/2025,53,8,1,0,Mobile Money,Sokodé,5.5,Annulée
+92,2025-02-05,58,32,2,5,mobile money,Lomé,1.0,Livrée
+93,2025-02-05,105,88,2,0,Mobile Money,Kpalimé,,En cours
+94,2025-02-05,190,28,1,5,Mobile_Money,Kara,5.1,Annulée
+95,2025-02-06,108,35,1,0,cash,Kpalimé,2.0,Livrée
+96,2025-02-06,148,9,3,5,mobile money,Kara,5.7,Livrée
+97,2025-02-06,44,51,1,5,Mobile_Money,Atakpamé,3.8,Livrée
+98,2025-02-06,74,86,1,5,MOMO,Lomé,,En cours
+99,2025-02-07,46,13,2,0,Paiement à la livraison,Atakpamé,2.8,Livrée
+100,2025-02-08,145,52,3,10,Mobile Money,Kara,5.5,Livrée
+101,2025-02-09,193,13,1,5,Cash a la livraison,Atakpamé,3.9,Livrée
+102,2025-02-09,176,52,2,10,mobile money,Kpalimé,2.2,Livrée
+103,2025-02-09,235,66,3,20,Mobile Money,Sokodé,4.4,Livrée
+104,2025-02-09,38,42,2,15,Mobile_Money,Lomé,1.8,Livrée
+105,10/02/2025,135,5,3,0,MOMO,Atakpamé,3.8,Annulée
+106,2025-02-10,163,88,2,5,Carte bancaire,Atakpamé,2.8,Livrée
+107,2025-02-10,229,23,1,0,Mobile Money,Kpalimé,3.4,Livrée
+108,2025-02-12,259,44,3,5,CB,Sokodé,4.4,Livrée
+109,12/02/2025,163,56,1,15,Paiement à la livraison,Atakpamé,3.1,Livrée
+110,2025-02-12,196,85,2,5,mobile money,Sokodé,3.4,Livrée
+111,2025-02-12,103,34,3,0,Carte bancaire,Sokodé,5.6,Livrée
+112,2025-02-12,226,81,2,0,Mobile_Money,Lomé,2.4,Livrée
+113,2025-02-12,259,4,2,0,Mobile Money,Kara,4.2,Livrée
+114,2025-02-12,113,54,1,0,Mobile_Money,Atakpamé,4.5,Livrée
+115,2025-02-13,39,31,2,0,Mobile_Money,Dapaong,7.1,Livrée
+116,13/02/2025,155,37,2,10,Mobile Money,Lomé,2.8,Retournée
+117,2025-02-14,108,64,1,5,mobile money,Kara,3.8,Annulée
+118,2025-02-14,82,83,3,0,Mobile Money,Kpalimé,,En cours
+119,2025-02-14,257,23,3,10,Mobile_Money,Kpalimé,2.5,Livrée
+120,2025-02-14,80,62,2,0,MOMO,Dapaong,5.9,Livrée
+121,2025-02-15,245,11,2,0,MOMO,Sokodé,4.5,Livrée
+122,2025-02-15,183,38,1,10,mobile money,Kara,,En cours
+123,16/02/2025,110,49,2,0,mobile money,Lomé,1.0,Annulée
+124,2025-02-16,220,53,1,20,carte,Dapaong,6.2,Livrée
+125,2025-02-16,249,80,1,0,MOMO,Dapaong,7.4,Livrée
+126,2025-02-17,96,18,2,5,Carte bancaire,Kpalimé,2.6,Livrée
+127,2025-02-17,17,20,2,0,Cash a la livraison,Sokodé,5.0,Livrée
+128,2025-02-18,9999,42,1,5,CB,Dapaong,3.7,Livrée
+129,2025-02-18,85,15,2,10,Cash a la livraison,Sokodé,4.6,Retournée
+130,2025-02-19,29,73,2,0,Mobile_Money,Kpalimé,2.5,Livrée
+131,2025-02-20,172,34,2,20,Mobile_Money,Lomé,,En cours
+132,2025-02-20,230,56,1,20,mobile money,Dapaong,5.9,Livrée
+133,2025-02-20,22,67,1,0,Mobile_Money,Kara,4.7,Livrée
+134,2025-02-20,129,82,1,0,cash,Atakpamé,1.2,Livrée
+135,2025-02-21,52,18,1,0,MOMO,Kara,7.5,Livrée
+136,2025-02-21,133,64,1,5,Mobile_Money,Atakpamé,1.9,Livrée
+137,2025-02-21,244,65,1,10,carte,Dapaong,5.5,Livrée
+138,2025-02-22,122,90,1,0,Mobile Money,Kara,3.5,Livrée
+139,22/02/2025,90,22,2,0,mobile money,Lomé,3.2,Livrée
+140,2025-02-23,31,7,3,0,mobile money,Atakpamé,4.1,Livrée
+141,23/02/2025,51,27,1,0,carte,Lomé,1.0,Livrée
+142,2025-02-23,96,1,2,0,Paiement à la livraison,Kpalimé,4.6,Livrée
+143,2025-02-24,108,57,1,15,mobile money,Sokodé,6.2,Livrée
+144,2025-02-24,170,38,3,0,mobile money,Kara,5.9,Livrée
+145,2025-02-24,224,20,3,0,Cash a la livraison,Lomé,1.0,Livrée
+146,25/02/2025,138,22,1,0,MOMO,Dapaong,6.5,Annulée
+147,2025-02-25,132,25,2,0,cash,Atakpamé,2.6,Annulée
+148,2025-02-25,216,62,1,15,CB,Lomé,2.8,Livrée
+149,2025-02-25,256,32,2,0,Mobile Money,Kara,6.5,Livrée
+150,2025-02-25,205,43,2,10,Mobile_Money,Sokodé,3.3,Livrée
+151,2025-02-26,94,35,1,10,MOMO,Lomé,1.1,Livrée
+152,2025-02-26,163,44,1,0,Carte bancaire,Kpalimé,2.1,Livrée
+153,2025-02-27,112,22,2,0,mobile money,Sokodé,,En cours
+154,2025-02-27,228,33,1,10,MOMO,Sokodé,3.5,Livrée
+155,2025-02-27,174,23,2,0,mobile money,Kpalimé,1.7,Livrée
+156,2025-02-28,11,58,3,0,Mobile Money,Sokodé,1.5,Livrée
+157,2025-02-28,172,84,1,0,MOMO,Lomé,2.7,Livrée
+158,2025-03-01,231,42,3,5,Mobile Money,Sokodé,,En cours
+159,2025-03-01,141,24,2,5,MOMO,Kpalimé,4.7,Livrée
+160,2025-03-01,222,2,1,0,MOMO,Atakpamé,2.9,Livrée
+161,01/03/2025,23,51,2,10,CB,Kpalimé,3.6,Livrée
+162,2025-03-01,171,52,3,15,mobile money,Kara,3.2,Annulée
+163,2025-03-01,17,49,1,0,mobile money,Lomé,3.0,Livrée
+164,02/03/2025,147,1,3,0,mobile money,Kara,5.0,Livrée
+165,2025-03-02,43,80,1,10,carte,Lomé,,En cours
+166,2025-03-02,257,10,2,5,cash,Sokodé,5.0,Livrée
+167,2025-03-02,131,70,2,15,mobile money,Sokodé,5.6,Livrée
+168,2025-03-02,244,89,2,5,Paiement à la livraison,Dapaong,4.9,Livrée
+169,2025-03-03,71,34,3,10,mobile money,Kpalimé,2.2,Livrée
+170,2025-03-03,246,86,3,0,MOMO,Atakpamé,3.2,Livrée
+171,2025-03-04,150,39,1,0,Cash a la livraison,Dapaong,5.0,Livrée
+172,2025-03-04,217,14,1,0,MOMO,Sokodé,3.4,Livrée
+173,2025-03-04,85,18,2,0,Cash a la livraison,Kara,5.0,Livrée
+174,2025-03-05,153,78,1,0,Paiement à la livraison,Atakpamé,1.5,Livrée
+175,2025-03-05,95,21,1,0,Cash a la livraison,Kpalimé,3.0,Retournée
+176,2025-03-05,231,79,1,0,MOMO,Atakpamé,3.7,Livrée
+177,05/03/2025,86,25,1,10,MOMO,Sokodé,4.2,Livrée
+178,2025-03-06,48,2,2,0,Mobile_Money,Kara,5.8,Livrée
+179,2025-03-06,153,52,1,0,mobile money,Atakpamé,4.5,Livrée
+180,2025-03-06,138,8888,1,15,Mobile_Money,Dapaong,4.2,Livrée
+181,06/03/2025,256,39,2,10,Mobile_Money,Lomé,3.1,Livrée
+182,2025-03-06,134,20,3,0,mobile money,Atakpamé,3.4,Livrée
+183,2025-03-06,157,88,2,0,mobile money,Lomé,1.8,Livrée
+184,2025-03-07,107,67,1,0,mobile money,Lomé,1.1,Annulée
+185,2025-03-07,66,53,1,5,Mobile Money,Kpalimé,3.5,Livrée
+186,2025-03-08,64,86,2,0,Mobile Money,Dapaong,5.3,Livrée
+187,2025-03-08,131,38,2,0,MOMO,Sokodé,5.0,Livrée
+188,2025-03-08,189,64,2,5,Cash a la livraison,Sokodé,4.3,Livrée
+189,2025-03-09,173,30,1,0,cash,Lomé,3.0,Livrée
+190,2025-03-09,234,77,1,0,mobile money,Dapaong,4.6,Livrée
+191,2025-03-09,74,30,2,0,Paiement à la livraison,Atakpamé,,En cours
+192,2025-03-09,198,30,1,0,MOMO,Atakpamé,4.7,Livrée
+193,2025-03-09,54,19,2,0,mobile money,Sokodé,4.9,Livrée
+194,2025-03-10,52,40,2,0,Paiement à la livraison,Kara,4.8,Livrée
+195,2025-03-10,89,12,1,0,Mobile Money,Atakpamé,3.7,Livrée
+196,2025-03-10,11,53,1,0,Carte bancaire,Kpalimé,4.0,Livrée
+197,2025-03-10,191,57,1,0,Cash a la livraison,Lomé,3.5,Livrée
+198,2025-03-10,3,19,3,10,Paiement à la livraison,Lomé,1.7,Livrée
+199,2025-03-11,243,52,2,0,cash,Dapaong,6.4,Livrée
+200,2025-03-11,92,40,2,0,Mobile Money,Sokodé,,En cours
+201,2025-03-11,2,3,3,0,Mobile Money,Dapaong,4.0,Livrée
+202,2025-03-12,97,6,2,0,CB,Kara,5.6,Livrée
+203,12/03/2025,231,1,2,0,MOMO,Sokodé,5.3,Livrée
+204,2025-03-12,214,22,2,0,mobile money,Dapaong,,En cours
+205,2025-03-13,97,36,2,0,carte,Kara,3.5,Livrée
+206,2025-03-13,26,48,1,0,Mobile_Money,Lomé,1.6,Livrée
+207,2025-03-13,48,49,2,10,CB,Sokodé,2.1,Livrée
+208,2025-03-13,242,62,1,0,cash,Kpalimé,,En cours
+209,2025-03-13,74,66,3,0,MOMO,Kpalimé,2.3,Livrée
+210,2025-03-14,192,67,1,5,mobile money,Kpalimé,3.5,Livrée
+211,2025-03-14,192,19,3,10,Cash a la livraison,Kara,5.0,Livrée
+212,2025-03-14,71,52,2,0,mobile money,Kpalimé,1.6,Livrée
+213,2025-03-14,23,80,3,15,cash,Atakpamé,3.5,Livrée
+214,2025-03-15,23,23,1,10,Mobile_Money,Dapaong,5.6,Livrée
+215,2025-03-15,34,20,1,0,Mobile_Money,Dapaong,4.8,Livrée
+216,2025-03-15,104,59,1,10,Cash a la livraison,Lomé,2.5,Livrée
+217,15/03/2025,77,85,1,10,MOMO,Kara,4.2,Livrée
+218,2025-03-16,172,70,2,0,Mobile Money,Kara,4.9,Livrée
+219,2025-03-16,178,32,1,0,Mobile Money,Kpalimé,4.2,Livrée
+220,2025-03-16,9,84,2,0,Mobile_Money,Kpalimé,3.6,Livrée
+221,17/03/2025,62,8,2,0,Cash a la livraison,Atakpamé,3.8,Livrée
+222,18/03/2025,127,8,1,0,MOMO,Kara,2.4,Livrée
+223,2025-03-18,242,89,2,0,MOMO,Kpalimé,2.9,Livrée
+224,2025-03-18,140,8,2,5,Cash a la livraison,Kara,4.3,Livrée
+225,2025-03-18,80,70,1,0,mobile money,Kara,6.3,Livrée
+226,2025-03-19,75,7,2,0,MOMO,Atakpamé,4.7,Livrée
+227,2025-03-19,159,29,1,10,MOMO,Kara,4.8,Livrée
+228,2025-03-19,205,88,2,10,mobile money,Kara,2.6,Livrée
+229,2025-03-20,247,90,2,0,Cash a la livraison,Atakpamé,3.1,Livrée
+230,2025-03-20,62,29,2,0,cash,Sokodé,4.9,Livrée
+231,2025-03-20,68,60,2,0,Paiement à la livraison,Lomé,1.9,Livrée
+232,2025-03-20,162,79,1,0,Carte bancaire,Dapaong,5.3,Livrée
+233,2025-03-21,224,33,1,0,Cash a la livraison,Sokodé,6.5,Annulée
+234,2025-03-21,85,86,3,0,mobile money,Atakpamé,,En cours
+235,2025-03-21,181,70,2,0,Mobile Money,Atakpamé,3.5,Livrée
+236,2025-03-21,26,84,1,0,cash,Lomé,1.0,Livrée
+237,2025-03-21,117,19,3,0,carte,Dapaong,4.1,Annulée
+238,2025-03-22,208,2,2,5,Mobile Money,Kara,4.3,Livrée
+239,2025-03-22,227,60,2,15,cash,Sokodé,1.9,Livrée
+240,2025-03-22,162,44,1,10,Mobile_Money,Dapaong,6.2,Livrée
+241,2025-03-22,178,25,2,15,Mobile Money,Dapaong,7.2,Livrée
+242,2025-03-22,50,9,2,5,carte,Lomé,1.5,Livrée
+243,2025-03-22,223,28,1,0,Mobile_Money,Atakpamé,,En cours
+244,2025-03-22,27,76,1,15,Mobile_Money,Kpalimé,3.1,Livrée
+245,2025-03-22,93,61,2,0,MOMO,Atakpamé,4.5,Livrée
+246,2025-03-22,125,3,1,0,Mobile Money,Kara,3.1,Livrée
+247,2025-03-22,14,53,1,0,Cash a la livraison,Dapaong,6.1,Livrée
+248,2025-03-23,128,27,3,0,Carte bancaire,Sokodé,5.0,Livrée
+249,2025-03-23,67,84,1,0,Paiement à la livraison,Sokodé,6.3,Livrée
+250,2025-03-23,137,13,1,10,Mobile Money,Atakpamé,,En cours
+251,2025-03-23,75,24,1,0,MOMO,Sokodé,3.9,Livrée
+252,2025-03-23,226,90,1,0,Mobile Money,Lomé,1.0,Livrée
+253,2025-03-23,238,41,1,5,mobile money,Dapaong,,En cours
+254,2025-03-24,204,6,3,0,Mobile_Money,Kara,3.7,Retournée
+255,24/03/2025,63,89,1,0,mobile money,Lomé,2.8,Livrée
+256,2025-03-24,186,13,1,0,MOMO,Atakpamé,3.5,Livrée
+257,2025-03-24,218,85,1,0,Paiement à la livraison,Kara,5.6,Livrée
+258,2025-03-24,150,28,3,15,cash,Sokodé,5.1,Livrée
+259,25/03/2025,46,55,1,0,Mobile Money,Dapaong,3.6,Livrée
+260,2025-03-25,118,78,1,0,MOMO,Dapaong,4.8,Livrée
+261,2025-03-25,195,60,3,0,carte,Dapaong,,En cours
+262,2025-03-25,41,55,2,0,mobile money,Lomé,1.6,Livrée
+263,2025-03-25,115,26,1,0,Carte bancaire,Dapaong,4.5,Livrée
+264,2025-03-26,53,62,1,5,mobile money,Sokodé,3.0,Livrée
+265,2025-03-26,238,87,1,20,Mobile_Money,Dapaong,,En cours
+266,2025-03-26,76,57,2,0,Cash a la livraison,Sokodé,3.1,Livrée
+267,2025-03-26,202,25,1,0,Mobile Money,Atakpamé,4.4,Annulée
+268,2025-03-27,195,88,2,10,mobile money,Atakpamé,4.3,Annulée
+269,2025-03-27,244,80,1,5,mobile money,Atakpamé,2.8,Livrée
+270,2025-03-27,257,66,1,0,MOMO,Sokodé,4.8,Annulée
+271,2025-03-27,242,88,2,15,mobile money,Atakpamé,3.2,Livrée
+272,2025-03-27,33,63,2,15,mobile money,Lomé,4.5,Livrée
+273,2025-03-28,70,25,1,5,Mobile_Money,Atakpamé,1.8,Livrée
+274,2025-03-29,102,79,1,5,Cash a la livraison,Kpalimé,1.0,Livrée
+275,2025-03-29,63,25,1,5,Mobile Money,Sokodé,3.5,Annulée
+276,29/03/2025,172,16,1,5,Paiement à la livraison,Dapaong,4.5,Livrée
+277,2025-03-29,5,25,1,0,Carte bancaire,Dapaong,5.7,Livrée
+278,2025-03-30,173,49,3,20,Cash a la livraison,Lomé,1.0,Livrée
+279,2025-03-30,218,39,1,5,Carte bancaire,Dapaong,5.2,Livrée
+280,30/03/2025,226,18,3,15,carte,Sokodé,,En cours
+281,2025-03-30,114,82,2,0,Mobile_Money,Kpalimé,2.1,Livrée
+282,2025-03-30,197,6,1,0,Paiement à la livraison,Kara,6.6,Livrée
+283,2025-03-31,176,61,3,0,Mobile_Money,Dapaong,7.4,Livrée
+284,2025-03-31,152,56,1,10,carte,Sokodé,5.7,Livrée
+285,2025-03-31,59,15,2,5,mobile money,Lomé,1.6,Livrée
+286,2025-03-31,82,76,2,0,Mobile_Money,Sokodé,5.0,Annulée
+287,2025-03-31,110,24,1,5,Mobile Money,Kpalimé,1.0,Livrée
+288,01/04/2025,164,36,2,15,Paiement à la livraison,Kpalimé,,En cours
+289,2025-04-01,254,31,2,15,Cash a la livraison,Lomé,2.1,Livrée
+290,2025-04-01,24,59,2,10,cash,Atakpamé,,En cours
+291,2025-04-01,27,52,1,5,mobile money,Kpalimé,2.1,Livrée
+292,2025-04-01,136,44,1,10,Mobile_Money,Kara,3.3,Livrée
+293,2025-04-01,168,22,1,0,mobile money,Kara,4.6,Livrée
+294,2025-04-01,208,44,1,20,CB,Kpalimé,2.9,Livrée
+295,2025-04-02,224,62,3,0,cash,Lomé,3.3,Livrée
+296,2025-04-02,96,57,1,15,Mobile_Money,Lomé,3.1,Livrée
+297,2025-04-02,224,51,1,10,Mobile Money,Sokodé,5.2,Annulée
+298,2025-04-02,111,59,1,0,Cash a la livraison,Kara,,En cours
+299,2025-04-02,46,68,1,0,Mobile_Money,Sokodé,5.7,Livrée
+300,2025-04-02,226,41,1,10,Mobile Money,Sokodé,4.6,Livrée
+301,2025-04-03,7,35,1,0,MOMO,Atakpamé,3.2,Livrée
+302,2025-04-03,244,27,1,0,Paiement à la livraison,Kara,5.9,Livrée
+303,2025-04-04,216,62,3,0,mobile money,Kpalimé,3.9,Livrée
+304,2025-04-04,46,32,2,0,Carte bancaire,Sokodé,5.8,Livrée
+305,2025-04-04,22,65,1,0,Cash a la livraison,Dapaong,5.6,Livrée
+306,2025-04-04,116,31,3,5,mobile money,Lomé,2.4,Livrée
+307,2025-04-04,2,6,1,0,mobile money,Kara,3.4,Livrée
+308,2025-04-04,219,24,1,20,cash,Dapaong,7.4,Livrée
+309,2025-04-04,184,12,2,0,MOMO,Sokodé,,En cours
+310,2025-04-05,72,20,1,10,cash,Kpalimé,3.7,Livrée
+311,2025-04-05,191,41,2,0,carte,Lomé,2.3,Retournée
+312,2025-04-05,208,53,2,20,Mobile Money,Lomé,1.0,Livrée
+313,2025-04-05,179,40,1,0,Carte bancaire,Kpalimé,2.7,Livrée
+314,2025-04-05,131,19,3,20,Paiement à la livraison,Kara,4.6,Livrée
+315,2025-04-05,114,4,1,5,Cash a la livraison,Dapaong,4.4,Livrée
+316,2025-04-06,161,87,2,10,mobile money,Kara,4.6,Livrée
+317,2025-04-06,200,17,3,15,CB,Kpalimé,3.9,Annulée
+318,2025-04-06,180,56,1,0,CB,Lomé,1.9,Livrée
+319,06/04/2025,178,35,3,5,mobile money,Dapaong,3.8,Livrée
+320,2025-04-07,107,73,1,0,Mobile_Money,Dapaong,4.2,Livrée
+321,2025-04-07,186,38,3,5,MOMO,Dapaong,5.1,Livrée
+322,07/04/2025,130,16,1,0,mobile money,Kara,4.2,Livrée
+323,2025-04-07,228,48,2,15,cash,Kpalimé,2.1,Livrée
+324,2025-04-07,117,79,3,0,mobile money,Lomé,1.8,Livrée
+325,2025-04-08,240,56,2,15,Mobile_Money,Atakpamé,,En cours
+326,2025-04-08,13,1,2,0,Mobile Money,Atakpamé,1.5,Livrée
+327,2025-04-08,250,49,2,10,Mobile Money,Atakpamé,3.4,Livrée
+328,08/04/2025,185,23,2,0,mobile money,Dapaong,,En cours
+329,2025-04-08,137,66,2,0,MOMO,Sokodé,4.0,Livrée
+330,2025-04-08,114,49,2,0,Mobile Money,Dapaong,5.7,Retournée
+331,2025-04-08,2,23,1,0,carte,Lomé,2.2,Livrée
+332,2025-04-08,226,75,3,0,Mobile Money,Kara,2.8,Livrée
+333,2025-04-08,160,12,2,5,MOMO,Sokodé,5.9,Livrée
+334,2025-04-09,222,31,1,15,Mobile_Money,Atakpamé,,En cours
+335,2025-04-09,183,4,1,0,CB,Kpalimé,3.5,Livrée
+336,2025-04-09,133,85,2,0,MOMO,Dapaong,4.3,Livrée
+337,2025-04-09,23,2,1,0,Carte bancaire,Lomé,1.0,Livrée
+338,09/04/2025,51,63,3,0,mobile money,Atakpamé,3.0,Livrée
+339,2025-04-10,71,35,3,10,MOMO,Atakpamé,4.8,Livrée
+340,2025-04-10,130,1,1,0,carte,Sokodé,,En cours
+341,10/04/2025,7,11,3,0,mobile money,Dapaong,4.6,Livrée
+342,2025-04-10,60,85,1,0,MOMO,Kpalimé,4.8,Livrée
+343,2025-04-10,76,18,1,10,Mobile_Money,Kpalimé,5.3,Livrée
+344,2025-04-11,68,66,2,10,MOMO,Dapaong,5.2,Livrée
+345,2025-04-11,34,33,1,0,mobile money,Lomé,1.0,Livrée
+346,2025-04-11,176,14,3,0,Carte bancaire,Dapaong,7.2,Livrée
+347,2025-04-11,172,57,1,0,Paiement à la livraison,Atakpamé,1.5,Livrée
+348,2025-04-11,4,74,2,10,Carte bancaire,Sokodé,4.1,Livrée
+349,2025-04-11,73,18,3,10,MOMO,Lomé,1.8,Livrée
+350,2025-04-11,237,66,2,0,mobile money,Lomé,1.0,Livrée
+351,2025-04-11,256,66,1,0,Mobile_Money,Sokodé,4.0,Livrée
+352,2025-04-11,73,87,1,0,Mobile Money,Dapaong,4.2,Livrée
+353,2025-04-11,31,32,2,0,CB,Atakpamé,3.3,Livrée
+354,12/04/2025,241,49,1,0,cash,Kara,,En cours
+355,2025-04-12,57,54,1,0,MOMO,Kara,4.2,Livrée
+356,2025-04-13,48,53,1,0,Mobile Money,Kpalimé,2.0,Livrée
+357,2025-04-13,258,23,1,5,CB,Dapaong,7.5,Livrée
+358,2025-04-13,225,28,1,0,Mobile_Money,Atakpamé,4.4,Livrée
+359,2025-04-14,131,20,2,15,Mobile_Money,Sokodé,4.3,Livrée
+360,2025-04-14,70,83,2,0,Cash a la livraison,Kara,2.7,Livrée
+361,2025-04-14,5,41,1,0,Paiement à la livraison,Sokodé,4.9,Livrée
+362,2025-04-14,47,12,1,0,Paiement à la livraison,Sokodé,4.8,Livrée
+363,2025-04-15,116,53,1,0,carte,Sokodé,2.9,Livrée
+364,15/04/2025,42,73,2,5,mobile money,Kara,4.1,Livrée
+365,2025-04-15,92,7,3,10,mobile money,Sokodé,4.8,Livrée
+366,2025-04-15,49,72,1,0,Cash a la livraison,Kpalimé,1.8,Retournée
+367,2025-04-15,76,72,3,5,Carte bancaire,Sokodé,4.2,Livrée
+368,2025-04-15,147,17,3,0,CB,Kara,4.8,Livrée
+369,15/04/2025,249,8,1,10,mobile money,Kara,,En cours
+370,2025-04-15,18,47,1,15,CB,Sokodé,4.0,Livrée
+371,15/04/2025,23,23,1,0,carte,Dapaong,6.0,Livrée
+372,15/04/2025,80,83,2,0,Mobile_Money,Kara,3.6,Livrée
+373,2025-04-15,164,72,2,0,MOMO,Atakpamé,4.6,Livrée
+374,2025-04-16,130,68,1,0,Mobile_Money,Sokodé,,En cours
+375,2025-04-16,137,53,2,0,MOMO,Kara,5.8,Livrée
+376,16/04/2025,137,8,1,15,Carte bancaire,Kpalimé,3.0,Livrée
+377,2025-04-16,197,74,1,0,carte,Lomé,2.1,Livrée
+378,2025-04-17,89,32,3,0,Mobile Money,Sokodé,4.7,Livrée
+379,2025-04-17,164,40,2,5,Carte bancaire,Kara,3.3,Livrée
+380,2025-04-17,127,62,1,0,MOMO,Sokodé,2.1,Livrée
+381,2025-04-18,200,49,2,5,carte,Dapaong,7.3,Livrée
+382,2025-04-18,146,31,2,20,mobile money,Kpalimé,4.1,Livrée
+383,2025-04-18,176,12,2,0,Mobile_Money,Atakpamé,4.2,Livrée
+384,2025-04-18,226,76,1,0,carte,Kara,4.9,Livrée
+385,2025-04-19,174,87,1,0,CB,Atakpamé,4.8,Livrée
+386,2025-04-19,40,35,1,15,mobile money,Lomé,2.8,Livrée
+387,2025-04-19,140,56,2,5,Cash a la livraison,Kara,6.1,Livrée
+388,2025-04-20,78,40,2,10,carte,Dapaong,5.2,Livrée
+389,2025-04-20,141,79,2,5,cash,Atakpamé,2.8,Livrée
+390,21/04/2025,48,60,1,5,MOMO,Kara,4.7,Annulée
+391,2025-04-21,156,38,1,0,Carte bancaire,Kara,3.4,Livrée
+392,2025-04-21,61,2,1,10,mobile money,Sokodé,3.7,Livrée
+393,21/04/2025,184,32,1,10,carte,Sokodé,3.1,Livrée
+394,2025-04-21,66,81,1,0,Mobile Money,Dapaong,4.0,Livrée
+395,2025-04-22,106,33,1,0,mobile money,Sokodé,5.0,Livrée
+396,2025-04-22,253,78,1,5,Mobile_Money,Dapaong,4.9,Livrée
+397,2025-04-22,118,65,2,20,Carte bancaire,Lomé,1.9,Annulée
+398,2025-04-22,112,5,1,0,Mobile Money,Lomé,3.3,Livrée
+399,2025-04-23,201,11,2,10,Mobile Money,Kpalimé,2.5,Livrée
+400,2025-04-23,30,40,3,0,Mobile_Money,Dapaong,6.0,Livrée
+401,2025-04-23,159,44,2,5,carte,Kara,5.9,Livrée
+402,2025-04-23,8,38,2,0,Paiement à la livraison,Atakpamé,1.0,Livrée
+403,2025-04-24,126,47,1,0,Mobile_Money,Sokodé,4.5,Livrée
+404,24/04/2025,120,48,2,5,Mobile Money,Atakpamé,1.5,Livrée
+405,2025-04-24,149,8888,3,0,MOMO,Kara,4.5,Livrée
+406,2025-04-24,146,76,2,15,carte,Lomé,2.9,Livrée
+407,24/04/2025,165,13,3,0,Carte bancaire,Kara,,En cours
+408,2025-04-24,201,86,2,10,Cash a la livraison,Sokodé,5.7,Livrée
+409,2025-04-24,159,48,2,5,Mobile Money,Kpalimé,1.3,Livrée
+410,2025-04-24,69,21,2,5,MOMO,Sokodé,4.5,Livrée
+411,2025-04-24,67,56,2,0,CB,Sokodé,4.8,Livrée
+412,2025-04-25,40,51,1,0,Paiement à la livraison,Kara,,En cours
+413,2025-04-25,32,12,3,0,Mobile Money,Sokodé,,En cours
+414,2025-04-25,15,78,1,5,Mobile Money,Sokodé,4.2,Livrée
+415,25/04/2025,137,84,1,0,Carte bancaire,Lomé,,En cours
+416,2025-04-25,69,19,2,10,Mobile Money,Sokodé,4.4,Livrée
+417,2025-04-25,64,29,2,0,Paiement à la livraison,Kpalimé,2.9,Livrée
+418,2025-04-26,196,10,2,0,mobile money,Atakpamé,4.0,Livrée
+419,2025-04-26,250,8,1,0,MOMO,Lomé,2.6,Livrée
+420,2025-04-26,86,74,3,0,MOMO,Lomé,2.2,Livrée
+421,2025-04-26,170,44,1,10,CB,Lomé,3.5,Livrée
+422,2025-04-26,175,50,1,0,Cash a la livraison,Dapaong,7.0,Livrée
+423,2025-04-26,245,31,3,5,CB,Kpalimé,,En cours
+424,2025-04-27,237,90,2,0,cash,Lomé,3.8,Livrée
+425,27/04/2025,22,4,2,10,Mobile Money,Lomé,3.0,Livrée
+426,2025-04-27,44,59,2,0,MOMO,Kara,4.2,Livrée
+427,2025-04-28,159,78,3,0,Carte bancaire,Dapaong,6.9,Livrée
+428,2025-04-28,133,56,2,0,MOMO,Kara,4.2,Livrée
+429,28/04/2025,240,73,1,15,MOMO,Lomé,1.2,Livrée
+430,2025-04-28,61,33,2,20,mobile money,Sokodé,3.6,Annulée
+431,2025-04-28,162,39,1,0,carte,Kara,3.1,Livrée
+432,29/04/2025,156,32,2,0,CB,Kpalimé,3.4,Livrée
+433,2025-04-29,91,84,1,0,Paiement à la livraison,Lomé,3.6,Livrée
+434,2025-04-29,213,11,1,0,Mobile_Money,Lomé,1.0,Livrée
+435,2025-04-29,202,27,1,20,mobile money,Kpalimé,4.8,Retournée
+436,2025-04-29,143,14,2,0,CB,Kpalimé,,En cours
+437,2025-05-01,163,49,3,0,Carte bancaire,Kpalimé,2.3,Livrée
+438,2025-05-02,95,86,3,0,Paiement à la livraison,Kpalimé,1.7,Livrée
+439,2025-05-02,42,90,1,5,carte,Sokodé,4.8,Livrée
+440,2025-05-02,8,83,1,0,Mobile_Money,Kpalimé,3.5,Livrée
+441,2025-05-03,103,56,2,0,Paiement à la livraison,Kara,3.3,Annulée
+442,2025-05-03,212,81,1,0,cash,Lomé,2.8,Livrée
+443,2025-05-03,102,88,2,0,Mobile_Money,Kara,3.3,Livrée
+444,2025-05-03,220,83,1,15,Mobile Money,Atakpamé,3.1,Livrée
+445,2025-05-04,167,77,3,0,CB,Kpalimé,3.2,Livrée
+446,2025-05-04,41,59,2,5,Cash a la livraison,Kpalimé,2.6,Livrée
+447,04/05/2025,87,13,1,0,Mobile Money,Atakpamé,,En cours
+448,2025-05-05,5,3,1,0,Carte bancaire,Kara,3.1,Livrée
+449,2025-05-05,148,1,2,5,mobile money,Kara,4.8,Livrée
+450,2025-05-05,94,23,3,0,Mobile_Money,Lomé,2.9,Livrée
+451,2025-05-05,114,36,3,0,Mobile Money,Sokodé,3.5,Livrée
+452,2025-05-05,15,66,2,15,Mobile_Money,Kpalimé,4.5,Retournée
+453,2025-05-06,119,48,1,0,MOMO,Atakpamé,2.5,Livrée
+454,06/05/2025,99,48,3,0,carte,Lomé,1.0,Livrée
+455,2025-05-06,120,77,2,0,Carte bancaire,Sokodé,4.6,Livrée
+456,2025-05-07,165,61,1,0,Cash a la livraison,Lomé,1.6,Livrée
+457,07/05/2025,100,19,1,10,Mobile Money,Kara,4.0,Livrée
+458,2025-05-07,36,55,3,0,CB,Kpalimé,1.0,Livrée
+459,08/05/2025,53,59,1,0,CB,Atakpamé,1.3,Annulée
+460,2025-05-08,13,20,1,0,Mobile_Money,Dapaong,5.1,Livrée
+461,2025-05-08,73,2,2,0,Carte bancaire,Atakpamé,6.8,Livrée
+462,2025-05-09,114,74,1,15,Cash a la livraison,Kara,5.2,Livrée
+463,09/05/2025,106,40,2,10,Carte bancaire,Atakpamé,4.0,Retournée
+464,09/05/2025,113,46,1,0,Mobile_Money,Atakpamé,2.8,Annulée
+465,2025-05-09,44,10,1,10,Mobile_Money,Kara,4.2,Livrée
+466,2025-05-09,129,34,1,10,MOMO,Sokodé,5.7,Annulée
+467,2025-05-10,154,2,1,0,MOMO,Kpalimé,4.5,Livrée
+468,2025-05-10,226,86,2,0,Mobile_Money,Dapaong,5.3,Livrée
+469,2025-05-10,252,27,2,0,Carte bancaire,Sokodé,5.1,Livrée
+470,2025-05-10,118,58,2,15,CB,Dapaong,4.4,Livrée
+471,2025-05-10,136,57,2,10,MOMO,Kara,,En cours
+472,2025-05-10,198,62,2,15,Mobile_Money,Sokodé,4.2,Annulée
+473,11/05/2025,238,55,3,0,CB,Lomé,2.3,Livrée
+474,11/05/2025,218,25,1,15,MOMO,Kara,5.1,Livrée
+475,2025-05-12,186,66,3,0,Mobile_Money,Kara,3.4,Retournée
+476,2025-05-12,102,45,2,10,MOMO,Kara,1.7,Livrée
+477,2025-05-12,207,15,3,0,Mobile_Money,Dapaong,6.5,Livrée
+478,2025-05-13,44,78,2,5,mobile money,Dapaong,4.9,Livrée
+479,2025-05-13,153,29,3,0,Mobile Money,Dapaong,5.8,Livrée
+480,2025-05-13,40,42,1,5,CB,Kara,,En cours
+481,2025-05-13,96,28,2,15,Carte bancaire,Dapaong,5.6,Livrée
+482,2025-05-13,74,27,1,0,CB,Kara,4.3,Livrée
+483,2025-05-14,204,83,1,0,Cash a la livraison,Kara,5.7,Livrée
+484,14/05/2025,136,61,2,0,MOMO,Kpalimé,2.3,Annulée
+485,2025-05-15,18,5,2,0,Mobile_Money,Atakpamé,3.3,Livrée
+486,2025-05-15,35,40,1,0,cash,Lomé,2.1,Livrée
+487,2025-05-16,230,70,2,5,Mobile Money,Kara,,En cours
+488,2025-05-16,214,48,3,0,MOMO,Lomé,1.0,Livrée
+489,2025-05-17,166,3,2,0,Mobile_Money,Dapaong,5.8,Livrée
+490,2025-05-17,168,57,3,10,CB,Dapaong,6.2,Livrée
+491,2025-05-18,135,84,3,0,carte,Sokodé,3.4,Livrée
+492,2025-05-19,119,22,2,15,cash,Kpalimé,2.9,Livrée
+493,2025-05-19,151,3,2,10,CB,Dapaong,6.0,Retournée
+494,2025-05-19,106,20,3,10,MOMO,Sokodé,6.1,Livrée
+495,2025-05-19,44,62,1,10,Cash a la livraison,Dapaong,4.7,Livrée
+496,2025-05-19,10,59,3,0,MOMO,Atakpamé,5.4,Retournée
+497,2025-05-19,181,22,1,0,mobile money,Lomé,2.5,Retournée
+498,2025-05-20,136,5,1,0,Mobile_Money,Kara,4.2,Annulée
+499,2025-05-20,197,88,1,0,carte,Kpalimé,2.1,Livrée
+500,21/05/2025,139,77,1,0,cash,Lomé,1.0,Livrée
+501,2025-05-21,170,83,2,0,Mobile_Money,Lomé,1.4,Livrée
+502,2025-05-21,74,48,1,0,mobile money,Lomé,2.7,Livrée
+503,2025-05-22,5,15,1,0,cash,Dapaong,,En cours
+504,2025-05-22,49,46,2,0,mobile money,Atakpamé,4.9,Livrée
+505,2025-05-22,147,60,1,0,Mobile_Money,Sokodé,3.7,Livrée
+506,2025-05-22,55,15,1,0,Mobile Money,Sokodé,4.7,Livrée
+507,2025-05-23,79,53,1,20,Mobile_Money,Lomé,1.0,Livrée
+508,24/05/2025,217,56,1,0,Mobile_Money,Atakpamé,3.5,Livrée
+509,2025-05-24,161,79,1,5,MOMO,Atakpamé,,En cours
+510,2025-05-24,4,23,1,10,Mobile_Money,Sokodé,3.6,Annulée
+511,2025-05-25,242,69,1,15,CB,Lomé,2.0,Livrée
+512,2025-05-25,173,42,1,0,MOMO,Atakpamé,4.2,Livrée
+513,2025-05-25,229,75,2,0,cash,Kara,4.1,Livrée
+514,2025-05-25,182,31,2,0,MOMO,Dapaong,6.9,Livrée
+515,2025-05-25,148,25,1,0,CB,Atakpamé,,En cours
+516,2025-05-25,250,61,1,5,carte,Lomé,3.2,Livrée
+517,2025-05-25,254,69,1,15,Mobile_Money,Kpalimé,4.7,Livrée
+518,2025-05-26,173,70,3,0,mobile money,Sokodé,4.4,Livrée
+519,2025-05-26,254,53,2,0,Carte bancaire,Lomé,1.1,Livrée
+520,2025-05-26,16,62,2,0,Mobile Money,Dapaong,6.5,Livrée
+521,26/05/2025,18,79,2,20,MOMO,Kara,2.7,Livrée
+522,2025-05-26,165,14,1,0,Mobile Money,Atakpamé,4.4,Livrée
+523,2025-05-27,195,29,1,0,Cash a la livraison,Kpalimé,4.6,Livrée
+524,2025-05-27,106,48,3,0,mobile money,Sokodé,3.7,Livrée
+525,2025-05-28,51,59,2,0,Paiement à la livraison,Kara,4.2,Livrée
+526,2025-05-28,52,87,3,0,Cash a la livraison,Kpalimé,1.6,Annulée
+527,2025-05-28,141,56,1,0,carte,Sokodé,4.9,Livrée
+528,2025-05-28,37,9,2,0,Mobile Money,Kara,3.5,Livrée
+529,2025-05-29,47,67,1,0,Mobile Money,Kpalimé,2.5,Livrée
+530,2025-05-29,80,72,1,10,Mobile Money,Atakpamé,3.5,Livrée
+531,2025-05-30,68,63,2,20,Cash a la livraison,Atakpamé,2.9,Livrée
+532,2025-05-30,126,80,3,0,Mobile_Money,Kpalimé,2.2,Annulée
+533,2025-05-30,88,59,1,5,mobile money,Kpalimé,1.0,Livrée
+534,31/05/2025,27,87,1,0,Cash a la livraison,Sokodé,,En cours
+535,2025-06-01,28,67,1,10,MOMO,Lomé,1.0,Livrée
+536,2025-06-01,31,20,2,15,mobile money,Kara,3.9,Livrée
+537,01/06/2025,18,48,1,0,CB,Atakpamé,4.4,Livrée
+538,2025-06-02,212,22,2,15,Mobile Money,Dapaong,5.2,Livrée
+539,2025-06-02,217,65,2,0,Mobile Money,Kara,5.0,Livrée
+540,2025-06-03,74,41,1,20,Cash a la livraison,Dapaong,4.5,Livrée
+541,2025-06-03,201,45,1,0,carte,Dapaong,5.5,Livrée
+542,2025-06-03,213,32,1,0,Mobile_Money,Sokodé,3.8,Livrée
+543,2025-06-03,76,72,1,5,cash,Atakpamé,4.7,Livrée
+544,2025-06-04,29,5,3,0,cash,Kara,4.3,Annulée
+545,2025-06-05,175,23,2,15,MOMO,Atakpamé,5.0,Livrée
+546,05/06/2025,60,85,2,0,mobile money,Dapaong,4.3,Livrée
+547,2025-06-05,9,33,3,10,Paiement à la livraison,Kpalimé,2.2,Livrée
+548,06/06/2025,82,47,1,0,Paiement à la livraison,Atakpamé,4.3,Livrée
+549,2025-06-06,201,8,2,5,Mobile Money,Atakpamé,3.6,Annulée
+550,2025-06-07,153,20,1,10,Mobile Money,Sokodé,2.8,Livrée
+551,2025-06-07,72,38,1,0,mobile money,Lomé,1.0,Livrée
+552,2025-06-07,124,17,1,10,Mobile_Money,Kara,2.6,Livrée
+553,08/06/2025,15,35,2,10,Carte bancaire,Kara,2.7,Retournée
+554,2025-06-08,175,68,2,0,Cash a la livraison,Atakpamé,2.7,Livrée
+555,2025-06-08,180,29,1,10,mobile money,Kpalimé,2.2,Annulée
+556,2025-06-08,46,62,2,0,mobile money,Dapaong,6.9,Livrée
+557,2025-06-09,159,79,2,0,MOMO,Sokodé,3.7,Livrée
+558,2025-06-09,249,25,2,0,MOMO,Atakpamé,3.5,Livrée
+559,2025-06-10,211,2,3,0,MOMO,Sokodé,3.2,Livrée
+560,2025-06-10,206,89,1,0,Cash a la livraison,Dapaong,6.5,Livrée
+561,2025-06-10,122,26,2,0,MOMO,Kpalimé,3.2,Livrée
+562,2025-06-10,255,68,1,5,Mobile_Money,Atakpamé,2.9,Livrée
+563,2025-06-10,184,35,1,0,MOMO,Dapaong,6.1,Livrée
+564,2025-06-11,240,64,2,0,carte,Lomé,3.2,Annulée
+565,2025-06-11,236,23,1,0,MOMO,Dapaong,2.6,Livrée
+566,11/06/2025,208,30,3,0,Mobile_Money,Dapaong,5.4,Livrée
+567,2025-06-12,218,61,3,0,MOMO,Dapaong,4.9,Livrée
+568,2025-06-13,172,49,2,20,Carte bancaire,Lomé,1.3,Livrée
+569,2025-06-13,99,34,1,0,cash,Dapaong,6.6,Livrée
+570,2025-06-13,239,25,2,0,CB,Atakpamé,4.7,Livrée
+571,2025-06-14,158,23,2,0,carte,Atakpamé,2.5,Livrée
+572,2025-06-14,51,29,2,5,Cash a la livraison,Dapaong,5.6,Livrée
+573,2025-06-14,241,68,1,0,MOMO,Kpalimé,,En cours
+574,2025-06-14,52,69,1,0,Carte bancaire,Sokodé,5.8,Livrée
+575,2025-06-14,103,41,3,10,Mobile Money,Sokodé,4.3,Livrée
+576,14/06/2025,247,70,1,0,Mobile_Money,Lomé,1.3,Livrée
+577,2025-06-15,70,29,3,5,cash,Kpalimé,1.5,Livrée
+578,2025-06-15,6,48,3,0,Mobile_Money,Kara,3.9,Livrée
+579,2025-06-16,134,78,1,10,Cash a la livraison,Atakpamé,2.2,Livrée
+580,2025-06-16,20,84,2,10,Mobile Money,Sokodé,2.1,Livrée
+581,2025-06-16,223,84,2,0,Mobile Money,Sokodé,5.6,Livrée
+582,2025-06-16,111,14,1,0,CB,Lomé,1.9,Livrée
+583,2025-06-16,108,58,1,0,Mobile Money,Kara,5.0,Livrée
+584,17/06/2025,158,38,2,5,mobile money,Sokodé,3.4,Livrée
+585,2025-06-17,168,66,2,15,MOMO,Lomé,5.1,Livrée
+586,2025-06-18,143,25,1,15,MOMO,Kpalimé,3.4,Livrée
+587,2025-06-18,193,42,2,0,Mobile Money,Kara,3.0,Livrée
+588,2025-06-18,25,26,1,15,carte,Atakpamé,2.6,Livrée
+589,2025-06-18,135,12,2,5,CB,Dapaong,,En cours
+590,2025-06-19,137,79,3,20,MOMO,Kara,4.5,Livrée
+591,2025-06-19,153,40,1,0,Mobile_Money,Kpalimé,,En cours
+592,2025-06-19,189,89,1,5,Mobile_Money,Kpalimé,2.1,Livrée
+593,2025-06-19,141,67,2,10,MOMO,Dapaong,6.0,Livrée
+594,2025-06-19,125,4,1,0,mobile money,Atakpamé,1.7,Annulée
+595,2025-06-20,215,39,3,0,CB,Kpalimé,3.5,Livrée
+596,2025-06-22,199,17,2,0,MOMO,Atakpamé,2.6,Livrée
+597,22/06/2025,74,29,2,0,Mobile Money,Dapaong,4.9,Livrée
+598,2025-06-22,236,8,2,10,Mobile_Money,Kpalimé,3.1,Livrée
+599,23/06/2025,116,82,1,0,Carte bancaire,Atakpamé,3.5,Livrée
+600,2025-06-24,10,66,1,0,MOMO,Sokodé,2.9,Livrée
+601,2025-06-24,246,66,1,0,mobile money,Dapaong,7.3,Livrée
+602,2025-06-25,145,9,1,10,mobile money,Atakpamé,,En cours
+603,2025-06-25,35,82,1,0,Mobile Money,Sokodé,2.6,Retournée
+604,2025-06-26,211,83,2,5,MOMO,Lomé,3.4,Livrée
+605,2025-06-26,124,47,1,10,MOMO,Dapaong,,En cours
+606,2025-06-27,26,44,3,20,Carte bancaire,Sokodé,4.5,Livrée
+607,2025-06-27,53,70,3,10,carte,Sokodé,6.8,Livrée
+608,2025-06-27,23,1,3,0,Mobile Money,Sokodé,4.2,Retournée
+609,27/06/2025,244,74,1,0,CB,Dapaong,,En cours
+610,2025-06-28,139,35,3,0,cash,Kpalimé,3.1,Livrée
+611,2025-06-28,73,54,2,0,Mobile Money,Sokodé,5.3,Livrée
+612,2025-06-28,83,63,1,10,Cash a la livraison,Dapaong,,En cours
+613,29/06/2025,48,48,1,0,Mobile Money,Lomé,1.3,Annulée
+614,2025-06-29,249,4,1,0,Cash a la livraison,Kpalimé,1.1,Livrée
+615,29/06/2025,9,4,2,0,Carte bancaire,Dapaong,4.2,Livrée
+616,29/06/2025,153,29,2,5,Mobile_Money,Sokodé,3.8,Livrée
+617,2025-06-29,78,51,3,10,Cash a la livraison,Kpalimé,4.1,Livrée
+618,2025-06-29,41,64,1,0,mobile money,Atakpamé,3.3,Livrée
+619,2025-06-29,114,47,2,10,Mobile Money,Sokodé,5.2,Livrée
+620,2025-06-30,234,3,1,15,Mobile_Money,Lomé,1.1,Livrée
+621,2025-06-30,172,69,2,0,Mobile Money,Dapaong,7.6,Livrée
+622,2025-06-30,32,74,1,10,Mobile Money,Kpalimé,3.4,Livrée
+623,2025-06-30,87,6,2,0,carte,Kara,4.1,Livrée
+624,2025-07-01,104,39,1,0,mobile money,Kara,,En cours
+625,2025-07-01,205,82,1,0,Cash a la livraison,Lomé,2.6,Livrée
+626,2025-07-01,41,89,3,0,Mobile_Money,Kara,3.7,Livrée
+627,2025-07-02,169,31,1,20,mobile money,Lomé,1.6,Livrée
+628,2025-07-02,9999,56,1,5,Cash a la livraison,Dapaong,5.8,Livrée
+629,2025-07-02,217,21,1,0,Mobile_Money,Sokodé,5.5,Livrée
+630,2025-07-04,253,23,3,5,Mobile Money,Sokodé,5.6,Livrée
+631,2025-07-05,26,52,2,0,cash,Lomé,2.4,Livrée
+632,2025-07-07,149,18,2,10,Paiement à la livraison,Lomé,3.2,Livrée
+633,2025-07-07,109,7,1,0,Mobile Money,Atakpamé,2.8,Livrée
+634,2025-07-08,203,65,1,0,cash,Sokodé,4.6,Livrée
+635,2025-07-09,10,34,2,0,carte,Kpalimé,5.1,Livrée
+636,2025-07-09,139,41,1,0,carte,Kara,5.2,Livrée
+637,2025-07-09,88,22,1,15,CB,Dapaong,5.4,Annulée
+638,2025-07-10,6,78,1,5,MOMO,Lomé,1.8,Livrée
+639,2025-07-11,101,44,1,0,MOMO,Sokodé,5.1,Livrée
+640,2025-07-13,102,72,2,5,MOMO,Lomé,2.3,Livrée
+641,2025-07-13,21,42,3,0,Cash a la livraison,Sokodé,5.4,Livrée
+642,2025-07-13,132,34,1,0,Paiement à la livraison,Dapaong,6.5,Annulée
+643,2025-07-13,110,68,1,0,Mobile Money,Lomé,2.0,Livrée
+644,13/07/2025,146,86,1,0,Cash a la livraison,Lomé,2.6,Livrée
+645,2025-07-13,138,23,1,0,MOMO,Dapaong,4.3,Livrée
+646,2025-07-14,139,44,3,0,Mobile Money,Sokodé,3.9,Livrée
+647,14/07/2025,39,27,1,0,MOMO,Kpalimé,2.3,Livrée
+648,14/07/2025,57,89,2,0,CB,Kara,1.7,Livrée
+649,2025-07-16,65,8,3,5,CB,Dapaong,7.7,Annulée
+650,2025-07-16,133,64,-1,0,MOMO,Kara,1.9,Annulée
+651,2025-07-16,253,42,2,5,Mobile_Money,Lomé,2.8,Livrée
+652,2025-07-18,141,57,1,0,mobile money,Kara,5.8,Livrée
+653,2025-07-18,176,90,2,5,Mobile_Money,Kpalimé,2.7,Livrée
+654,2025-07-18,17,59,3,10,carte,Dapaong,5.1,Livrée
+655,2025-07-18,211,80,2,0,Cash a la livraison,Atakpamé,4.2,Livrée
+656,2025-07-19,8,85,2,0,Paiement à la livraison,Sokodé,4.3,Retournée
+657,2025-07-19,208,23,2,0,cash,Lomé,1.1,Livrée
+658,20/07/2025,68,46,1,0,CB,Kpalimé,3.7,Livrée
+659,2025-07-20,75,40,1,5,mobile money,Lomé,2.3,Livrée
+660,2025-07-20,51,54,2,0,mobile money,Atakpamé,3.5,Livrée
+661,2025-07-21,237,14,1,20,Mobile_Money,Lomé,1.5,Annulée
+662,22/07/2025,254,15,3,0,cash,Kara,3.1,Retournée
+663,2025-07-22,141,45,1,0,Mobile_Money,Atakpamé,4.7,Livrée
+664,2025-07-22,201,67,1,10,mobile money,Kara,2.8,Livrée
+665,2025-07-23,221,88,-1,20,carte,Lomé,1.0,Retournée
+666,2025-07-24,103,1,3,0,Carte bancaire,Kara,3.7,Livrée
+667,2025-07-24,25,41,1,0,Mobile Money,Kara,4.7,Livrée
+668,2025-07-24,172,60,3,0,Mobile Money,Lomé,1.6,Livrée
+669,25/07/2025,119,50,3,0,Mobile_Money,Atakpamé,2.8,Retournée
+670,26/07/2025,203,3,2,0,mobile money,Kpalimé,3.4,Livrée
+671,2025-07-26,156,62,2,10,Mobile Money,Lomé,,En cours
+672,2025-07-29,119,31,3,15,CB,Atakpamé,3.6,Livrée
+673,2025-07-31,241,80,2,0,Mobile_Money,Sokodé,6.1,Livrée
+674,2025-08-02,96,77,1,0,MOMO,Sokodé,4.9,Annulée
+675,2025-08-02,226,40,3,0,Mobile_Money,Kpalimé,4.2,Livrée
+676,2025-08-02,252,81,2,5,Mobile_Money,Lomé,3.5,Livrée
+677,2025-08-03,51,36,1,20,Mobile Money,Kara,3.0,Livrée
+678,2025-08-03,36,79,1,0,MOMO,Lomé,3.0,Livrée
+679,04/08/2025,112,90,2,0,Cash a la livraison,Sokodé,4.4,Livrée
+680,2025-08-05,111,24,1,0,Mobile Money,Kpalimé,1.8,Annulée
+681,2025-08-05,181,86,2,0,cash,Lomé,1.0,Livrée
+682,2025-08-08,227,51,3,0,Carte bancaire,Lomé,1.3,Annulée
+683,2025-08-08,137,4,2,10,Carte bancaire,Kpalimé,2.8,Livrée
+684,2025-08-08,13,51,1,0,Mobile_Money,Dapaong,6.7,Livrée
+685,2025-08-09,114,6,1,0,MOMO,Sokodé,5.5,Livrée
+686,2025-08-09,90,81,2,10,Cash a la livraison,Dapaong,,En cours
+687,2025-08-09,239,81,1,10,Mobile_Money,Dapaong,6.3,Livrée
+688,2025-08-10,172,50,1,5,cash,Lomé,1.4,Livrée
+689,2025-08-10,22,22,1,15,MOMO,Kpalimé,4.0,Retournée
+690,10/08/2025,156,36,3,0,mobile money,Lomé,1.1,Livrée
+691,2025-08-11,102,38,2,0,CB,Sokodé,4.3,Livrée
+692,12/08/2025,238,17,2,0,mobile money,Kara,1.7,Livrée
+693,2025-08-12,97,13,1,0,cash,Atakpamé,4.1,Livrée
+694,2025-08-13,38,10,3,5,Cash a la livraison,Sokodé,3.3,Livrée
+695,2025-08-13,49,83,1,0,mobile money,Dapaong,3.6,Livrée
+696,2025-08-14,72,22,1,0,cash,Atakpamé,3.2,Annulée
+697,2025-08-14,42,44,2,5,MOMO,Dapaong,6.5,Livrée
+698,2025-08-15,146,81,2,15,mobile money,Sokodé,5.3,Livrée
+699,2025-08-16,223,27,3,0,MOMO,Lomé,1.0,Livrée
+700,2025-08-16,89,45,1,0,CB,Atakpamé,3.7,Livrée
+701,2025-08-18,44,68,1,20,MOMO,Kara,4.2,Livrée
+702,2025-08-18,73,46,1,10,Mobile_Money,Kpalimé,,En cours
+703,2025-08-19,172,29,1,5,mobile money,Dapaong,4.5,Livrée
+704,2025-08-20,111,12,2,0,Mobile_Money,Dapaong,6.2,Livrée
+705,2025-08-20,96,85,2,15,Carte bancaire,Dapaong,5.0,Livrée
+706,2025-08-21,198,72,2,0,mobile money,Kara,5.1,Livrée
+707,2025-08-22,260,86,2,0,MOMO,Kara,4.0,Livrée
+708,2025-08-22,88,58,3,0,MOMO,Lomé,2.5,Livrée
+709,2025-08-24,124,27,2,5,carte,Lomé,1.9,Livrée
+710,2025-08-25,102,48,1,10,Mobile Money,Sokodé,4.3,Livrée
+711,25/08/2025,18,82,2,0,Paiement à la livraison,Dapaong,7.6,Livrée
+712,2025-08-27,19,52,2,0,Mobile Money,Kara,3.1,Livrée
+713,27/08/2025,37,31,2,0,Mobile_Money,Atakpamé,4.2,Annulée
+714,2025-08-27,224,34,2,5,MOMO,Lomé,2.3,Livrée
+715,2025-08-28,189,26,3,0,CB,Kara,3.3,Annulée
+716,2025-08-29,90,66,2,0,Mobile Money,Lomé,2.1,Annulée
+717,2025-08-29,165,39,1,0,mobile money,Atakpamé,6.3,Retournée
+718,29/08/2025,45,87,3,10,CB,Dapaong,,En cours
+719,2025-08-29,231,38,2,5,Mobile Money,Sokodé,5.5,Livrée
+720,2025-08-29,75,86,2,0,Mobile_Money,Kpalimé,5.1,Livrée
+721,2025-08-30,154,67,2,15,cash,Dapaong,4.8,Livrée
+722,2025-08-31,63,43,2,0,Mobile_Money,Atakpamé,3.9,Livrée
+723,2025-08-31,140,24,1,0,Mobile_Money,Kara,3.6,Livrée
+724,2025-08-31,134,3,1,5,Paiement à la livraison,Kara,,En cours
+725,2025-09-01,197,83,1,0,Mobile_Money,Dapaong,4.7,Livrée
+726,2025-09-01,177,65,1,0,Mobile_Money,Kpalimé,2.6,Livrée
+727,2025-09-01,127,45,2,15,mobile money,Dapaong,6.1,Livrée
+728,2025-09-01,144,48,1,0,mobile money,Dapaong,5.0,Annulée
+729,2025-09-02,257,6,1,0,MOMO,Atakpamé,,En cours
+730,2025-09-02,94,85,2,0,Mobile Money,Kpalimé,2.3,Livrée
+731,2025-09-02,69,62,1,0,carte,Lomé,,En cours
+732,2025-09-02,76,11,2,15,mobile money,Atakpamé,1.7,Livrée
+733,2025-09-03,225,33,3,0,Cash a la livraison,Kpalimé,,En cours
+734,2025-09-03,73,8,2,0,carte,Kpalimé,,En cours
+735,2025-09-03,260,69,1,0,Mobile_Money,Kara,3.5,Livrée
+736,2025-09-04,9999,2,2,0,Cash a la livraison,Lomé,,En cours
+737,2025-09-04,104,63,3,0,cash,Kpalimé,2.8,Livrée
+738,2025-09-04,101,81,2,15,Mobile_Money,Atakpamé,3.7,Annulée
+739,2025-09-04,120,41,1,0,carte,Atakpamé,2.8,Livrée
+740,04/09/2025,123,74,2,0,Cash a la livraison,Kara,3.9,Livrée
+741,2025-09-04,232,85,2,0,cash,Lomé,1.8,Livrée
+742,04/09/2025,137,22,1,0,Mobile Money,Kpalimé,4.7,Livrée
+743,2025-09-05,163,4,3,0,mobile money,Atakpamé,4.2,Livrée
+744,2025-09-05,84,83,1,0,cash,Lomé,2.0,Livrée
+745,05/09/2025,151,47,1,0,MOMO,Kpalimé,1.0,Livrée
+746,2025-09-06,195,83,1,20,Cash a la livraison,Lomé,1.6,Annulée
+747,06/09/2025,137,73,1,0,Mobile Money,Sokodé,4.3,Livrée
+748,2025-09-06,200,83,3,5,CB,Dapaong,5.2,Livrée
+749,2025-09-06,112,85,1,0,mobile money,Atakpamé,2.0,Livrée
+750,2025-09-07,26,46,2,15,Paiement à la livraison,Atakpamé,3.7,Livrée
+751,2025-09-07,20,60,1,0,CB,Sokodé,4.9,Livrée
+752,2025-09-07,152,8,2,0,Mobile_Money,Dapaong,5.5,Livrée
+753,2025-09-07,172,86,3,10,MOMO,Sokodé,5.4,Livrée
+754,2025-09-07,216,52,1,0,carte,Dapaong,5.9,Livrée
+755,2025-09-08,230,75,2,0,Mobile_Money,Lomé,1.8,Livrée
+756,2025-09-08,70,76,2,20,Mobile_Money,Kpalimé,2.4,Livrée
+757,2025-09-08,148,44,2,0,CB,Atakpamé,5.1,Livrée
+758,2025-09-08,124,76,1,15,Mobile_Money,Dapaong,5.2,Livrée
+759,2025-09-08,136,33,3,15,MOMO,Lomé,2.1,Livrée
+760,09/09/2025,239,47,3,0,Mobile_Money,Atakpamé,4.0,Livrée
+761,2025-09-09,238,49,2,0,Mobile Money,Atakpamé,3.6,Livrée
+762,2025-09-09,41,69,3,0,Mobile_Money,Kpalimé,4.8,Livrée
+763,09/09/2025,254,79,1,0,mobile money,Atakpamé,1.6,Livrée
+764,2025-09-09,51,60,1,0,mobile money,Atakpamé,2.4,Livrée
+765,2025-09-11,245,3,1,5,mobile money,Lomé,3.1,Livrée
+766,11/09/2025,86,2,3,5,carte,Atakpamé,3.3,Livrée
+767,2025-09-11,170,47,1,0,Carte bancaire,Sokodé,4.6,Livrée
+768,2025-09-11,174,50,2,0,CB,Kpalimé,3.2,Livrée
+769,2025-09-13,61,11,1,10,Paiement à la livraison,Lomé,2.9,Livrée
+770,13/09/2025,75,84,3,0,Paiement à la livraison,Kpalimé,,En cours
+771,2025-09-13,136,19,2,0,Paiement à la livraison,Kara,4.4,Livrée
+772,2025-09-14,99,34,1,0,MOMO,Kara,5.7,Livrée
+773,2025-09-14,238,65,2,0,Cash a la livraison,Sokodé,5.9,Livrée
+774,2025-09-14,58,10,3,0,Paiement à la livraison,Kpalimé,,En cours
+775,2025-09-15,153,54,1,0,mobile money,Sokodé,4.4,Livrée
+776,15/09/2025,1,70,3,0,Cash a la livraison,Kpalimé,4.0,Livrée
+777,2025-09-15,60,84,1,0,carte,Atakpamé,4.7,Livrée
+778,15/09/2025,202,55,3,15,MOMO,Dapaong,6.5,Livrée
+779,2025-09-16,64,61,1,10,mobile money,Sokodé,,En cours
+780,16/09/2025,221,59,2,5,Carte bancaire,Dapaong,6.5,Livrée
+781,2025-09-16,135,51,1,0,Mobile Money,Sokodé,3.6,Annulée
+782,2025-09-16,69,85,1,5,Carte bancaire,Sokodé,5.0,Livrée
+783,2025-09-16,9999,36,1,0,Cash a la livraison,Kpalimé,,En cours
+784,17/09/2025,48,65,1,0,Mobile_Money,Atakpamé,3.6,Livrée
+785,2025-09-17,217,16,1,0,Mobile_Money,Sokodé,4.2,Livrée
+786,2025-09-18,148,64,2,0,mobile money,Kara,4.1,Livrée
+787,2025-09-18,91,13,1,0,mobile money,Atakpamé,5.4,Livrée
+788,2025-09-18,60,41,1,0,Mobile_Money,Kara,3.0,Livrée
+789,2025-09-18,168,86,2,0,Cash a la livraison,Kara,1.9,Annulée
+790,2025-09-19,138,32,3,0,Mobile Money,Kara,5.1,Livrée
+791,19/09/2025,240,59,1,0,Mobile Money,Atakpamé,,En cours
+792,2025-09-19,244,83,1,10,Mobile Money,Dapaong,5.6,Livrée
+793,2025-09-20,246,31,2,0,carte,Lomé,2.0,Livrée
+794,2025-09-20,110,56,1,0,Mobile_Money,Kara,,En cours
+795,2025-09-20,192,64,2,0,Cash a la livraison,Lomé,1.6,Livrée
+796,2025-09-20,223,49,1,10,cash,Lomé,4.2,Livrée
+797,2025-09-20,209,89,1,0,carte,Lomé,2.4,Livrée
+798,2025-09-21,48,17,1,15,Carte bancaire,Lomé,1.9,Annulée
+799,21/09/2025,201,88,1,0,CB,Lomé,,En cours
+800,2025-09-22,197,32,1,0,Carte bancaire,Sokodé,3.8,Livrée
+801,2025-09-22,255,38,2,0,Mobile Money,Kpalimé,4.1,Livrée
+802,23/09/2025,72,13,3,0,Mobile Money,Kpalimé,2.6,Livrée
+803,23/09/2025,194,34,1,10,Mobile Money,Atakpamé,2.3,Livrée
+804,25/09/2025,107,55,1,0,Cash a la livraison,Sokodé,4.1,Livrée
+805,2025-09-25,100,50,1,10,Mobile Money,Dapaong,7.1,Livrée
+806,2025-09-25,236,71,3,0,Paiement à la livraison,Sokodé,6.3,Livrée
+807,2025-09-26,150,38,3,0,Carte bancaire,Kpalimé,2.9,Livrée
+808,2025-09-26,128,43,1,0,MOMO,Kara,3.5,Livrée
+809,26/09/2025,137,50,1,10,MOMO,Kpalimé,3.1,Livrée
+810,2025-09-27,221,46,1,0,MOMO,Kpalimé,2.4,Livrée
+811,2025-09-27,10,6,1,5,mobile money,Dapaong,4.4,Annulée
+812,2025-09-27,179,21,2,0,mobile money,Kara,3.9,Livrée
+813,2025-09-27,122,62,2,20,Mobile_Money,Lomé,1.0,Livrée
+814,2025-09-27,43,55,2,0,CB,Atakpamé,3.9,Livrée
+815,2025-09-28,157,63,1,15,CB,Kara,3.3,Livrée
+816,2025-09-28,16,13,1,0,CB,Atakpamé,1.8,Livrée
+817,2025-09-29,187,27,1,0,CB,Kara,3.2,Livrée
+818,2025-09-29,104,14,1,10,Cash a la livraison,Sokodé,4.6,Livrée
+819,2025-09-29,149,3,1,0,Mobile Money,Kara,5.3,Livrée
+820,2025-09-29,198,2,1,10,Carte bancaire,Kara,6.7,Livrée
+821,2025-09-30,135,63,2,0,mobile money,Lomé,,En cours
+822,30/09/2025,250,51,1,0,Paiement à la livraison,Kara,3.6,Livrée
+823,2025-10-01,164,45,3,0,Mobile Money,Lomé,1.2,Annulée
+824,2025-10-01,227,48,1,0,cash,Lomé,4.4,Livrée
+825,2025-10-01,145,72,2,10,cash,Atakpamé,2.5,Livrée
+826,01/10/2025,95,78,1,0,mobile money,Kara,3.8,Annulée
+827,2025-10-02,225,5,1,0,cash,Atakpamé,5.7,Livrée
+828,2025-10-02,137,76,3,5,MOMO,Dapaong,,En cours
+829,2025-10-02,28,65,3,0,mobile money,Sokodé,3.9,Livrée
+830,2025-10-03,234,20,1,0,Mobile_Money,Kara,5.3,Livrée
+831,2025-10-03,71,15,1,0,Mobile Money,Dapaong,5.6,Livrée
+832,2025-10-03,259,11,1,0,MOMO,Kpalimé,5.4,Livrée
+833,2025-10-04,188,89,3,0,carte,Kpalimé,5.2,Livrée
+834,04/10/2025,10,51,2,0,cash,Lomé,1.1,Annulée
+835,2025-10-04,92,82,1,15,Mobile_Money,Kpalimé,2.3,Livrée
+836,2025-10-04,201,82,3,15,carte,Sokodé,5.4,Livrée
+837,2025-10-05,5,42,1,0,Mobile_Money,Kpalimé,3.0,Livrée
+838,05/10/2025,22,40,2,0,CB,Lomé,1.7,Livrée
+839,2025-10-05,127,77,2,0,MOMO,Dapaong,3.2,Annulée
+840,2025-10-06,73,21,1,0,MOMO,Atakpamé,3.8,Livrée
+841,06/10/2025,221,29,1,0,Mobile Money,Lomé,1.0,Livrée
+842,2025-10-06,153,78,1,0,Mobile_Money,Lomé,2.7,Livrée
+843,2025-10-07,221,66,1,0,Mobile_Money,Kara,3.5,Livrée
+844,2025-10-07,107,61,2,10,Paiement à la livraison,Atakpamé,4.1,Livrée
+845,2025-10-07,246,56,2,15,Mobile_Money,Dapaong,6.7,Livrée
+846,2025-10-07,155,49,1,5,Mobile Money,Dapaong,6.5,Livrée
+847,2025-10-07,150,58,1,0,Paiement à la livraison,Lomé,2.0,Livrée
+848,2025-10-08,80,4,1,5,carte,Kara,5.4,Livrée
+849,2025-10-08,91,6,1,0,CB,Kara,5.1,Livrée
+850,2025-10-08,247,71,3,20,mobile money,Lomé,1.0,Livrée
+851,2025-10-08,244,58,3,0,CB,Kpalimé,3.2,Livrée
+852,2025-10-08,132,17,3,0,mobile money,Kpalimé,,En cours
+853,2025-10-08,186,61,1,5,carte,Atakpamé,3.0,Livrée
+854,2025-10-08,214,34,2,0,Carte bancaire,Lomé,,En cours
+855,2025-10-09,133,38,2,5,Mobile_Money,Kpalimé,2.4,Livrée
+856,2025-10-09,121,45,2,15,Mobile_Money,Dapaong,6.0,Livrée
+857,09/10/2025,70,2,2,15,Mobile_Money,Atakpamé,5.6,Livrée
+858,2025-10-09,112,32,1,10,Mobile Money,Lomé,,En cours
+859,2025-10-09,144,89,1,20,Mobile_Money,Kara,3.4,Livrée
+860,2025-10-10,161,38,1,10,CB,Kpalimé,2.7,Livrée
+861,2025-10-10,137,37,2,5,Paiement à la livraison,Kpalimé,5.1,Annulée
+862,2025-10-10,21,14,1,0,Mobile_Money,Dapaong,8.4,Livrée
+863,2025-10-10,111,36,1,0,Mobile Money,Dapaong,4.4,Livrée
+864,2025-10-11,120,34,1,0,Mobile_Money,Lomé,1.3,Livrée
+865,2025-10-11,204,70,3,0,CB,Kara,2.6,Livrée
+866,2025-10-11,110,78,3,15,Mobile Money,Dapaong,6.8,Livrée
+867,2025-10-12,4,67,2,0,Mobile_Money,Lomé,1.8,Livrée
+868,12/10/2025,103,72,2,0,Mobile Money,Lomé,1.3,Livrée
+869,2025-10-12,54,6,1,0,Carte bancaire,Sokodé,4.7,Livrée
+870,2025-10-12,65,86,1,10,Paiement à la livraison,Dapaong,7.0,Livrée
+871,12/10/2025,218,23,1,5,MOMO,Atakpamé,2.3,Livrée
+872,2025-10-12,111,31,1,0,carte,Atakpamé,4.4,Livrée
+873,2025-10-12,212,80,1,10,Mobile Money,Kpalimé,1.0,Livrée
+874,2025-10-12,67,58,2,0,Carte bancaire,Atakpamé,1.8,Livrée
+875,2025-10-13,115,18,2,10,MOMO,Kpalimé,2.3,Annulée
+876,2025-10-13,105,9,2,10,mobile money,Kara,5.0,Livrée
+877,2025-10-14,260,68,2,0,mobile money,Lomé,2.7,Livrée
+878,2025-10-14,164,7,1,0,Mobile_Money,Kara,5.0,Livrée
+879,14/10/2025,55,22,1,0,Mobile_Money,Dapaong,,En cours
+880,2025-10-15,140,69,1,5,MOMO,Dapaong,6.1,Livrée
+881,2025-10-15,245,11,3,0,Mobile_Money,Dapaong,,En cours
+882,2025-10-15,185,89,2,10,cash,Lomé,2.6,Livrée
+883,2025-10-16,135,79,1,0,MOMO,Dapaong,5.0,Livrée
+884,2025-10-16,89,90,1,20,MOMO,Kara,4.3,Livrée
+885,17/10/2025,76,80,2,5,cash,Kara,3.3,Retournée
+886,2025-10-17,223,60,3,5,Mobile_Money,Dapaong,4.0,Livrée
+887,2025-10-17,147,46,2,0,MOMO,Kara,,En cours
+888,2025-10-17,191,87,1,5,carte,Dapaong,,En cours
+889,2025-10-18,116,54,1,0,cash,Atakpamé,3.6,Annulée
+890,2025-10-18,132,78,2,0,Paiement à la livraison,Kpalimé,2.8,Livrée
+891,2025-10-18,192,33,1,15,MOMO,Kara,3.3,Livrée
+892,2025-10-18,79,8888,2,15,Mobile_Money,Lomé,1.1,Livrée
+893,19/10/2025,86,34,1,10,carte,Kpalimé,3.0,Livrée
+894,2025-10-19,94,34,1,0,Carte bancaire,Lomé,2.0,Livrée
+895,2025-10-20,78,32,2,5,Mobile Money,Lomé,1.5,Livrée
+896,2025-10-20,145,71,3,5,Mobile_Money,Sokodé,4.8,Livrée
+897,2025-10-20,251,64,3,5,Cash a la livraison,Kpalimé,4.4,Livrée
+898,2025-10-21,221,78,1,0,Mobile Money,Kara,4.5,Livrée
+899,2025-10-21,91,33,1,0,MOMO,Lomé,1.9,Livrée
+900,21/10/2025,4,74,3,10,Mobile_Money,Kara,5.2,Livrée
+901,2025-10-22,103,56,2,0,Mobile Money,Kpalimé,5.0,Livrée
+902,2025-10-22,118,52,2,0,Mobile Money,Kara,1.9,Livrée
+903,2025-10-22,214,56,3,0,Mobile_Money,Atakpamé,2.2,Livrée
+904,2025-10-22,220,82,1,0,mobile money,Lomé,1.5,Annulée
+905,2025-10-22,153,75,2,10,Mobile_Money,Sokodé,5.3,Livrée
+906,2025-10-22,160,11,3,0,Mobile Money,Lomé,3.9,Livrée
+907,2025-10-22,39,2,2,5,cash,Kara,5.6,Livrée
+908,23/10/2025,46,35,1,0,Mobile_Money,Kara,3.0,Livrée
+909,2025-10-23,199,2,2,0,Mobile Money,Sokodé,4.3,Livrée
+910,2025-10-23,243,31,1,5,Cash a la livraison,Dapaong,4.8,Livrée
+911,2025-10-24,50,82,2,20,Mobile_Money,Dapaong,6.4,Livrée
+912,2025-10-24,174,80,1,20,Mobile Money,Lomé,1.3,Livrée
+913,2025-10-24,152,27,3,5,Mobile Money,Atakpamé,3.6,Livrée
+914,24/10/2025,11,63,3,5,carte,Kara,2.9,Livrée
+915,25/10/2025,232,71,1,0,Mobile Money,Sokodé,5.9,Livrée
+916,25/10/2025,17,46,3,0,mobile money,Dapaong,7.0,Livrée
+917,2025-10-25,228,88,2,0,Paiement à la livraison,Atakpamé,,En cours
+918,2025-10-25,52,77,2,15,Mobile_Money,Kpalimé,,En cours
+919,2025-10-26,192,66,3,0,MOMO,Dapaong,7.5,Livrée
+920,2025-10-26,160,66,2,5,Mobile Money,Atakpamé,3.4,Livrée
+921,2025-10-26,8,14,1,0,Paiement à la livraison,Sokodé,4.8,Annulée
+922,2025-10-26,170,86,2,5,mobile money,Dapaong,5.9,Annulée
+923,2025-10-26,251,26,2,5,Carte bancaire,Kara,3.2,Livrée
+924,2025-10-26,62,8,2,5,MOMO,Atakpamé,3.6,Livrée
+925,27/10/2025,31,11,2,10,carte,Sokodé,5.0,Livrée
+926,2025-10-27,195,20,1,10,Cash a la livraison,Dapaong,5.8,Livrée
+927,2025-10-28,98,53,1,10,MOMO,Kara,5.2,Livrée
+928,2025-10-28,57,79,1,10,Mobile_Money,Kara,,En cours
+929,2025-10-28,230,70,1,0,Mobile_Money,Kara,4.3,Annulée
+930,2025-10-28,213,55,2,10,Carte bancaire,Sokodé,2.9,Livrée
+931,2025-10-30,11,35,2,10,Mobile Money,Kara,3.6,Livrée
+932,31/10/2025,260,48,1,0,Mobile Money,Atakpamé,4.6,Livrée
+933,2025-10-31,257,67,2,0,Carte bancaire,Atakpamé,2.5,Livrée
+934,2025-10-31,47,6,2,5,Mobile_Money,Kara,5.2,Livrée
+935,2025-11-01,128,32,1,0,mobile money,Kpalimé,2.8,Livrée
+936,2025-11-01,125,29,1,5,Mobile Money,Kpalimé,,En cours
+937,2025-11-01,241,71,2,0,Paiement à la livraison,Kara,4.8,Livrée
+938,2025-11-01,164,67,2,10,mobile money,Sokodé,5.6,Livrée
+939,2025-11-01,139,86,1,0,MOMO,Lomé,3.3,Livrée
+940,2025-11-02,88,29,2,10,Paiement à la livraison,Dapaong,3.5,Livrée
+941,02/11/2025,103,59,2,0,cash,Sokodé,2.5,Annulée
+942,2025-11-02,15,19,3,5,mobile money,Lomé,1.0,Retournée
+943,2025-11-02,245,47,2,5,mobile money,Sokodé,6.8,Livrée
+944,2025-11-03,140,85,1,15,Mobile_Money,Kpalimé,3.8,Livrée
+945,2025-11-03,34,57,3,0,MOMO,Lomé,2.0,Livrée
+946,2025-11-03,107,42,1,0,Cash a la livraison,Dapaong,3.6,Livrée
+947,2025-11-03,11,85,1,0,Mobile Money,Dapaong,4.2,Livrée
+948,03/11/2025,185,56,1,0,mobile money,Kpalimé,1.0,Livrée
+949,2025-11-03,173,54,1,0,Mobile_Money,Lomé,1.0,Livrée
+950,03/11/2025,225,45,1,0,CB,Kpalimé,5.4,Livrée
+951,2025-11-04,67,48,1,0,mobile money,Kpalimé,3.5,Livrée
+952,04/11/2025,34,62,1,10,Mobile Money,Atakpamé,2.8,Livrée
+953,2025-11-04,220,29,3,0,CB,Sokodé,4.0,Livrée
+954,2025-11-04,194,61,1,20,MOMO,Kara,6.9,Livrée
+955,04/11/2025,125,58,2,5,mobile money,Kara,4.0,Livrée
+956,2025-11-04,107,33,3,0,mobile money,Atakpamé,3.9,Livrée
+957,2025-11-05,80,49,1,20,carte,Lomé,2.4,Livrée
+958,2025-11-05,236,66,2,5,Mobile_Money,Kara,4.2,Livrée
+959,2025-11-05,238,6,1,5,mobile money,Dapaong,5.8,Annulée
+960,2025-11-05,171,52,3,0,MOMO,Kpalimé,3.5,Livrée
+961,2025-11-05,233,49,1,10,MOMO,Atakpamé,2.6,Livrée
+962,2025-11-06,192,84,2,5,MOMO,Atakpamé,5.1,Livrée
+963,2025-11-06,23,28,3,10,mobile money,Kara,3.7,Livrée
+964,2025-11-06,87,17,1,5,Mobile_Money,Dapaong,,En cours
+965,2025-11-06,178,10,1,5,Mobile_Money,Dapaong,5.8,Livrée
+966,2025-11-06,166,40,1,0,mobile money,Kpalimé,1.9,Livrée
+967,2025-11-07,68,29,1,5,Cash a la livraison,Atakpamé,4.5,Livrée
+968,2025-11-07,43,8,2,0,Mobile Money,Sokodé,5.6,Livrée
+969,08/11/2025,41,64,2,5,Carte bancaire,Kpalimé,3.9,Livrée
+970,2025-11-08,131,14,1,10,mobile money,Sokodé,5.1,Livrée
+971,2025-11-09,224,63,1,20,Mobile_Money,Atakpamé,4.0,Livrée
+972,2025-11-09,73,59,2,0,Mobile_Money,Sokodé,3.8,Livrée
+973,2025-11-09,55,22,2,15,Mobile_Money,Kara,1.0,Livrée
+974,2025-11-09,180,85,1,0,Paiement à la livraison,Sokodé,4.0,Livrée
+975,2025-11-09,214,63,1,0,MOMO,Sokodé,4.5,Livrée
+976,2025-11-09,118,89,1,0,mobile money,Sokodé,5.9,Retournée
+977,2025-11-10,74,24,2,10,Carte bancaire,Kara,3.1,Livrée
+978,2025-11-10,44,76,2,0,Mobile_Money,Kpalimé,2.2,Livrée
+979,2025-11-10,221,10,2,5,Mobile_Money,Kara,4.3,Livrée
+980,2025-11-10,132,26,1,0,Mobile Money,Sokodé,4.8,Livrée
+981,10/11/2025,49,11,3,0,cash,Kara,4.5,Livrée
+982,2025-11-10,95,87,2,0,CB,Sokodé,4.2,Livrée
+983,10/11/2025,210,1,2,0,Mobile Money,Sokodé,5.7,Livrée
+984,2025-11-10,204,6,1,0,mobile money,Kara,5.1,Livrée
+985,2025-11-10,22,76,1,0,CB,Dapaong,6.5,Livrée
+986,2025-11-11,249,30,1,0,Cash a la livraison,Atakpamé,1.8,Livrée
+987,2025-11-11,160,8,3,0,Mobile Money,Kpalimé,4.3,Livrée
+988,2025-11-11,118,89,2,5,MOMO,Kpalimé,2.8,Retournée
+989,2025-11-11,72,20,2,5,Carte bancaire,Atakpamé,2.3,Livrée
+990,2025-11-12,165,53,2,0,Mobile_Money,Dapaong,6.4,Livrée
+991,2025-11-12,126,66,3,10,MOMO,Sokodé,,En cours
+992,2025-11-12,100,26,2,0,MOMO,Sokodé,5.2,Livrée
+993,12/11/2025,58,53,2,0,Mobile Money,Atakpamé,3.2,Livrée
+994,2025-11-12,100,11,1,0,Mobile Money,Lomé,1.3,Livrée
+995,2025-11-12,237,41,1,0,Mobile_Money,Kara,3.1,Livrée
+996,2025-11-13,97,10,2,5,mobile money,Lomé,,En cours
+997,2025-11-13,101,8,1,20,MOMO,Sokodé,4.5,Annulée
+998,2025-11-13,9,7,1,15,Mobile Money,Dapaong,4.3,Livrée
+999,2025-11-13,176,81,1,5,Paiement à la livraison,Kpalimé,3.3,Livrée
+1000,2025-11-13,215,31,2,0,MOMO,Kpalimé,3.3,Livrée
+1001,2025-11-13,226,89,3,5,MOMO,Kara,5.3,Livrée
+1002,2025-11-13,104,61,2,5,Mobile_Money,Lomé,1.5,Livrée
+1003,14/11/2025,136,35,1,0,MOMO,Sokodé,4.0,Livrée
+1004,14/11/2025,168,57,2,10,MOMO,Dapaong,6.2,Livrée
+1005,2025-11-14,153,13,1,0,Mobile_Money,Kpalimé,2.0,Livrée
+1006,2025-11-14,54,18,2,0,MOMO,Kara,5.0,Livrée
+1007,2025-11-15,238,39,2,0,cash,Kpalimé,3.5,Livrée
+1008,15/11/2025,125,30,1,15,Mobile_Money,Kpalimé,2.4,Livrée
+1009,2025-11-15,163,61,1,5,MOMO,Dapaong,,En cours
+1010,2025-11-16,179,11,1,0,carte,Sokodé,4.2,Livrée
+1011,2025-11-16,136,88,1,5,Mobile Money,Dapaong,5.2,Livrée
+1012,2025-11-16,1,21,1,0,cash,Sokodé,5.6,Livrée
+1013,16/11/2025,35,69,2,0,MOMO,Lomé,1.6,Livrée
+1014,2025-11-16,246,37,3,0,Mobile Money,Dapaong,6.6,Livrée
+1015,2025-11-16,69,13,1,0,Mobile Money,Atakpamé,3.9,Livrée
+1016,2025-11-16,198,62,3,0,carte,Dapaong,4.3,Retournée
+1017,2025-11-16,229,88,2,5,mobile money,Kara,,En cours
+1018,2025-11-16,124,50,3,0,carte,Kpalimé,4.4,Livrée
+1019,2025-11-17,176,81,2,5,MOMO,Atakpamé,4.3,Livrée
+1020,2025-11-17,112,3,1,15,Mobile_Money,Kara,3.5,Retournée
+1021,2025-11-18,208,68,1,0,mobile money,Atakpamé,4.8,Annulée
+1022,18/11/2025,234,21,1,15,MOMO,Kpalimé,3.8,Livrée
+1023,2025-11-18,103,1,3,0,Cash a la livraison,Kara,4.3,Annulée
+1024,2025-11-18,142,58,1,0,MOMO,Dapaong,5.4,Livrée
+1025,2025-11-18,155,63,2,0,Mobile_Money,Kpalimé,2.4,Livrée
+1026,2025-11-18,242,9,2,0,carte,Kara,3.7,Livrée
+1027,2025-11-18,250,45,1,0,carte,Kpalimé,3.8,Livrée
+1028,2025-11-18,108,8,1,15,mobile money,Atakpamé,3.4,Livrée
+1029,2025-11-19,136,20,2,10,Mobile Money,Kpalimé,2.7,Livrée
+1030,19/11/2025,187,68,2,10,Mobile_Money,Sokodé,4.2,Annulée
+1031,2025-11-19,67,35,1,5,MOMO,Lomé,4.5,Livrée
+1032,2025-11-19,65,45,1,10,mobile money,Kpalimé,2.5,Livrée
+1033,2025-11-19,65,2,2,0,Cash a la livraison,Kara,4.3,Livrée
+1034,2025-11-19,117,41,1,0,mobile money,Lomé,2.5,Livrée
+1035,2025-11-20,7,53,1,0,CB,Dapaong,4.4,Livrée
+1036,2025-11-20,229,31,2,0,Mobile Money,Atakpamé,2.5,Livrée
+1037,2025-11-20,137,58,1,0,CB,Kara,4.9,Livrée
+1038,2025-11-20,81,22,1,5,MOMO,Atakpamé,3.4,Livrée
+1039,2025-11-20,242,15,1,5,MOMO,Sokodé,,En cours
+1040,2025-11-20,201,60,3,0,MOMO,Dapaong,6.3,Annulée
+1041,2025-11-21,5,48,1,10,MOMO,Kara,4.4,Livrée
+1042,2025-11-21,86,86,3,0,MOMO,Kara,5.3,Livrée
+1043,2025-11-22,180,67,1,0,Cash a la livraison,Atakpamé,4.4,Livrée
+1044,2025-11-22,213,80,1,10,Carte bancaire,Dapaong,5.8,Livrée
+1045,2025-11-22,114,77,3,15,Mobile_Money,Dapaong,4.9,Livrée
+1046,22/11/2025,32,83,1,0,Paiement à la livraison,Kpalimé,2.4,Livrée
+1047,2025-11-23,115,88,2,5,Mobile_Money,Kara,6.0,Livrée
+1048,23/11/2025,139,23,3,0,Mobile_Money,Kara,2.1,Livrée
+1049,2025-11-23,61,79,2,0,mobile money,Lomé,1.0,Livrée
+1050,24/11/2025,121,14,1,0,CB,Sokodé,6.0,Livrée
+1051,2025-11-24,50,9,2,0,mobile money,Sokodé,,En cours
+1052,2025-11-24,22,84,2,0,Mobile Money,Lomé,2.7,Livrée
+1053,2025-11-24,5,6,2,0,CB,Lomé,1.0,Annulée
+1054,24/11/2025,260,66,2,0,carte,Sokodé,5.1,Livrée
+1055,2025-11-24,112,26,3,10,mobile money,Lomé,2.1,Annulée
+1056,2025-11-24,137,53,2,5,Mobile_Money,Dapaong,8.4,Livrée
+1057,25/11/2025,124,17,2,0,CB,Kara,3.7,Livrée
+1058,2025-11-25,152,20,3,0,mobile money,Dapaong,7.7,Livrée
+1059,2025-11-25,214,24,1,10,mobile money,Kpalimé,1.4,Livrée
+1060,2025-11-25,10,56,2,0,Cash a la livraison,Lomé,1.7,Livrée
+1061,2025-11-25,60,46,1,0,mobile money,Atakpamé,2.6,Livrée
+1062,2025-11-25,28,86,2,0,Carte bancaire,Dapaong,5.9,Livrée
+1063,2025-11-25,136,30,1,0,MOMO,Lomé,1.0,Retournée
+1064,2025-11-25,103,85,1,15,mobile money,Lomé,1.4,Annulée
+1065,2025-11-26,83,20,1,0,Mobile Money,Kpalimé,3.8,Livrée
+1066,2025-11-26,246,69,2,10,mobile money,Dapaong,4.5,Livrée
+1067,2025-11-26,143,82,2,10,CB,Atakpamé,3.5,Livrée
+1068,2025-11-26,120,43,1,10,cash,Lomé,1.0,Livrée
+1069,2025-11-26,190,66,1,10,mobile money,Sokodé,5.7,Livrée
+1070,2025-11-26,12,19,1,0,Paiement à la livraison,Lomé,2.0,Annulée
+1071,2025-11-26,234,40,1,0,Mobile_Money,Dapaong,3.5,Livrée
+1072,2025-11-26,190,39,2,20,Mobile_Money,Sokodé,4.2,Livrée
+1073,2025-11-26,249,59,3,0,MOMO,Lomé,1.7,Livrée
+1074,2025-11-27,188,5,3,0,Cash a la livraison,Kpalimé,3.7,Livrée
+1075,2025-11-27,156,66,3,0,MOMO,Kpalimé,3.7,Annulée
+1076,2025-11-27,14,45,1,0,Carte bancaire,Kara,3.7,Livrée
+1077,2025-11-28,160,16,3,0,Mobile Money,Sokodé,,En cours
+1078,2025-11-28,140,35,1,0,Mobile_Money,Sokodé,3.9,Livrée
+1079,2025-11-29,60,60,3,10,Mobile_Money,Lomé,1.6,Annulée
+1080,2025-11-29,213,22,1,5,Mobile_Money,Dapaong,6.0,Livrée
+1081,2025-11-29,44,74,3,0,mobile money,Kpalimé,4.3,Livrée
+1082,2025-11-29,111,67,2,0,Mobile_Money,Kara,4.2,Livrée
+1083,2025-11-29,251,63,3,15,Mobile_Money,Kara,3.5,Livrée
+1084,2025-11-29,14,11,1,15,MOMO,Kpalimé,2.2,Livrée
+1085,2025-11-29,157,52,3,0,Carte bancaire,Kara,3.1,Annulée
+1086,2025-11-29,148,86,2,0,Mobile_Money,Atakpamé,3.8,Livrée
+1087,2025-11-29,8,9,2,0,Mobile Money,Atakpamé,4.4,Livrée
+1088,2025-11-30,134,30,2,0,Mobile_Money,Kara,4.2,Retournée
+1089,2025-11-30,113,79,2,10,Cash a la livraison,Dapaong,,En cours
+1090,2025-11-30,190,54,2,0,MOMO,Sokodé,,En cours
+1091,30/11/2025,184,46,1,0,cash,Sokodé,1.9,Livrée
+1092,2025-11-30,185,36,1,0,Mobile_Money,Atakpamé,3.8,Livrée
+1093,30/11/2025,46,23,1,10,CB,Dapaong,5.6,Livrée
+1094,2025-11-30,92,81,3,0,Mobile_Money,Lomé,2.8,Livrée
+1095,2025-12-01,5,44,1,20,Mobile_Money,Dapaong,5.9,Livrée
+1096,2025-12-01,174,45,1,0,Carte bancaire,Kara,2.4,Livrée
+1097,2025-12-01,217,39,3,0,cash,Dapaong,8.0,Livrée
+1098,2025-12-02,72,13,2,5,MOMO,Kpalimé,1.0,Annulée
+1099,2025-12-02,28,64,2,0,Paiement à la livraison,Sokodé,4.6,Livrée
+1100,2025-12-02,15,78,1,5,cash,Atakpamé,4.4,Livrée
+1101,2025-12-02,206,70,1,0,CB,Kara,5.1,Livrée
+1102,2025-12-03,160,73,1,0,Cash a la livraison,Sokodé,5.0,Retournée
+1103,2025-12-03,12,81,2,0,Mobile_Money,Sokodé,5.5,Livrée
+1104,2025-12-03,54,27,1,0,Mobile Money,Dapaong,3.6,Livrée
+1105,2025-12-03,8,26,2,5,MOMO,Kara,1.7,Livrée
+1106,2025-12-04,114,44,2,5,mobile money,Dapaong,6.9,Livrée
+1107,2025-12-04,239,35,1,0,mobile money,Kpalimé,2.6,Livrée
+1108,2025-12-04,35,68,2,15,carte,Lomé,,En cours
+1109,2025-12-04,208,41,1,5,CB,Atakpamé,3.2,Livrée
+1110,2025-12-04,191,12,2,15,Mobile_Money,Kara,3.8,Annulée
+1111,2025-12-05,144,41,2,20,carte,Kpalimé,5.5,Livrée
+1112,2025-12-05,50,57,1,0,Mobile Money,Kpalimé,1.8,Livrée
+1113,2025-12-05,10,89,1,0,Cash a la livraison,Lomé,1.8,Livrée
+1114,2025-12-06,202,6,1,5,MOMO,Atakpamé,4.3,Livrée
+1115,2025-12-06,171,47,2,15,CB,Dapaong,4.4,Livrée
+1116,2025-12-06,192,67,2,10,carte,Kara,4.1,Livrée
+1117,2025-12-06,225,43,2,0,mobile money,Lomé,1.0,Annulée
+1118,2025-12-06,211,23,1,0,MOMO,Kpalimé,1.9,Livrée
+1119,2025-12-06,15,55,1,10,MOMO,Sokodé,2.1,Livrée
+1120,2025-12-06,90,65,1,0,Mobile_Money,Lomé,1.5,Annulée
+1121,2025-12-06,256,32,2,5,carte,Sokodé,5.0,Livrée
+1122,2025-12-07,148,75,1,0,Mobile Money,Kpalimé,2.8,Livrée
+1123,2025-12-07,186,39,1,0,Mobile Money,Kara,4.6,Livrée
+1124,2025-12-07,55,23,1,0,mobile money,Sokodé,3.9,Retournée
+1125,2025-12-07,185,7,2,0,MOMO,Atakpamé,2.5,Livrée
+1126,2025-12-08,25,21,1,5,Mobile_Money,Dapaong,5.9,Livrée
+1127,2025-12-08,117,83,1,10,Mobile_Money,Kpalimé,3.4,Livrée
+1128,2025-12-08,106,79,1,5,carte,Sokodé,4.9,Livrée
+1129,2025-12-08,122,82,2,15,Mobile_Money,Lomé,1.3,Livrée
+1130,2025-12-08,217,4,1,0,CB,Sokodé,2.9,Livrée
+1131,2025-12-09,122,16,2,0,Mobile Money,Kara,2.9,Livrée
+1132,2025-12-09,99,77,1,0,Paiement à la livraison,Sokodé,5.3,Livrée
+1133,09/12/2025,91,88,2,0,Paiement à la livraison,Kpalimé,4.2,Livrée
+1134,2025-12-09,140,19,1,5,Mobile_Money,Kpalimé,3.5,Livrée
+1135,2025-12-09,98,33,3,15,Mobile_Money,Kara,5.3,Livrée
+1136,2025-12-10,32,87,1,0,MOMO,Lomé,,En cours
+1137,2025-12-10,248,90,2,10,mobile money,Kara,5.1,Livrée
+1138,10/12/2025,45,83,2,0,Mobile_Money,Dapaong,3.9,Annulée
+1139,2025-12-10,55,49,3,0,Carte bancaire,Kpalimé,3.7,Livrée
+1140,10/12/2025,214,25,1,0,cash,Lomé,2.7,Livrée
+1141,2025-12-10,96,17,2,0,Cash a la livraison,Kpalimé,5.5,Livrée
+1142,2025-12-10,49,61,3,0,carte,Dapaong,5.9,Livrée
+1143,2025-12-10,237,52,3,5,MOMO,Dapaong,4.7,Livrée
+1144,2025-12-10,152,48,3,10,cash,Lomé,3.4,Livrée
+1145,2025-12-11,75,31,2,5,Mobile Money,Kpalimé,3.2,Livrée
+1146,11/12/2025,29,22,2,10,CB,Lomé,3.1,Annulée
+1147,11/12/2025,17,6,1,0,mobile money,Kara,3.6,Livrée
+1148,2025-12-12,242,59,2,0,CB,Kpalimé,3.0,Livrée
+1149,2025-12-12,6,27,1,0,Mobile_Money,Atakpamé,2.2,Livrée
+1150,13/12/2025,185,29,2,20,carte,Dapaong,5.1,Livrée
+1151,2025-12-13,25,41,2,0,Mobile Money,Lomé,1.0,Livrée
+1152,2025-12-13,247,62,1,10,carte,Kara,2.2,Livrée
+1153,13/12/2025,81,42,3,5,Cash a la livraison,Dapaong,5.9,Livrée
+1154,2025-12-13,23,23,1,20,CB,Lomé,2.9,Annulée
+1155,2025-12-13,163,53,1,5,MOMO,Lomé,,En cours
+1156,2025-12-13,131,35,2,0,Mobile_Money,Kara,4.6,Livrée
+1157,14/12/2025,27,77,2,10,CB,Kara,3.6,Livrée
+1158,2025-12-14,169,16,1,0,Cash a la livraison,Kpalimé,2.9,Livrée
+1159,2025-12-14,29,17,1,10,Paiement à la livraison,Atakpamé,3.9,Livrée
+1160,15/12/2025,217,11,2,0,Paiement à la livraison,Kpalimé,3.3,Livrée
+1161,2025-12-15,29,72,3,5,Mobile Money,Atakpamé,4.2,Livrée
+1162,2025-12-15,35,20,3,0,MOMO,Sokodé,3.2,Livrée
+1163,2025-12-15,110,10,2,0,Mobile_Money,Atakpamé,2.9,Livrée
+1164,15/12/2025,230,22,1,0,CB,Atakpamé,2.8,Livrée
+1165,2025-12-15,175,61,2,0,Mobile_Money,Dapaong,5.5,Livrée
+1166,2025-12-16,253,34,1,0,mobile money,Dapaong,6.1,Livrée
+1167,2025-12-16,176,81,1,0,mobile money,Kpalimé,2.5,Livrée
+1168,2025-12-16,216,38,2,0,Carte bancaire,Kpalimé,3.3,Livrée
+1169,2025-12-16,9,50,2,5,Carte bancaire,Atakpamé,5.5,Livrée
+1170,2025-12-16,187,30,2,5,carte,Lomé,3.0,Livrée
+1171,2025-12-16,140,43,3,0,MOMO,Sokodé,3.2,Livrée
+1172,2025-12-17,92,19,3,10,MOMO,Sokodé,4.4,Retournée
+1173,2025-12-17,244,45,2,0,Mobile_Money,Sokodé,,En cours
+1174,2025-12-17,165,75,1,0,mobile money,Sokodé,6.0,Livrée
+1175,2025-12-17,248,64,3,5,CB,Atakpamé,2.7,Livrée
+1176,2025-12-17,114,38,2,15,Paiement à la livraison,Atakpamé,3.0,Livrée
+1177,2025-12-17,33,14,1,0,Mobile_Money,Kara,3.8,Annulée
+1178,2025-12-17,184,24,1,0,MOMO,Kara,5.0,Livrée
+1179,2025-12-18,47,5,2,0,Paiement à la livraison,Kpalimé,3.4,Livrée
+1180,2025-12-18,51,11,1,5,Carte bancaire,Kpalimé,4.2,Livrée
+1181,2025-12-18,110,23,2,0,CB,Atakpamé,2.6,Livrée
+1182,2025-12-19,131,17,2,15,cash,Kara,2.0,Livrée
+1183,2025-12-19,202,72,1,0,Carte bancaire,Kpalimé,3.7,Livrée
+1184,2025-12-20,223,81,2,0,Mobile_Money,Sokodé,5.3,Livrée
+1185,20/12/2025,173,8,1,0,Cash a la livraison,Atakpamé,4.6,Livrée
+1186,2025-12-20,204,46,1,0,Paiement à la livraison,Atakpamé,2.6,Livrée
+1187,2025-12-20,184,45,3,0,MOMO,Lomé,2.0,Livrée
+1188,2025-12-20,127,86,1,0,Mobile Money,Lomé,2.2,Annulée
+1189,2025-12-20,215,64,2,10,Paiement à la livraison,Lomé,4.1,Livrée
+1190,2025-12-21,11,45,1,0,Cash a la livraison,Sokodé,5.2,Annulée
+1191,2025-12-21,67,36,1,0,Carte bancaire,Atakpamé,3.5,Livrée
+1192,2025-12-21,254,76,1,0,carte,Lomé,3.1,Livrée
+1193,2025-12-21,205,36,3,0,carte,Lomé,2.2,Livrée
+1194,2025-12-21,256,60,2,5,Cash a la livraison,Kara,4.0,Retournée
+1195,2025-12-21,159,84,1,0,MOMO,Sokodé,3.8,Livrée
+1196,2025-12-22,185,62,2,0,MOMO,Kara,5.6,Livrée
+1197,2025-12-22,148,31,2,10,Cash a la livraison,Kpalimé,2.9,Livrée
+1198,2025-12-22,216,2,2,0,Mobile Money,Kara,,En cours
+1199,2025-12-22,103,6,2,0,MOMO,Atakpamé,3.7,Livrée
+1200,2025-12-23,208,35,1,0,CB,Dapaong,4.6,Annulée
+1201,2025-12-23,15,73,1,0,Cash a la livraison,Sokodé,6.6,Annulée
+1202,23/12/2025,178,23,1,15,Mobile Money,Kara,3.5,Livrée
+1203,2025-12-23,120,41,3,0,Carte bancaire,Lomé,2.1,Livrée
+1204,2025-12-23,39,53,2,0,Carte bancaire,Lomé,3.0,Livrée
+1205,2025-12-23,88,88,1,5,Mobile_Money,Kpalimé,4.0,Livrée
+1206,2025-12-23,203,72,3,0,Paiement à la livraison,Kara,4.2,Livrée
+1207,2025-12-24,61,88,3,0,Carte bancaire,Kara,,En cours
+1208,2025-12-24,227,20,1,10,Paiement à la livraison,Dapaong,7.0,Livrée
+1209,24/12/2025,195,30,1,0,Cash a la livraison,Kara,4.5,Livrée
+1210,2025-12-25,96,89,2,0,Mobile Money,Kpalimé,2.7,Livrée
+1211,2025-12-25,114,27,1,0,carte,Dapaong,6.6,Livrée
+1212,2025-12-25,260,10,3,0,mobile money,Sokodé,4.5,Livrée
+1213,2025-12-25,193,65,3,0,Mobile Money,Kara,2.4,Livrée
+1214,2025-12-25,56,15,2,0,MOMO,Atakpamé,6.5,Livrée
+1215,25/12/2025,225,30,2,0,mobile money,Lomé,1.1,Livrée
+1216,2025-12-26,162,36,1,0,MOMO,Kpalimé,1.0,Retournée
+1217,2025-12-26,187,37,3,0,mobile money,Sokodé,2.8,Livrée
+1218,26/12/2025,102,33,2,0,mobile money,Kpalimé,3.9,Livrée
+1219,2025-12-26,10,19,2,0,Mobile Money,Kara,3.9,Livrée
+1220,2025-12-26,194,40,2,10,mobile money,Sokodé,3.7,Livrée
+1221,2025-12-26,81,88,2,5,Mobile_Money,Atakpamé,2.5,Livrée
+1222,2025-12-27,167,15,1,5,MOMO,Sokodé,5.2,Livrée
+1223,2025-12-27,152,48,1,10,Mobile Money,Kara,3.8,Livrée
+1224,2025-12-28,129,70,1,15,Mobile Money,Atakpamé,4.2,Livrée
+1225,2025-12-28,72,74,1,5,cash,Sokodé,4.0,Livrée
+1226,2025-12-29,145,50,2,0,cash,Lomé,1.0,Annulée
+1227,2025-12-29,99,9,2,10,MOMO,Atakpamé,5.1,Livrée
+1228,2025-12-29,205,67,2,0,Mobile Money,Atakpamé,3.0,Livrée
+1229,29/12/2025,258,18,2,5,CB,Atakpamé,2.7,Livrée
+1230,2025-12-29,212,35,2,10,carte,Sokodé,4.2,Livrée
+1231,2025-12-30,238,53,2,10,mobile money,Lomé,1.0,Livrée
+1232,2025-12-30,101,2,1,20,Mobile Money,Sokodé,4.9,Livrée
+1233,2025-12-30,68,43,1,5,Mobile Money,Dapaong,,En cours
+1234,2025-12-30,76,27,1,0,Mobile_Money,Lomé,1.6,Livrée
+1235,2025-12-30,219,81,2,5,mobile money,Dapaong,5.1,Livrée
+1236,2025-12-31,7,24,2,0,carte,Dapaong,6.3,Livrée
+51,2025-01-19,14,9,1,0,Paiement à la livraison,Atakpamé,3.4,Livrée
