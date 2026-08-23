@@ -1,0 +1,262 @@
+client_id,nom,age,sexe,ville,date_inscription,segment
+1,Kodjo Adjei,24.0,M,Kpalimé,2025-08-10,Nouveau
+2,Dede Agbeko,20.0,M,Lomé ,23/09/2023,Régulier
+3,Akpene Tchassa,29.0,F,Dapaong,2025-12-11,Nouveau
+4,Afi Tchassa,39.0,M,kpalime,2023-07-11,VIP
+5,Sena Sossou,19.0,M,Atakpamé,07/05/2022,Régulier
+6,Sena Kpodar,27.0,F,Atakpamé,2024-01-04,Régulier
+7,Kodjo Kpodar,15.0,F,atakpame,26/09/2025,Régulier
+8,Dede Bakoma,26.0,F,Lomé,02/07/2025,Régulier
+9,Afi Tchassa,38.0,M,Lomé,23/10/2025,Régulier
+10,Adjoa Sossou,23.0,M,Atakpamé,18/08/2023,Régulier
+11,Kekeli Dossou,20.0,F,Sokodé,24/07/2022,Régulier
+12,Elom Agbeko,20.0,M,sokode,25/01/2024,Régulier
+13,Essi Sossou,20.0,M,sokode,2022-06-11,Régulier
+14,Adjoa Adjei,15.0,M,Kara,26/05/2022,Régulier
+15,Yao Tchassa,30.0,F,kpalime,26/09/2022,Régulier
+16,Kodjo Agbeko,37.0,F,LOME,13/10/2022,Régulier
+17,Yao Bakoma,20.0,M,Sokode,2025-09-14,Nouveau
+18,Elom Kpodar,26.0,F,atakpame,2023-03-16,Régulier
+19,Komi Tchassa,29.0,F,kpalime,2022-03-05,Régulier
+20,Komi Kpodar,23.0,F,Dapaong,2025-09-11,Régulier
+21,Kekeli Kpodar,21.0,F,KARA,17/08/2025,Régulier
+22,Komi Dossou,24.0,F,Atakpamé,2022-06-11,Nouveau
+23,Afi Dossou,,F,Kpalimé,2023-03-01,Nouveau
+24,Adjoa Amouzou,29.0,F,Lomé,2023-03-14,Régulier
+25,Elom Bakoma,24.0,F,Kpalimé,16/09/2023,VIP
+26,Kekeli Dossou,39.0,F,lome,2023-02-04,VIP
+27,Dede Dossou,18.0,M,KARA,22/09/2023,Régulier
+28,Yao Kpodar,28.0,M,kpalime,08/09/2024,Régulier
+29,Yao Adjei,29.0,F,Sokodé,08/04/2025,Nouveau
+30,Dede Bakoma,15.0,M,sokode,2022-01-10,Régulier
+31,Kekeli Agbeko,10.0,M,Atakpamé,21/12/2025,Nouveau
+32,Elom Adjei,29.0,F,Kara,2022-07-16,Nouveau
+33,Kekeli Sossou,25.0,M,dapaong ,2024-06-10,Régulier
+34,Mawuli Amouzou,30.0,M,dapaong ,2022-09-05,Régulier
+35,Sena Amouzou,22.0,F,sokode,2022-06-24,Nouveau
+36,Akpene Adjei,39.0,F,dapaong ,2024-03-05,Nouveau
+37,Kekeli Dossou,32.0,M,lome,2024-07-15,Régulier
+38,Kodjo Sossou,26.0,M,Lomé ,2025-11-13,Régulier
+39,Yao Adjei,21.0,M,Dapaong,2023-10-08,Nouveau
+40,Akpene Kpodar,29.0,F,Sokode,05/01/2022,
+41,Mawuli Sossou,40.0,F,kpalime,21/08/2022,Régulier
+42,Essi Sossou,27.0,F,Atakpamé,24/10/2024,
+43,Adjoa Kpodar,41.0,F,lome,2022-09-12,Régulier
+44,Dede Adjei,12.0,F,kpalime,2024-11-05,
+45,Kodjo Kpodar,23.0,M,LOME,05/06/2025,Nouveau
+46,Afi Dossou,48.0,F,kpalime,2023-02-23,Régulier
+47,Ama Kpodar,33.0,M,Atakpamé,2022-08-17,Régulier
+48,Akpene Dossou,15.0,F,Kpalimé,17/06/2022,Nouveau
+49,Ama Tchassa,29.0,F,sokode,2023-05-06,Nouveau
+50,Dede Kpodar,51.0,F,atakpame,13/02/2025,Nouveau
+51,Afi Kpodar,32.0,M,Sokode,2022-12-10,Nouveau
+52,Kossi Bakoma,,F,atakpame,25/01/2023,VIP
+53,Essi Dossou,24.0,F,Dapaong,2024-09-23,Régulier
+54,Adjoa Bakoma,33.0,M,Dapaong,14/04/2022,VIP
+55,Yao Kpodar,24.0,M,Sokode,2022-10-06,Nouveau
+56,Adjoa Bakoma,36.0,F,Sokodé,02/07/2023,Régulier
+57,Komi Adjei,28.0,F,atakpame,19/05/2023,Régulier
+58,Kossi Dossou,29.0,M,Kara,2024-08-14,Nouveau
+59,Komi Bakoma,53.0,F,Lomé ,2022-02-21,Régulier
+60,Komi Bakoma,21.0,F,Atakpamé,17/04/2023,VIP
+61,Ama Sossou,,M,kpalime,2024-05-08,Régulier
+62,Essi Amouzou,19.0,F,KARA,15/01/2024,Nouveau
+63,Komi Adjei,29.0,M,Lomé ,11/12/2024,Nouveau
+64,Akpene Kpodar,14.0,F,dapaong ,2024-02-03,Nouveau
+65,Dede Kpodar,38.0,F,kpalime,18/10/2024,Nouveau
+66,Kossi Dossou,,F,Atakpamé,21/10/2025,VIP
+67,Dede Tchassa,30.0,F,Kpalimé,2025-10-22,Régulier
+68,Ama Amouzou,40.0,M,atakpame,2025-11-25,Nouveau
+69,Ama Bakoma,18.0,F,sokode,19/07/2024,Régulier
+70,Akpene Sossou,,M,dapaong ,06/01/2023,Nouveau
+71,Kodjo Agbeko,39.0,M,dapaong ,2022-12-10,VIP
+72,Elom Dossou,41.0,M, Lomé,2023-03-04,Régulier
+73,Afi Tchassa,,F,atakpame,07/01/2023,Régulier
+74,Komi Bakoma,26.0,F,sokode,24/07/2025,Nouveau
+75,Dede Amouzou,41.0,M,kara,18/11/2024,Régulier
+76,Sena Bakoma,12.0,F,KARA,17/01/2023,VIP
+77,Yao Sossou,29.0,F,atakpame,02/02/2024,Régulier
+78,Dede Bakoma,33.0,M,Atakpamé,12/03/2024,VIP
+79,Kodjo Adjei,29.0,F,Dapaong,16/02/2023,Nouveau
+80,Afi Dossou,29.0,F, Lomé,2025-03-27,Nouveau
+81,Komi Dossou,34.0,M,kpalime,2024-06-26,Nouveau
+82,Akpene Adjei,34.0,M,Dapaong,2024-11-09,Régulier
+83,Fofo Tchassa,23.0,F,Atakpamé,2024-01-16,VIP
+84,Kodjo Adjei,21.0,M,LOME,22/10/2024,Nouveau
+85,Essi Agbeko,35.0,M,Atakpamé,2025-05-13,VIP
+86,Kekeli Adjei,30.0,M,Kpalimé,2025-09-14,VIP
+87,Afi Sossou,18.0,M,sokode,2024-11-11,Régulier
+88,Dede Sossou,23.0,F,Sokode,2025-12-17,Régulier
+89,Mawuli Kpodar,10.0,F,Dapaong,2025-07-04,Nouveau
+90,Mawuli Amouzou,40.0,M,KARA,2023-07-19,Nouveau
+91,Kossi Kpodar,28.0,M,LOME,08/10/2025,Nouveau
+92,Kossi Tchassa,24.0,M,Kara,21/07/2022,Nouveau
+93,Elom Adjei,48.0,F,Kara,2022-06-01,VIP
+94,Essi Adjei,28.0,M,Atakpamé,2022-01-13,VIP
+95,Akpene Bakoma,30.0,M,atakpame,2023-01-25,VIP
+96,Essi Kpodar,29.0,M,Kara,2024-04-21,Régulier
+97,Essi Adjei,24.0,F,Lomé ,14/07/2023,Nouveau
+98,Adjoa Tchassa,30.0,M,Kpalimé,2024-06-21,Régulier
+99,Akpene Agbeko,25.0,F,atakpame,10/11/2022,Nouveau
+100,Kekeli Tchassa,20.0,F,Kpalimé,08/04/2022,VIP
+101,Kossi Kpodar,22.0,F,LOME,02/08/2024,Régulier
+102,Kodjo Sossou,22.0,F,dapaong ,2023-07-27,Nouveau
+103,Essi Adjei,28.0,F,dapaong ,03/03/2024,Nouveau
+104,Dede Kpodar,23.0,M,Lomé ,18/01/2023,Nouveau
+105,Ama Kpodar,32.0,M,sokode,13/09/2024,VIP
+106,Kossi Tchassa,29.0,M,dapaong ,22/12/2022,Nouveau
+107,Akpene Kpodar,25.0,M,kpalime,23/04/2025,Nouveau
+108,Ama Sossou,23.0,M,lome,2022-09-19,Régulier
+109,Ama Amouzou,17.0,M,lome,2024-08-23,Régulier
+110,Kossi Dossou,41.0,M,Lomé ,21/03/2024,VIP
+111,Fofo Kpodar,41.0,M,Sokodé,2025-09-09,Nouveau
+112,Afi Kpodar,27.0,F,Dapaong,2023-12-12,Régulier
+113,Kodjo Adjei,8.0,F,Atakpamé,2023-04-25,
+114,Akpene Sossou,48.0,M,kara,2022-08-24,Nouveau
+115,Adjoa Bakoma,22.0,M,dapaong ,01/12/2025,Nouveau
+116,Dede Bakoma,,F,Kpalimé,2023-07-11,Nouveau
+117,Kekeli Agbeko,25.0,M,atakpame,01/08/2024,Nouveau
+118,Mawuli Amouzou,17.0,F,Lomé,2022-06-03,Régulier
+119,Essi Bakoma,39.0,M,Atakpamé,2022-01-01,VIP
+120,Yao Kpodar,15.0,F,Atakpamé,18/09/2022,Régulier
+121,Sena Tchassa,40.0,F,Kpalimé,2024-07-11,Régulier
+122,Yao Tchassa,33.0,F,Lomé,18/05/2022,VIP
+123,Dede Tchassa,38.0,F,lome,2022-02-03,Régulier
+124,Fofo Kpodar,180.0,F,kara,2023-07-08,Nouveau
+125,Kekeli Dossou,24.0,F,sokode,01/12/2022,Régulier
+126,Kekeli Dossou,34.0,M,kpalime,2022-08-21,Nouveau
+127,Ama Amouzou,27.0,M,dapaong ,04/03/2023,Régulier
+128,Afi Amouzou,35.0,F,Kpalimé,2022-02-16,Nouveau
+129,Elom Agbeko,11.0,M,sokode,15/03/2025,Régulier
+130,Sena Adjei,41.0,M,Atakpamé,2024-07-08,Régulier
+131,Kodjo Sossou,36.0,F,sokode,13/09/2023,VIP
+132,Kodjo Adjei,28.0,F,Atakpamé,22/02/2025,VIP
+133,Kekeli Adjei,42.0,F,atakpame,2023-03-21,Régulier
+134,Yao Kpodar,18.0,F,kara,01/12/2025,Nouveau
+135,Afi Kpodar,43.0,F,dapaong ,27/05/2022,Nouveau
+136,Sena Kpodar,37.0,F,Dapaong,2025-01-19,Nouveau
+137,Kossi Bakoma,17.0,M,dapaong ,02/09/2024,Nouveau
+138,Essi Agbeko,37.0,F,KARA,2023-10-17,VIP
+139,Kossi Kpodar,5.0,F,lome,15/09/2024,VIP
+140,Yao Adjei,24.0,F,dapaong ,2024-10-01,Régulier
+141,Sena Adjei,13.0,M,LOME,2023-03-04,Nouveau
+142,Fofo Agbeko,25.0,M,KARA,06/10/2022,Nouveau
+143,Yao Dossou,39.0,M,dapaong ,2025-03-24,Nouveau
+144,Mawuli Bakoma,22.0,M,Lomé ,2024-10-04,Nouveau
+145,Mawuli Tchassa,45.0,M,Kpalimé,24/12/2024,Nouveau
+146,Kossi Dossou,19.0,F,Sokodé,2023-03-19,Nouveau
+147,Elom Tchassa,22.0,F,sokode,2023-07-06,Régulier
+148,Komi Dossou,41.0,M,Sokode,2022-01-24,Nouveau
+149,Elom Dossou,57.0,M,Dapaong,2022-11-21,Régulier
+150,Yao Bakoma,44.0,M,sokode,2024-02-15,Nouveau
+151,Fofo Amouzou,18.0,M,sokode,2022-04-24,Régulier
+152,Akpene Amouzou,20.0,F,sokode,2022-09-16,Nouveau
+153,Elom Agbeko,41.0,M,Lomé,03/11/2024,
+154,Komi Bakoma,47.0,F,atakpame,2025-05-21,Nouveau
+155,Akpene Bakoma,15.0,F,Sokodé,20/03/2022,Régulier
+156,Sena Kpodar,50.0,M,Atakpamé,2025-09-08,Régulier
+157,Komi Adjei,12.0,F,Atakpamé,20/01/2023,Nouveau
+158,Kossi Agbeko,19.0,M,Kpalimé,2025-03-22,Nouveau
+159,Essi Dossou,26.0,F,Kara,27/09/2025,Régulier
+160,Sena Kpodar,22.0,F,kara,21/04/2023,Régulier
+161,Komi Amouzou,45.0,F,sokode,2024-06-19,Régulier
+162,Ama Dossou,22.0,M, Lomé,19/05/2023,Régulier
+163,Afi Amouzou,50.0,F,Lomé ,26/08/2023,Nouveau
+164,Ama Bakoma,,F,Atakpamé,09/05/2024,Régulier
+165,Akpene Sossou,11.0,F,Sokode,14/01/2023,Nouveau
+166,Elom Dossou,22.0,F,sokode,13/11/2024,Nouveau
+167,Komi Amouzou,20.0,F,kara,2022-06-17,Régulier
+168,Kodjo Amouzou,26.0,F,Atakpamé,2025-04-04,Nouveau
+169,Kossi Adjei,26.0,F,Kara,08/03/2024,Nouveau
+170,Fofo Kpodar,,M,Sokode,18/05/2023,Régulier
+171,Komi Bakoma,39.0,M,KARA,08/12/2025,Nouveau
+172,Dede Bakoma,31.0,F,Sokode,15/12/2022,VIP
+173,Ama Sossou,,F,Dapaong,2023-01-02,VIP
+174,Kodjo Tchassa,24.0,F,KARA,05/05/2023,Régulier
+175,Elom Dossou,50.0,M,Dapaong,2024-11-11,Nouveau
+176,Dede Agbeko,14.0,M,Dapaong,2022-04-19,Régulier
+177,Ama Amouzou,17.0,F,dapaong ,2023-06-21,Nouveau
+178,Elom Adjei,34.0,F,Dapaong,05/02/2025,Régulier
+179,Akpene Adjei,20.0,F,Kpalimé,11/03/2022,Nouveau
+180,Sena Sossou,34.0,F,Dapaong,16/12/2022,Nouveau
+181,Akpene Amouzou,11.0,M,sokode,24/10/2023,Régulier
+182,Fofo Kpodar,33.0,F,Dapaong,10/02/2024,Nouveau
+183,Ama Sossou,47.0,M,Sokode,06/10/2024,Nouveau
+184,Adjoa Dossou,40.0,M,Dapaong,12/10/2022,Régulier
+185,Kekeli Sossou,50.0,M,Sokodé,2024-08-01,Régulier
+186,Fofo Agbeko,24.0,F,Kpalimé,2025-02-04,Régulier
+187,Elom Adjei,28.0,M,Atakpamé,2023-09-23,Régulier
+188,Dede Tchassa,33.0,F,Dapaong,2024-01-14,Nouveau
+189,Kekeli Adjei,39.0,F,kara,2022-05-19,Nouveau
+190,Adjoa Dossou,34.0,M,atakpame,2022-07-07,Nouveau
+191,Kodjo Bakoma,29.0,F,Atakpamé,2023-08-02,Régulier
+192,Kekeli Adjei,27.0,M,Dapaong,05/05/2023,Régulier
+193,Elom Amouzou,24.0,M,kpalime,05/10/2023,Nouveau
+194,Kodjo Adjei,35.0,M,Sokode,2025-06-08,
+195,Komi Agbeko,37.0,F,Dapaong,2023-11-17,Régulier
+196,Mawuli Kpodar,28.0,F,dapaong ,2023-06-06,VIP
+197,Kekeli Dossou,48.0,F,dapaong ,01/02/2022,Régulier
+198,Komi Agbeko,33.0,M,Atakpamé,2023-07-20,VIP
+199,Kodjo Tchassa,27.0,F,sokode,21/01/2025,Nouveau
+200,Fofo Kpodar,29.0,M,Sokodé,2023-06-22,VIP
+201,Fofo Dossou,29.0,M,Atakpamé,2022-04-10,Régulier
+202,Afi Amouzou,29.0,F,atakpame,17/04/2024,Nouveau
+203,Yao Amouzou,41.0,F,Kpalimé,2024-01-21,
+204,Sena Kpodar,26.0,M,kara,2024-08-13,Régulier
+205,Kekeli Kpodar,36.0,M,sokode,13/11/2023,Nouveau
+206,Essi Agbeko,30.0,M,sokode,2025-02-03,Régulier
+207,Kossi Bakoma,32.0,F,kpalime,13/02/2023,Régulier
+208,Kodjo Sossou,22.0,F, Lomé,18/10/2024,Régulier
+209,Essi Kpodar,18.0,F,Lomé ,2022-04-27,Nouveau
+210,Sena Adjei,20.0,F,Dapaong,04/09/2022,Régulier
+211,Adjoa Adjei,33.0,F,Kara,06/03/2022,Nouveau
+212,Kekeli Agbeko,42.0,M,Atakpamé,2023-02-26,Régulier
+213,Kossi Sossou,26.0,M,kara,23/05/2022,Nouveau
+214,Fofo Agbeko,25.0,F,Kara,10/05/2022,VIP
+215,Akpene Sossou,30.0,M,Atakpamé,17/06/2022,Nouveau
+216,Ama Kpodar,24.0,M,Lomé ,2023-07-12,Nouveau
+217,Fofo Amouzou,30.0,M,atakpame,11/02/2024,Nouveau
+218,Essi Tchassa,27.0,M,Dapaong,2022-04-07,Régulier
+219,Komi Sossou,48.0,F,sokode,05/11/2024,Nouveau
+220,Kossi Dossou,10.0,F,atakpame,2025-08-08,Régulier
+221,Kodjo Amouzou,29.0,F,Sokodé,2023-04-02,Régulier
+222,Yao Bakoma,22.0,F,kpalime,14/09/2023,Régulier
+223,Fofo Sossou,34.0,M,sokode,2023-07-20,
+224,Elom Agbeko,16.0,F,Atakpamé,01/10/2025,Régulier
+225,Fofo Dossou,17.0,M, Lomé,26/02/2022,Nouveau
+226,Dede Tchassa,42.0,F,LOME,2024-12-07,Nouveau
+227,Sena Agbeko,24.0,M,Dapaong,04/07/2025,Régulier
+228,Afi Bakoma,34.0,M,Sokodé,2025-03-21,Nouveau
+229,Kossi Amouzou,28.0,F,Kpalimé,2024-06-25,
+230,Dede Agbeko,43.0,M,kpalime,2023-10-07,Nouveau
+231,Dede Agbeko,28.0,M,Sokodé,11/11/2025,Nouveau
+232,Essi Kpodar,15.0,M,dapaong ,2023-03-23,Nouveau
+233,Fofo Tchassa,43.0,F,KARA,2022-05-04,Régulier
+234,Sena Amouzou,17.0,M,Kpalimé,18/11/2023,VIP
+235,Fofo Tchassa,28.0,M,Kpalimé,02/12/2023,Nouveau
+236,Afi Kpodar,38.0,M,Lomé ,2024-03-20,Nouveau
+237,Elom Dossou,39.0,M,dapaong ,05/01/2022,VIP
+238,Sena Bakoma,23.0,F,Kpalimé,2025-08-23,Régulier
+239,Kossi Sossou,19.0,M,KARA,2022-02-23,Régulier
+240,Essi Adjei,40.0,F,sokode,2022-05-12,Régulier
+241,Akpene Tchassa,,M,Dapaong,12/04/2022,Régulier
+242,Komi Dossou,22.0,F,Sokodé,2025-06-03,Nouveau
+243,Kodjo Adjei,20.0,M,kara,2023-04-01,Régulier
+244,Ama Bakoma,30.0,M,Lomé ,10/02/2024,Régulier
+245,Fofo Sossou,42.0,M,atakpame,12/07/2023,Régulier
+246,Mawuli Adjei,32.0,F,kara,09/05/2023,Régulier
+247,Mawuli Agbeko,28.0,M,atakpame,2024-11-13,VIP
+248,Komi Sossou,-3.0,F, Lomé,21/03/2024,Régulier
+249,Adjoa Adjei,29.0,F,Kara,15/10/2025,VIP
+250,Sena Kpodar,31.0,F,Lomé ,04/04/2023,Nouveau
+251,Kekeli Kpodar,27.0,F,Dapaong,23/12/2023,VIP
+252,Fofo Amouzou,,F,Sokodé,2022-06-08,Nouveau
+253,Kekeli Dossou,17.0,M,Sokode,18/03/2024,Nouveau
+254,Komi Dossou,22.0,M,kpalime,2022-11-21,VIP
+255,Kekeli Amouzou,32.0,M,Sokode,22/03/2023,Nouveau
+256,Dede Tchassa,42.0,F,dapaong ,2023-03-17,Régulier
+257,Kodjo Agbeko,26.0,F,kara,2022-06-05,Nouveau
+258,Essi Sossou,33.0,M,kpalime,19/02/2025,
+259,Afi Tchassa,21.0,F,Atakpamé,06/10/2022,Régulier
+260,Sena Adjei,33.0,M,KARA,2023-11-25,VIP
+11,Kekeli Dossou,20.0,F,Sokodé,24/07/2022,Régulier
