@@ -1,0 +1,248 @@
+"id";"title";"slug";"acronym";"url";"organization";"organization_id";"owner";"owner_id";"description";"frequency";"license";"temporal_coverage.start";"temporal_coverage.end";"spatial.granularity";"spatial.zones";"featured";"created_at";"last_modified";"tags";"archived";"resources_count";"main_resources_count";"resources_formats";"downloads";"harvest.backend";"harvest.domain";"harvest.created_at";"harvest.modified_at";"harvest.remote_url";"quality_score";"metric.discussions";"metric.reuses";"metric.followers";"metric.views";"metric.resources_downloads"
+"6a281d826b298cdc10327b86";"Indices de Susceptibilité (FSI) et de Risque d’Inondation (FRI) au Togo";"indices-de-susceptibilite-fsi-et-de-risque-dinondation-fri-au-togo";"ISRI-TG";"https://opendata.gouv.tg/fr/datasets/indices-de-susceptibilite-fsi-et-de-risque-dinondation-fri-au-togo/";"Ministère de l'Éfficacité du Service Public et de la Transformation Numérique";"6760c507695e9dfc6b747eb7";"";"";"**1. Contexte et Objectifs**
+
+Le Togo est régulièrement confronté à des inondations dévastatrices, recensées par [EM-DAT](https://www.emdat.be/) depuis 1966, qui ont causé au moins 82 décès, blessé 171 personnes et affecté plus de 500 000 individus, principalement dans les régions Savanes, Kara, Plateaux et Maritime. Ces événements, souvent liés aux bassins du Mono et de l’Oti ainsi qu’à des pluies torrentielles, impactent lourdement les populations rurales vulnérables, les infrastructures périurbaines comme à Lomé, et l’économie nationale avec des dommages directs (ex. : 200 milliers US$ en 1966, ajustés à 1,9 million) et des pertes indirectes massives comme 26 milliards FCFA (environ 40 millions US$) en productivité agricole en 2020 ou 2,6 milliards FCFA en agriculture/élevage en 2022. La gestion efficace de ce risque nécessite une compréhension fine des facteurs de susceptibilité (ex. : exposition aux bassins fluviaux) et de vulnérabilité (ex. : pauvreté rurale à 65,1% dans les Savanes), appuyée par une modélisation probabiliste.
+
+Dans ce contexte, ce projet vise à développer un modèle national de cartographie de l’aléa et du risque d’inondation afin de soutenir :
+
+- la planification urbaine,
+- la prévention et la gestion des catastrophes,
+- l’orientation des investissements publics,
+- l’identification des zones prioritaires d’intervention.
+
+Le modèle permet notamment de :
+
+1. Identifier les zones naturellement prédisposées à l’accumulation d’eau et aux inondations ;
+2. Évaluer le risque réel en intégrant l’exposition humaine, les infrastructures et la vulnérabilité socio-économique ;
+3. Produire des cartes décisionnelles exploitables par les autorités publiques et les acteurs humanitaires.
+
+
+**2. Méthodologie**
+
+La méthodologie repose sur la construction de deux indices complémentaires :
+
+- **FSI (Flood Susceptibility Index)** : mesure de la susceptibilité physique du territoire aux inondations ;
+- **FRI (Flood Risk Index)** : mesure du risque réel combinant aléa, exposition et vulnérabilité.
+
+L’ensemble des traitements est réalisé dans un environnement SIG et d’analyse spatiale basé sur Python.
+
+
+**2.1 Flood Susceptibility Index (FSI)**
+
+Le **Flood Susceptibility Index (FSI)** évalue la prédisposition intrinsèque du territoire à l’inondation à partir des caractéristiques physiques et environnementales.
+
+Le modèle repose sur la méthode probabiliste du **Frequency Ratio (FR)** calibrée à partir d’un inventaire historique des inondations observées entre 2016 et 2023.
+
+**Variables environnementales utilisées**
+
+**Topographie**
+Variables dérivées du Modèle Numérique de Terrain :
+- Altitude
+- Pente
+- Orientation des versants
+- Topographic Position Index (TPI)
+- Terrain Ruggedness Index (TRI)
+- Topographic Wetness Index (TWI)
+
+**Hydrologie**
+- Distance aux rivières et cours d’eau
+- Distance aux lacs et lagunes
+
+**Occupation du sol**
+- Land Use / Land Cover (LULC 2023)
+
+**Sols et géologie**
+- Types de sols
+- Nature géologique du socle
+
+**Validation du modèle**
+Les performances du modèle FSI ont été évaluées à l’aide d’une courbe ROC.
+- **AUC obtenue : 92 %**
+Cette performance indique une très bonne capacité du modèle à discriminer les zones inondables des zones non inondables.
+
+**2.2 Flood Risk Index (FRI)**
+
+Le **Flood Risk Index (FRI)** combine l’aléa physique et les dimensions humaines du risque selon le cadre conceptuel :
+
+FRI = Hazard * Exposure * Vulnerability
+
+où :
+
+- **Hazard** correspond au FSI ;
+- **Exposure** représente l’exposition des populations et des infrastructures ;
+- **Vulnerability** traduit la capacité de résilience socio-économique.
+
+Le FRI est calculé à partir d’une moyenne géométrique normalisée des différents indicateurs.
+
+**A. Exposition**
+
+Les variables d’exposition incluent :
+
+- Densité de population ;
+- Zones urbaines ;
+- Densité de bâtiments ;
+- Terres agricoles et zones de production alimentaire.
+
+**B. Vulnérabilité**
+
+Les variables de vulnérabilité incluent :
+
+- Relative Wealth Index (RWI) utilisé comme indicateur de résilience économique ;
+- Proximité des bassins de rétention et infrastructures de protection hydraulique.
+
+
+**3. Sources de Données**
+
+Le projet mobilise plusieurs jeux de données géospatiales ouverts provenant de plateformes internationales de référence.
+
+| Thème / Variable | Type de données | Source principale | Résolution / précision |
+|---|---|---|---|
+| Topographie | Modèle Numérique de Terrain (dérivation pente, exposition, TPI, TRI, TWI) | [Microsoft Planetary Computer](https://planetarycomputer.microsoft.com/) – Copernicus DEM GLO-30 | 30 m |
+| Hydrologie | Réseau hydrographique (rivières, lacs, bassins versants) | [HydroSHEDS](https://www.hydrosheds.org/) | 90 m |
+| Occupation du sol (LULC) | Land Use / Land Cover haute résolution | [Microsoft Planetary Computer](https://planetarycomputer.microsoft.com/) – ESA WorldCover | 10 m |
+| Sols | Texture, drainage et propriétés physiques des sols | [SoilGrids 2.0](https://soilgrids.org/) | 250 m |
+| Géologie | Cartes géologiques et hydrogéologiques | [Africa Groundwater Atlas](https://www.bgs.ac.uk/africagroundwateratlas/) | Variable |
+| Historique des inondations | Inventaire des inondations observées entre 2016 et 2023 | [Mapping global floods with 10 years of satellite radar data](https://www.nature.com/articles/s41597-021-00834-5) ; [AI4G Flood Dataset](https://github.com/ai-for-good-lab/ai4g-flood-dataset) | 20 m |
+| Population | Meta high-resolution population (2022) | [HDX](https://data.humdata.org/dataset/highresolutionpopulationdensitymaps-tgo) | 30 m |
+| Bâtiments et infrastructures | Empreintes des bâtiments et zones urbaines | [OpenStreetMap](https://www.openstreetmap.org/) ; [Google Open Buildings](https://sites.research.google/gr/open-buildings/) | Variable |
+| Résilience économique | Relative Wealth Index (RWI) | [Meta Relative Wealth Index](https://dataforgood.facebook.com/dfg/tools/relative-wealth-index) | ~2.4 km |
+
+";"punctual";"Open Data Commons Public Domain Dedication and Licence 1.0";"2026-01-01";"2026-05-31";"other";"";False;"2026-06-09T14:04:50.114000";"2026-07-10T09:49:59.164000";"catastrophes,eau,inondation,risque";False;10;10;"png,gpkg,pdf,zip";798;"";"";"";"";"";"1.00";0;0;0;837;798
+"6a2815016b298cdc10327b85";"Dynamique du trait de côte et suivi des mesures de protection contre l'érosion côtière au Togo (2015-2025)";"dynamique-du-trait-de-cote-et-suivi-des-mesures-de-protection-contre-lerosion-cotiere-au-togo-2015-2025";"DTCSMPEC-TG";"https://opendata.gouv.tg/fr/datasets/dynamique-du-trait-de-cote-et-suivi-des-mesures-de-protection-contre-lerosion-cotiere-au-togo-2015-2025/";"Ministère de l'Éfficacité du Service Public et de la Transformation Numérique";"6760c507695e9dfc6b747eb7";"";"";"Le littoral togolais, long d'environ 50 kilomètres, représente un espace hautement stratégique pour le développement socio-économique du pays. Cependant, il fait face à une érosion côtière sévère menaçant les habitations, les infrastructures routières et les écosystèmes fragiles. Afin de renforcer la résilience des populations et des territoires, le gouvernement togolais, avec l'appui du programme WACA (West Africa Coastal Areas Management Program) à travers le projet WACA ResIP-TOGO, met en œuvre des infrastructures de défense physique (épis, brise-lames, buses, enrochements) et des actions de restauration écologique.
+
+Ce jeu de données rassemble les résultats du suivi scientifique multi-temporel de la dynamique côtière entre 2015 et 2025. Établi par traitement d'images satellitaires (extraction par l'indice automatique de l'eau AWEI) et analysé via le logiciel DSAS V.6, il permet de suivre précisément le recul ou l'avancée du rivage (taux d'érosion EPR et LRR), de géolocaliser les ouvrages de protection mis en place (passés de 24 points en 2016 à 51 points en 2024), et d'identifier statistiquement les zones critiques d'érosion ou d'accrétion. Les résultats détaillés de cette étude sont consultables via un tableau de bord interactif permettant d'explorer les cartes, graphiques et indicateurs de dynamique côtière : [https://dashboard-erosion.datalab.gouv.tg/](https://dashboard-erosion.datalab.gouv.tg/)
+
+Faits et statistiques clés intégrés :
+
+Taux d'évolution global (2015-2025) : Le taux d'érosion moyen sur l'ensemble du littoral togolais s'élève à -3,80 m/an (avec des maximums locaux de recul atteignant -11,41 m/an).
+Effet des ouvrages de protection : Une dynamique contrastée est observée. Les zones situées immédiatement à l'ouest/amont des structures (ex: Cantons d'Agbodrafo et de Baguida - sections 4 et 11) bénéficient d'une stabilisation marquée ou d'une avancée (accrétion) grâce au blocage des sédiments. À l'inverse, les zones situées à l'est/aval des ouvrages (sections 4 et 7) subissent un déficit sédimentaire aggravé entraînant un recul accentué du trait de côte.
+Chronologie de la dynamique côtière par périodes :
+2015-2017 : Érosion moyenne de -16,71 m/an (Max : -26,63 m/an).
+2017-2019 : Érosion moyenne de -23,28 m/an (Max : -26,96 m/an).
+2019-2021 : Érosion moyenne de -22,74 m/an (Max : -29,16 m/an).
+2021-2023 : Érosion moyenne de -22,28 m/an (Max local exceptionnel de -50,15 m/an sur la section 8).
+2023-2025 : Érosion moyenne de -19,83 m/an (Max : -26,96 m/an).";"annual";"Open Data Commons Public Domain Dedication and Licence 1.0";"2015-01-01";"2025-12-31";"other";"";False;"2026-06-09T13:28:33.599000";"2026-07-10T09:50:10.753000";"environnement,protection-environnementale";False;13;13;"geojson,pdf";339;"";"";"";"";"";"1.00";0;0;0;264;339
+"676d37d8925320bd5a10848c";"Données Ouvertes sur la Pénétration Internet au Togo";"donnees-ouvertes-sur-la-penetration-internet-au-togo";"DFE-TG";"https://opendata.gouv.tg/fr/datasets/donnees-ouvertes-sur-la-penetration-internet-au-togo/";"Ministère de l'Éfficacité du Service Public et de la Transformation Numérique";"6760c507695e9dfc6b747eb7";"";"";"La compréhension de la pénétration de l'internet dans les communautés est essentielle pour garantir un développement équitable, mais des pays comme le Togo manquent de données complètes sur la demande de connectivité, en particulier au sein des foyers, des hôpitaux et des écoles. Des informations précises sont cruciales pour une prise de décision efficace en matière de politique publique et de répartition des ressources, et l'apprentissage automatique offre des outils utiles dans ce domaine pour prédire les habitudes d'utilisation d'Internet et combler les lacunes de données.
+L'objectif est de développer une solution de machine learning pour prédire l'adoption de la fibre optique (FTTH) à domicile à travers différents segments au Togo en utilisant des ensembles de données socio-démographiques et géographiques. Le but est de créer des modèles précis et généralisables qui aideront le gouvernement à améliorer la connectivité, allouer les ressources de manière efficace et favoriser l'inclusivité numérique.
+Les solutions proposées traiteront des défis socio-économiques et favoriseront un développement durable au Togo en permettant de meilleures politiques et des investissements dans les infrastructures, tout en réduisant la fracture numérique. Identifier les institutions nécessitant un accès à Internet améliorera les secteurs de la santé et de l'éducation, créant ainsi une société togolaise plus connectée, plus autonome et plus inclusive.";"irregular";"Other (Open)";"2024-01-01";"2024-12-31";"other";"";False;"2024-12-26T11:02:48.471000";"2024-12-26T12:03:09.405000";"fibre-optique";False;2;2;"csv";66;"";"";"";"";"";"1.00";0;0;0;35;66
+"6761cb5d7156b2067b148af5";"Données Ouvertes sur les Tours Télécoms au Togo";"donnees-ouvertes-sur-les-tours-telecoms-au-togo";"DTT-TG";"https://opendata.gouv.tg/fr/datasets/donnees-ouvertes-sur-les-tours-telecoms-au-togo/";"Ministère de l'Éfficacité du Service Public et de la Transformation Numérique";"6760c507695e9dfc6b747eb7";"";"";"Les données ouvertes sur les tours télécoms au Togo fournissent des informations essentielles sur les infrastructures de télécommunications déployées à travers le pays. Ces tours, utilisées par différents opérateurs de téléphonie mobile, facilitent les services de communication, y compris la voix, les données mobiles, et l'Internet haut débit. Les données disponibles incluent généralement l'emplacement géographique des tours, leur type (par exemple, tours fixes, mobiles, ou relais), ainsi que des détails techniques sur les capacités et technologies de réseau.
+
+Donnée privée, accessible uniquement sur demande.
+Cette ressource contient uniquement la description des colonnes des données réelles (schéma de données).
+Les données complètes ne sont pas publiquement disponibles et peuvent être obtenues sur demande auprès de l'entité productrice.";"irregular";"Other (Open)";"";"";"other";"";False;"2024-12-17T19:05:01.084000";"2026-05-28T16:07:19.614000";"";False;1;0;"csv";31;"";"";"";"";"";"0.89";0;0;0;60;31
+"6761c9cf7156b2067b148af3";"Données Ouvertes sur les Tours Télécoms - Togocom au Togo";"donnees-ouvertes-sur-les-tours-telecoms-togocom-au-togo";"DTTT-TG";"https://opendata.gouv.tg/fr/datasets/donnees-ouvertes-sur-les-tours-telecoms-togocom-au-togo/";"Ministère de l'Éfficacité du Service Public et de la Transformation Numérique";"6760c507695e9dfc6b747eb7";"";"";"Les données ouvertes sur les tours télécoms - Togocom au Togo concernent les infrastructures mises en place par l'opérateur Togocom pour offrir des services de télécommunication. Ces tours sont essentielles pour le déploiement du réseau mobile et d'Internet haut débit, et elles couvrent une large zone géographique à travers le pays. Les données peuvent inclure l'emplacement précis de chaque tour, leur capacité, le type de technologie qu'elles supportent (comme la 2G, 3G, 4G, etc.), ainsi que des informations sur leur état et leur maintenance. Ces informations sont cruciales pour les analyses de couverture réseau, l'amélioration de la qualité de service et la planification des extensions ou mises à jour du réseau de télécommunications de Togocom.
+
+Donnée privée, accessible uniquement sur demande.
+Cette ressource contient uniquement la description des colonnes des données réelles (schéma de données).
+Les données complètes ne sont pas publiquement disponibles et peuvent être obtenues sur demande auprès de l'entité productrice.";"irregular";"Other (Open)";"";"";"other";"";False;"2024-12-17T18:58:23.825000";"2026-05-28T16:07:21.248000";"";False;1;0;"csv";22;"";"";"";"";"";"0.89";0;0;0;44;22
+"6761c92a7156b2067b148af2";"Données Ouvertes sur les Tours Télécoms - Moov au Togo";"donnees-ouvertes-sur-les-tours-telecoms-moov-au-togo";"DTTM-TG";"https://opendata.gouv.tg/fr/datasets/donnees-ouvertes-sur-les-tours-telecoms-moov-au-togo/";"Ministère de l'Éfficacité du Service Public et de la Transformation Numérique";"6760c507695e9dfc6b747eb7";"";"";"Les données ouvertes sur les tours télécoms - Moov au Togo concernent les infrastructures déployées par l'opérateur de télécommunications Moov. Ces données incluent des informations sur les tours télécoms spécifiques utilisées pour fournir des services de communication mobile, de données et d'Internet sur tout le territoire togolais. Les tours sont réparties sur des zones géographiques variées, permettant ainsi à Moov de couvrir une large partie du pays avec son réseau mobile et de garantir la connectivité. Ces informations peuvent inclure des détails sur l'emplacement de chaque tour, leur capacité, et les technologies qu'elles supportent (telles que la 4G, 5G, etc.). Elles sont cruciales pour l'optimisation de la couverture réseau et pour les planifications de maintenance ou d'extension du réseau.
+
+Donnée privée, accessible uniquement sur demande.
+Cette ressource contient uniquement la description des colonnes des données réelles (schéma de données).
+Les données complètes ne sont pas publiquement disponibles et peuvent être obtenues sur demande auprès de l'entité productrice.";"irregular";"Other (Open)";"";"";"other";"";False;"2024-12-17T18:55:38.277000";"2026-05-28T16:07:22.915000";"";False;1;0;"csv";30;"";"";"";"";"";"0.89";0;0;0;53;30
+"6761c87f7156b2067b148af1";"Données Ouvertes sur les Tours Télécom - Bâtiments au Togo";"donnees-ouvertes-sur-les-tours-telecom-batiments-au-togo";"DTTB-TG";"https://opendata.gouv.tg/fr/datasets/donnees-ouvertes-sur-les-tours-telecom-batiments-au-togo/";"Ministère de l'Éfficacité du Service Public et de la Transformation Numérique";"6760c507695e9dfc6b747eb7";"";"";"Les données concernant les tours télécom - bâtiments au Togo font référence aux infrastructures utilisées pour supporter les équipements des réseaux de télécommunications, tels que les antennes et les relais. Ces bâtiments sont généralement situés à proximité des tours pour héberger les équipements techniques nécessaires au bon fonctionnement du réseau, comme les générateurs, les systèmes de refroidissement, et les équipements de transmission de données. Ces informations permettent d'identifier l'emplacement de ces infrastructures, leur état, leur capacité, et leur utilisation, contribuant ainsi à une gestion efficace du réseau télécom du pays. Elles sont également utiles pour les autorités et les opérateurs afin de planifier de futures installations ou mises à jour des réseaux.
+Lien vers la source : [Cliquez ici]( https://geodata.gouv.tg/donnees/b6fdba57-9d7b-4deb-94a2-80a84b75abe2)
+
+Donnée privée, accessible uniquement sur demande.
+Cette ressource contient uniquement la description des colonnes des données réelles (schéma de données).
+Les données complètes ne sont pas publiquement disponibles et peuvent être obtenues sur demande auprès de l'entité productrice.";"irregular";"Other (Open)";"";"";"other";"";False;"2024-12-17T18:52:47.531000";"2026-05-28T16:07:24.316000";"";False;1;0;"csv";24;"";"";"";"";"";"0.89";0;0;0;49;24
+"6761c7157156b2067b148af0";"Données Ouvertes sur les Tours Télécom - Bâtiments - Togocom au Togo";"donnees-ouvertes-sur-les-tours-telecom-batiments-togocom-au-togo";"DTTBT-TG";"https://opendata.gouv.tg/fr/datasets/donnees-ouvertes-sur-les-tours-telecom-batiments-togocom-au-togo/";"Ministère de l'Éfficacité du Service Public et de la Transformation Numérique";"6760c507695e9dfc6b747eb7";"";"";"Les données sur les tours télécom pour Togocom au Togo fournissent des informations sur les bâtiments qui hébergent les infrastructures de télécommunication du réseau Togocom. Elles incluent des détails sur la localisation des tours, leur taille, le type de construction des bâtiments, et les équipements installés pour garantir une couverture réseau de qualité. Ces informations permettent de suivre le déploiement et l'entretien des infrastructures, d'améliorer la gestion des ressources, et d'assurer la disponibilité continue des services de télécommunications, tels que la voix, l'internet mobile, et d'autres services numériques. Ces données sont essentielles pour la planification de l'extension du réseau, le suivi des performances et la prise de décisions stratégiques pour répondre à la demande croissante en connectivité au Togo.
+Lien vers la source : [Cliquez ici]( https://geodata.gouv.tg/donnees/e4e33d53-d0e4-448c-b4bf-d9ad86e9aaee)
+
+Donnée privée, accessible uniquement sur demande.
+Cette ressource contient uniquement la description des colonnes des données réelles (schéma de données).
+Les données complètes ne sont pas publiquement disponibles et peuvent être obtenues sur demande auprès de l'entité productrice.";"irregular";"Other (Open)";"";"";"other";"";False;"2024-12-17T18:46:45.086000";"2026-05-28T16:07:25.781000";"";False;1;0;"csv";33;"";"";"";"";"";"0.89";0;0;0;63;33
+"6761c5ca7156b2067b148aef";"Données Ouvertes sur les Tours Télécom - Bâtiments - Moov au Togo";"donnees-ouvertes-sur-les-tours-telecom-batiments-moov-au-togo";"DTTBM-TG";"https://opendata.gouv.tg/fr/datasets/donnees-ouvertes-sur-les-tours-telecom-batiments-moov-au-togo/";"Ministère de l'Éfficacité du Service Public et de la Transformation Numérique";"6760c507695e9dfc6b747eb7";"";"";"Les données relatives aux tours télécom pour Moov au Togo incluent des informations détaillées sur les bâtiments abritant les infrastructures de télécommunications. Ces données couvrent les localisations géographiques des tours, leur type et leur capacité, ainsi que des informations techniques sur les bâtiments qui supportent les équipements nécessaires à la couverture mobile et internet. Elles peuvent inclure des détails sur la construction, la maintenance, et l'état des bâtiments. Ces informations sont cruciales pour le déploiement et la gestion de l'infrastructure télécom, permettant une meilleure planification et optimisation du réseau mobile de Moov. Elles sont également utilisées pour assurer la continuité du service, répondre aux besoins croissants en matière de connectivité et garantir un accès équitable au réseau pour les utilisateurs du Togo.
+Lien vers la source : [Cliquez ici]( https://geodata.gouv.tg/donnees/a6244353-998b-414b-8759-5bd2c2459420)
+
+Donnée privée, accessible uniquement sur demande.
+Cette ressource contient uniquement la description des colonnes des données réelles (schéma de données).
+Les données complètes ne sont pas publiquement disponibles et peuvent être obtenues sur demande auprès de l'entité productrice.";"irregular";"Other (Open)";"";"";"other";"";False;"2024-12-17T18:41:14.378000";"2026-05-28T16:07:27.493000";"";False;1;0;"csv";30;"";"";"";"";"";"0.89";0;0;0;49;30
+"6761c0a77156b2067b148aec";"Données Ouvertes sur le Réseau Téléphonique Enterré - Lignes - Togocom au Togo";"donnees-ouvertes-sur-le-reseau-telephonique-enterre-lignes-togocom-au-togo";"DRTELT-TG";"https://opendata.gouv.tg/fr/datasets/donnees-ouvertes-sur-le-reseau-telephonique-enterre-lignes-togocom-au-togo/";"Ministère de l'Éfficacité du Service Public et de la Transformation Numérique";"6760c507695e9dfc6b747eb7";"";"";"Les données sur les lignes de réseau téléphonique enterré pour Togocom au Togo fournissent des informations détaillées sur l'infrastructure du réseau de télécommunications enterré de ce fournisseur. Elles incluent des informations sur les emplacements, les caractéristiques techniques, les types de câblage (comme le cuivre ou la fibre optique) et les points de raccordement qui assurent la connectivité pour les abonnés de Togocom. Ces données sont essentielles pour la gestion du réseau, la planification des mises à jour, la maintenance et l'expansion des services de télécommunications. Elles permettent également aux autorités et aux opérateurs de surveiller l'état du réseau et d'optimiser les ressources pour offrir un service de qualité aux utilisateurs dans différentes régions du Togo.
+Lien vers la source : [Cliquez ici]( https://geodata.gouv.tg/donnees/9816aacb-9fde-4262-88d9-7f469f88688c)
+
+Donnée privée, accessible uniquement sur demande.
+Cette ressource contient uniquement la description des colonnes des données réelles (schéma de données).
+Les données complètes ne sont pas publiquement disponibles et peuvent être obtenues sur demande auprès de l'entité productrice.";"irregular";"Other (Open)";"";"";"other";"";False;"2024-12-17T18:19:19.735000";"2026-05-28T16:07:29.162000";"";False;1;0;"csv";23;"";"";"";"";"";"0.89";0;0;0;49;23
+"6761beab7156b2067b148aeb";"Données Ouvertes sur le Réseau Téléphonique Enterré - Lignes - Port au Togo";"donnees-ouvertes-sur-le-reseau-telephonique-enterre-lignes-port-au-togo";"DRTELP-TG";"https://opendata.gouv.tg/fr/datasets/donnees-ouvertes-sur-le-reseau-telephonique-enterre-lignes-port-au-togo/";"Ministère de l'Éfficacité du Service Public et de la Transformation Numérique";"6760c507695e9dfc6b747eb7";"";"";"Les données concernant les lignes de réseau téléphonique enterré ""Port"" au Togo sont liées à l'infrastructure de télécommunications spécifique à la gestion des ports dans le cadre des réseaux téléphoniques enterrés. Ces informations incluent la localisation, les caractéristiques techniques et les points de raccordement des lignes téléphoniques utilisées pour assurer la connectivité dans les zones portuaires ou reliées aux installations portuaires. Elles sont cruciales pour garantir une communication stable et rapide dans ces zones stratégiques, qui jouent un rôle clé dans l'économie du pays. Ces données sont également importantes pour la gestion du réseau, l'amélioration des services de télécommunications dans ces zones et la planification d'éventuelles expansions ou modernisations du réseau.
+Lien vers la source : [Cliquez ici]( https://geodata.gouv.tg/donnees/3fb6f067-72e7-4a12-8c23-e30502a2f2b1)
+
+Donnée privée, accessible uniquement sur demande.
+Cette ressource contient uniquement la description des colonnes des données réelles (schéma de données).
+Les données complètes ne sont pas publiquement disponibles et peuvent être obtenues sur demande auprès de l'entité productrice.";"irregular";"Other (Open)";"";"";"other";"";False;"2024-12-17T18:10:51.347000";"2026-05-28T16:07:30.878000";"";False;1;0;"csv";36;"";"";"";"";"";"0.89";0;0;0;44;36
+"6761bd447156b2067b148aea";"Données Ouvertes sur le Réseau Téléphonique Enterré - Lignes Moov au Togo";"donnees-ouvertes-sur-le-reseau-telephonique-enterre-lignes-moov-au-togo";"DRTELM-TG";"https://opendata.gouv.tg/fr/datasets/donnees-ouvertes-sur-le-reseau-telephonique-enterre-lignes-moov-au-togo/";"Ministère de l'Éfficacité du Service Public et de la Transformation Numérique";"6760c507695e9dfc6b747eb7";"";"";"Les données concernant les lignes de réseau téléphonique enterré Moov au Togo fournissent des informations détaillées sur l'infrastructure de télécommunications de l'opérateur Moov dans le pays. Cela inclut la localisation, l'état, et les caractéristiques techniques des lignes de communication enterrées utilisées pour offrir des services de téléphonie mobile, Internet et autres services de données. Ces données sont essentielles pour analyser la couverture réseau de Moov, identifier les zones avec une connectivité limitée, et soutenir les initiatives d'amélioration du service et de l'accès à Internet haut débit. Elles sont également utiles pour la planification de l'expansion du réseau, le suivi de la qualité du service et la prise de décisions stratégiques concernant les investissements en infrastructures.
+Lien vers la source : [Cliquez ici]( https://geodata.gouv.tg/donnees/8fcfc895-d104-4b30-b5ae-0b577b23166c)
+
+Donnée privée, accessible uniquement sur demande.
+Cette ressource contient uniquement la description des colonnes des données réelles (schéma de données).
+Les données complètes ne sont pas publiquement disponibles et peuvent être obtenues sur demande auprès de l'entité productrice.";"irregular";"Other (Open)";"";"";"other";"";False;"2024-12-17T18:04:52.340000";"2026-05-28T16:07:32.236000";"";False;1;0;"csv";33;"";"";"";"";"";"0.89";0;0;0;61;33
+"6761b90d7156b2067b148ae8";"Données Ouvertes sur le Réseau Téléphonique Enterré - Lignes Fibre Optique au Togo";"donnees-ouvertes-sur-le-reseau-telephonique-enterre-lignes-fibre-optique-au-togo";"DRTELFO-TG";"https://opendata.gouv.tg/fr/datasets/donnees-ouvertes-sur-le-reseau-telephonique-enterre-lignes-fibre-optique-au-togo/";"Ministère de l'Éfficacité du Service Public et de la Transformation Numérique";"6760c507695e9dfc6b747eb7";"";"";"Les données sur les lignes de réseau téléphonique enterré en fibre optique au Togo fournissent des informations détaillées sur l'infrastructure moderne et haute capacité utilisée pour la transmission de données à grande vitesse. La fibre optique permet une meilleure qualité de service pour les communications et l'Internet, avec des débits nettement plus élevés que les lignes en cuivre ou ADSL. Ces données incluent la localisation des lignes en fibre optique, leur état d'installation, et leur capacité de transmission. Elles sont cruciales pour évaluer la couverture de la fibre optique à travers le pays, identifier les zones non couvertes ou sous-développées, et faciliter le développement futur de l'infrastructure de télécommunications pour améliorer la connectivité et l'accès à Internet haut débit pour les utilisateurs.
+Lien vers la source : [Cliquez ici]( https://geodata.gouv.tg/donnees/8c2f4a14-2df2-45cb-82fb-b5bc2459a207)
+
+Donnée privée, accessible uniquement sur demande.
+Cette ressource contient uniquement la description des colonnes des données réelles (schéma de données).
+Les données complètes ne sont pas publiquement disponibles et peuvent être obtenues sur demande auprès de l'entité productrice.";"irregular";"Other (Open)";"";"";"other";"";False;"2024-12-17T17:46:53.668000";"2026-05-28T16:07:34.153000";"";False;1;0;"csv";22;"";"";"";"";"";"0.89";0;0;0;53;22
+"6761b67b7156b2067b148ae6";"Données Ouvertes sur le Réseau Téléphonique Enterré - Lignes Cuivre et ADSL au Togo";"donnees-ouvertes-sur-le-reseau-telephonique-enterre-lignes-cuivre-et-adsl-au-togo";"DRTELCAT-TG";"https://opendata.gouv.tg/fr/datasets/donnees-ouvertes-sur-le-reseau-telephonique-enterre-lignes-cuivre-et-adsl-au-togo/";"Ministère de l'Éfficacité du Service Public et de la Transformation Numérique";"6760c507695e9dfc6b747eb7";"";"";"Ces données fournissent des informations détaillées sur les lignes de réseau téléphonique enterré en cuivre et ADSL au Togo. Elles incluent la localisation des lignes, leur état, et les capacités techniques des connexions. Les lignes en cuivre sont principalement utilisées pour les services de téléphonie traditionnelle et l'ADSL pour l'accès à Internet à large bande. Ces données sont essentielles pour évaluer la couverture du réseau en cuivre et ADSL, identifier les zones nécessitant des améliorations ou des mises à jour d'infrastructure, et optimiser l'accès aux services de communication et de données, tout en planifiant l'avenir du réseau de télécommunications national.
+Lien vers la source : [Cliquez ici]( https://geodata.gouv.tg/donnees/746d9446-adee-40ac-9290-998aa7e3a333)
+
+Donnée privée, accessible uniquement sur demande.
+Cette ressource contient uniquement la description des colonnes des données réelles (schéma de données).
+Les données complètes ne sont pas publiquement disponibles et peuvent être obtenues sur demande auprès de l'entité productrice.";"irregular";"Other (Open)";"";"";"other";"";False;"2024-12-17T17:35:55.034000";"2026-05-28T16:07:35.912000";"";False;1;0;"csv";31;"";"";"";"";"";"0.89";0;0;0;54;31
+"6761ac4f7156b2067b148ae5";"Données Ouvertes sur le Réseau Téléphonique Enterré - Bornes et Points de Raccordement au Togo";"donnees-ouvertes-sur-le-reseau-telephonique-enterre-bornes-et-points-de-raccordement-au-togo";"DRTEBPR-TG";"https://opendata.gouv.tg/fr/datasets/donnees-ouvertes-sur-le-reseau-telephonique-enterre-bornes-et-points-de-raccordement-au-togo/";"Ministère de l'Éfficacité du Service Public et de la Transformation Numérique";"6760c507695e9dfc6b747eb7";"";"";"Les données sur le réseau téléphonique enterré, comprenant les bornes et points de raccordement, offrent une vue détaillée de l'infrastructure souterraine utilisée pour la télécommunication au Togo. Elles incluent des informations sur la localisation des bornes et des points de raccordement, leur état de maintenance, et leur capacité à assurer la transmission des données et des appels. Ces données sont cruciales pour analyser la couverture et la performance du réseau enterré, afin d'identifier les zones à renforcer, d'améliorer la connectivité des utilisateurs, et d'optimiser l'efficacité du service téléphonique et Internet dans les régions couvertes par cette infrastructure.
+Lien vers la source : [Cliquez ici]( https://geodata.gouv.tg/donnees/4176040d-f9e9-4b00-a587-1193fc38aa9b)
+
+Donnée privée, accessible uniquement sur demande.
+Cette ressource contient uniquement la description des colonnes des données réelles (schéma de données).
+Les données complètes ne sont pas publiquement disponibles et peuvent être obtenues sur demande auprès de l'entité productrice.";"irregular";"Other (Open)";"";"";"other";"";False;"2024-12-17T16:52:31.644000";"2026-05-28T16:07:37.668000";"";False;1;0;"csv";38;"";"";"";"";"";"0.89";0;0;0;46;38
+"6761ab917156b2067b148ae4";"Données Ouvertes sur le Réseau Téléphonique Enterré - Bornes et Points de Raccordement - Togocom au Togo";"donnees-ouvertes-sur-le-reseau-telephonique-enterre-bornes-et-points-de-raccordement-togocom-au-togo";"DRTEBPRT-TG";"https://opendata.gouv.tg/fr/datasets/donnees-ouvertes-sur-le-reseau-telephonique-enterre-bornes-et-points-de-raccordement-togocom-au-togo/";"Ministère de l'Éfficacité du Service Public et de la Transformation Numérique";"6760c507695e9dfc6b747eb7";"";"";"Ces données fournissent des informations détaillées sur les bornes et points de raccordement du réseau téléphonique enterré de Togocom au Togo. Elles incluent la localisation des bornes et points de connexion, ainsi que des détails sur leur capacité et leur état de fonctionnement. Ces données sont essentielles pour évaluer la couverture du réseau enterré de Togocom, identifier les zones à améliorer, et optimiser la connectivité en offrant un accès plus stable aux services téléphoniques et Internet dans les zones couvertes par le réseau enterré.
+Lien vers la source : [Cliquez ici]( https://geodata.gouv.tg/donnees/91fe3f19-4b78-4bcd-8367-23e569750e19)
+
+Donnée privée, accessible uniquement sur demande.
+Cette ressource contient uniquement la description des colonnes des données réelles (schéma de données).
+Les données complètes ne sont pas publiquement disponibles et peuvent être obtenues sur demande auprès de l'entité productrice.";"irregular";"Other (Open)";"";"";"other";"";False;"2024-12-17T16:49:21.315000";"2026-05-28T16:07:39.004000";"";False;1;0;"csv";36;"";"";"";"";"";"0.89";0;0;0;50;36
+"6761aaf77156b2067b148ae3";"Données Ouvertes sur le Réseau Téléphonique Enterré - Bornes et Points de Raccordement - Moov au Togo";"donnees-ouvertes-sur-le-reseau-telephonique-enterre-bornes-et-points-de-raccordement-moov-au-togo";"DRTEBPRM-TG";"https://opendata.gouv.tg/fr/datasets/donnees-ouvertes-sur-le-reseau-telephonique-enterre-bornes-et-points-de-raccordement-moov-au-togo/";"Ministère de l'Éfficacité du Service Public et de la Transformation Numérique";"6760c507695e9dfc6b747eb7";"";"";"Ces données détaillent les bornes et les points de raccordement du réseau téléphonique enterré de l'opérateur Moov au Togo. Elles incluent des informations sur la localisation de ces points, leur capacité de transmission, et leur état général. Ces informations sont cruciales pour l'analyse de la couverture du réseau enterré, permettant de mieux comprendre l'étendue des services offerts par Moov, de localiser les zones avec une connectivité faible ou instable, et de guider les améliorations dans l'infrastructure téléphonique enterrée pour optimiser la qualité des services mobiles et Internet dans tout le pays.
+Lien vers la source : [Cliquez ici]( https://geodata.gouv.tg/donnees/568fd879-1a42-4522-b570-df017311994d)
+
+Donnée privée, accessible uniquement sur demande.
+Cette ressource contient uniquement la description des colonnes des données réelles (schéma de données).
+Les données complètes ne sont pas publiquement disponibles et peuvent être obtenues sur demande auprès de l'entité productrice.";"irregular";"Other (Open)";"";"";"other";"";False;"2024-12-17T16:46:47.390000";"2026-05-28T16:07:40.220000";"";False;1;0;"csv";16;"";"";"";"";"";"0.89";0;0;0;52;16
+"6761aa417156b2067b148ae2";"Données Ouvertes sur le Réseau Téléphonique Aérien - Poteaux au Togo";"donnees-ouvertes-sur-le-reseau-telephonique-aerien-poteaux-au-togo";"DRTAP-TG";"https://opendata.gouv.tg/fr/datasets/donnees-ouvertes-sur-le-reseau-telephonique-aerien-poteaux-au-togo/";"Ministère de l'Éfficacité du Service Public et de la Transformation Numérique";"6760c507695e9dfc6b747eb7";"";"";"Ces données fournissent des informations sur les poteaux utilisés pour soutenir le réseau téléphonique aérien au Togo, y compris leur localisation, le type de poteaux (bois, métal, etc.), leur état et leur nombre. Elles permettent d’évaluer la densité et la couverture du réseau, d’identifier les zones nécessitant une infrastructure améliorée, et de soutenir les initiatives visant à renforcer la connectivité et à optimiser les coûts d'entretien du réseau téléphonique dans tout le pays.
+Lien vers la source : [Cliquez ici]( https://geodata.gouv.tg/donnees/27c852e0-c1b0-4c3d-aaa3-1f04c1e3003f)
+
+Donnée privée, accessible uniquement sur demande.
+Cette ressource contient uniquement la description des colonnes des données réelles (schéma de données).
+Les données complètes ne sont pas publiquement disponibles et peuvent être obtenues sur demande auprès de l'entité productrice.";"irregular";"Other (Open)";"";"";"other";"";False;"2024-12-17T16:43:45.990000";"2026-05-28T16:07:41.457000";"";False;1;0;"csv";30;"";"";"";"";"";"0.89";0;0;0;45;30
+"6761a9bb7156b2067b148ae1";"Données Ouvertes sur le Réseau Téléphonique Aérien - Lignes au Togo";"donnees-ouvertes-sur-le-reseau-telephonique-aerien-lignes-au-togo";"DRTAL-TG";"https://opendata.gouv.tg/fr/datasets/donnees-ouvertes-sur-le-reseau-telephonique-aerien-lignes-au-togo/";"Ministère de l'Éfficacité du Service Public et de la Transformation Numérique";"6760c507695e9dfc6b747eb7";"";"";"Ces données fournissent des informations détaillées sur les lignes du réseau téléphonique aérien au Togo, y compris leur localisation, le type de lignes utilisées (par exemple, lignes fixes, lignes mobiles), ainsi que leur état et leur capacité. Ces informations permettent de mieux comprendre la couverture du réseau téléphonique à travers le pays, d'identifier les zones avec une connectivité limitée et d'optimiser les investissements dans les infrastructures télécoms pour améliorer la communication et l'accès aux services mobiles et Internet.
+Lien vers la source : [Cliquez ici]( https://geodata.gouv.tg/donnees/14b23577-3954-4880-bfce-5d4b65ca7ce2)
+
+Donnée privée, accessible uniquement sur demande.
+Cette ressource contient uniquement la description des colonnes des données réelles (schéma de données).
+Les données complètes ne sont pas publiquement disponibles et peuvent être obtenues sur demande auprès de l'entité productrice.";"irregular";"Other (Open)";"";"";"other";"";False;"2024-12-17T16:41:31.528000";"2026-05-28T16:07:42.659000";"";False;1;0;"csv";24;"";"";"";"";"";"0.89";0;0;0;48;24
+"6761a92a7156b2067b148ae0";"Données Ouvertes sur les Datacenters - Établissements au Togo";"donnees-ouvertes-sur-les-datacenters-etablissements-au-togo";"DDE-TG";"https://opendata.gouv.tg/fr/datasets/donnees-ouvertes-sur-les-datacenters-etablissements-au-togo/";"Ministère de l'Éfficacité du Service Public et de la Transformation Numérique";"6760c507695e9dfc6b747eb7";"";"";"Ces données fournissent des informations sur les différents établissements de datacenters au Togo, y compris leur localisation, leur capacité d'hébergement, les services offerts (hébergement de serveurs, cloud computing, etc.), ainsi que leur statut (public ou privé). Elles permettent d'évaluer l'infrastructure numérique du pays, de repérer les zones sous-desservies en services de données, et de promouvoir l'innovation technologique à travers une meilleure accessibilité aux solutions de data hosting et de gestion des informations.
+Lien vers la source : [Cliquez ici]( https://geodata.gouv.tg/donnees/7fe2e639-b4ba-45dc-92aa-edf127e16b6b)";"irregular";"Other (Open)";"2022-01-01";"2030-12-31";"other";"";False;"2024-12-17T16:39:06.112000";"2025-01-08T17:27:24.684000";"datacenters,etablissements";False;2;1;"csv";51;"";"";"";"";"";"1.00";0;0;0;49;51
+"6761a8927156b2067b148adf";"Données Ouvertes sur les Datacenters - Énergies au Togo";"donnees-ouvertes-sur-les-datacenters-energies-au-togo";"DDE-TG";"https://opendata.gouv.tg/fr/datasets/donnees-ouvertes-sur-les-datacenters-energies-au-togo/";"Ministère de l'Éfficacité du Service Public et de la Transformation Numérique";"6760c507695e9dfc6b747eb7";"";"";"Ces données recensent les sources d’énergie utilisées par les datacenters au Togo, y compris les types d’énergie (électrique, renouvelable, générateurs de secours, etc.), la consommation énergétique, et l'efficacité énergétique de ces infrastructures. Elles permettent d'analyser l'impact environnemental des datacenters, d'identifier les opportunités d'amélioration en matière d'efficacité énergétique, et de promouvoir l'utilisation d'énergies renouvelables pour soutenir un développement technologique durable au Togo.
+Lien vers la source : [Cliquez ici]( https://geodata.gouv.tg/donnees/053b2165-46bc-4f63-9c24-11d99c73d709)
+
+Donnée privée, accessible uniquement sur demande.
+Cette ressource contient uniquement la description des colonnes des données réelles (schéma de données).
+Les données complètes ne sont pas publiquement disponibles et peuvent être obtenues sur demande auprès de l'entité productrice.";"irregular";"Other (Open)";"";"";"other";"";False;"2024-12-17T16:36:34.896000";"2026-05-28T16:07:44.118000";"";False;1;0;"csv";7;"";"";"";"";"";"0.89";0;0;0;37;7
+"6761a8047156b2067b148ade";"Données Ouvertes sur les Datacenters - Bâtiments au Togo";"donnees-ouvertes-sur-les-datacenters-batiments-au-togo";"DDB-TG";"https://opendata.gouv.tg/fr/datasets/donnees-ouvertes-sur-les-datacenters-batiments-au-togo/";"Ministère de l'Éfficacité du Service Public et de la Transformation Numérique";"6760c507695e9dfc6b747eb7";"";"";"Ces données fournissent des informations sur les bâtiments des datacenters au Togo, en précisant leur localisation, leur capacité d'hébergement, ainsi que les infrastructures disponibles (équipements de stockage, refroidissement, sécurité, etc.). Elles permettent d’évaluer l'infrastructure numérique du pays, d’identifier les zones avec un accès limité aux services de data hosting et de renforcer les capacités locales en matière de gestion de données et de technologies de l'information.
+Lien vers la source : [Cliquez ici]( https://geodata.gouv.tg/donnees/1071736e-5c85-455f-a539-fefb32a936cf)
+
+Donnée privée, accessible uniquement sur demande.
+Cette ressource contient uniquement la description des colonnes des données réelles (schéma de données).
+Les données complètes ne sont pas publiquement disponibles et peuvent être obtenues sur demande auprès de l'entité productrice.";"irregular";"Other (Open)";"";"";"other";"";False;"2024-12-17T16:34:12.901000";"2026-05-28T16:07:45.730000";"";False;1;0;"csv";16;"";"";"";"";"";"0.89";0;0;0;33;16
+"6761a7707156b2067b148add";"Données Ouvertes sur les Agents Mobile Money TOGOCOM au Togo";"donnees-ouvertes-sur-les-agents-mobile-money-togocom-au-togo";"DAMMT-TG";"https://opendata.gouv.tg/fr/datasets/donnees-ouvertes-sur-les-agents-mobile-money-togocom-au-togo/";"Ministère de l'Éfficacité du Service Public et de la Transformation Numérique";"6760c507695e9dfc6b747eb7";"";"";"Ces données fournissent des informations sur les agents de Mobile Money de TOGOCOM opérant au Togo. Elles incluent des détails sur la localisation des agents, leur statut (officiel ou affilié), ainsi que les services financiers qu'ils offrent (transfert d'argent, paiement de factures, retrait, etc.). Ces données visent à améliorer l'accès aux services financiers mobiles, à soutenir l'inclusion financière et à faciliter la gestion des transactions monétaires dans le pays.
+Lien vers la source : [Cliquez ici]( https://geodata.gouv.tg/donnees/0c61c2c6-97d1-4117-9e37-1266a6e23e95)
+
+Donnée privée, accessible uniquement sur demande.
+Cette ressource contient uniquement la description des colonnes des données réelles (schéma de données).
+Les données complètes ne sont pas publiquement disponibles et peuvent être obtenues sur demande auprès de l'entité productrice.";"irregular";"Other (Open)";"";"";"other";"";False;"2024-12-17T16:31:44.108000";"2026-05-28T16:07:47.783000";"";False;1;0;"csv";8;"";"";"";"";"";"0.89";0;0;0;35;8
+"6761a66d7156b2067b148adc";"Données Ouvertes sur les Agents Mobile Money MOOV au Togo";"donnees-ouvertes-sur-les-agents-mobile-money-moov-au-togo";"DAMMM-TG";"https://opendata.gouv.tg/fr/datasets/donnees-ouvertes-sur-les-agents-mobile-money-moov-au-togo/";"Ministère de l'Éfficacité du Service Public et de la Transformation Numérique";"6760c507695e9dfc6b747eb7";"";"";"Ces données recensent les agents de Mobile Money de MOOV au Togo, incluant leur localisation, leur statut (actif ou inactif), et les services qu'ils offrent aux clients (dépôt, retrait, transfert d'argent, paiement de factures, etc.). Ces informations permettent d’évaluer la couverture du service Mobile Money dans le pays, d’identifier les zones sous-desservies et de soutenir l'amélioration des services financiers mobiles pour les populations, en particulier dans les zones rurales.
+Lien vers la source : [Cliquez ici]( https://geodata.gouv.tg/donnees/7227ac8f-920d-436f-acbb-ec282dd0f354)
+
+Donnée privée, accessible uniquement sur demande.
+Cette ressource contient uniquement la description des colonnes des données réelles (schéma de données).
+Les données complètes ne sont pas publiquement disponibles et peuvent être obtenues sur demande auprès de l'entité productrice.";"irregular";"Other (Open)";"";"";"other";"";False;"2024-12-17T16:27:25.980000";"2026-05-28T16:07:49.139000";"";False;1;0;"csv";13;"";"";"";"";"";"0.89";0;0;0;33;13
+"6761a5a27156b2067b148adb";"Données Ouvertes sur les Agents Mobile Money au Togo";"donnees-ouvertes-sur-les-agents-mobile-money-au-togo";"DAMM-TG";"https://opendata.gouv.tg/fr/datasets/donnees-ouvertes-sur-les-agents-mobile-money-au-togo/";"Ministère de l'Éfficacité du Service Public et de la Transformation Numérique";"6760c507695e9dfc6b747eb7";"";"";"Ces données répertorient les agents Mobile Money au Togo, en indiquant leur localisation, opérateur de téléphonie mobile associé, et leur zone de couverture. Elles permettent d'analyser la disponibilité des services financiers numériques, d'évaluer l'accès aux transactions électroniques, et de soutenir l'inclusion financière dans les zones urbaines et rurales.
+Lien vers la source : [Cliquez ici]( https://geodata.gouv.tg/donnees/725f5fc0-4a66-49ff-9ef4-a04d004471b9)";"irregular";"Other (Open)";"2022-01-01";"2030-12-31";"other";"";False;"2024-12-17T16:24:02.081000";"2025-01-08T17:42:07.308000";"agents,agents-mobile,mobile,money";False;2;1;"csv";43;"";"";"";"";"";"1.00";0;0;0;34;43
