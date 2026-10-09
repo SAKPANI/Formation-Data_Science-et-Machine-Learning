@@ -36,7 +36,7 @@ class type_var(BaseModel) :
 
 #Chargement du model 
 regmodel = pickle.load(open("regmodel.pkl", "rb"))
-scaler =   pickle.load(open("scaling.pkl", "rb"))  # Les tranformation sur le modele
+# scaler =   pickle.load(open("scaling_model.pkl", "rb"))  # Les tranformation sur le modele
 
 #creationdu premier endpoint 
 @app.get("/")
@@ -48,8 +48,8 @@ def accueil():
 @app.post("/predire")   #post permet de recuperer des info en entrer afin de faire les predictions(Fonction de prediction)
 
 def prediction(Data : type_var):
-    data  = pd.json_normalize(Data.dict())
-    data  = scaler.transform(data)
+    data  = pd.json_normalize(Data.dump())
+    # data  = scaler.transform(data)
     prediction = regmodel.predict(data)
     return f"La prediction du diabete est : {prediction}"
 
